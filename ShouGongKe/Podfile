@@ -1,0 +1,11 @@
+platform :ios, '7.0'
+
+target 'ShouGongKe' do
+
+pod 'AFNetworking', '~> 3.1.0'
+pod 'SDWebImage', '~> 3.8.1'
+pod 'MJRefresh', '~> 3.1.10'
+pod 'MWPhotoBrowser', '~> 2.1.2'
+pod 'Masonry', '~> 1.0.1'
+
+end
