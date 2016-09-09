@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		76AF2FAE1D6F374700A93AE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF2FAD1D6F374700A93AE1 /* main.m */; };
-		76AF2FB11D6F374700A93AE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF2FB01D6F374700A93AE1 /* AppDelegate.m */; };
-		76AF2FB91D6F374800A93AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76AF2FB81D6F374800A93AE1 /* Assets.xcassets */; };
-		76AF2FBC1D6F374800A93AE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76AF2FBA1D6F374800A93AE1 /* LaunchScreen.storyboard */; };
+		7615AAA81D82E8C500A2634F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615AAA21D82E8C500A2634F /* BaseViewController.m */; };
+		7615AAB21D82E95100A2634F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615AAAB1D82E95100A2634F /* AppDelegate.m */; };
+		7615AAB31D82E95100A2634F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7615AAAC1D82E95100A2634F /* Assets.xcassets */; };
+		7615AAB41D82E95100A2634F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7615AAAE1D82E95100A2634F /* LaunchScreen.storyboard */; };
+		7615AAC21D82F06F00A2634F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7615AAC01D82F06F00A2634F /* Info.plist */; };
+		7615AAC31D82F06F00A2634F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615AAC11D82F06F00A2634F /* main.m */; };
 		76AF2FC71D6F374800A93AE1 /* ShouGongKeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF2FC61D6F374800A93AE1 /* ShouGongKeTests.m */; };
 		76AF2FD21D6F374800A93AE1 /* ShouGongKeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF2FD11D6F374800A93AE1 /* ShouGongKeUITests.m */; };
 		A4CA1C376C9BE37BFA13EF4D /* libPods-ShouGongKe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 404D115402F88798CEC5BEEF /* libPods-ShouGongKe.a */; };
@@ -36,13 +38,22 @@
 /* Begin PBXFileReference section */
 		18D5EEE1278A7776793BF6DD /* Pods-ShouGongKe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShouGongKe.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShouGongKe/Pods-ShouGongKe.release.xcconfig"; sourceTree = "<group>"; };
 		404D115402F88798CEC5BEEF /* libPods-ShouGongKe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShouGongKe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7615AAA11D82E8C500A2634F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		7615AAA21D82E8C500A2634F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		7615AAA71D82E8C500A2634F /* ShouGongKe-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ShouGongKe-Prefix.pch"; sourceTree = "<group>"; };
+		7615AAAA1D82E95100A2634F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7615AAAB1D82E95100A2634F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7615AAAC1D82E95100A2634F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7615AAAF1D82E95100A2634F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7615AABA1D82EADD00A2634F /* Common_define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common_define.h; sourceTree = "<group>"; };
+		7615AABB1D82EB3700A2634F /* Common_color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common_color.h; sourceTree = "<group>"; };
+		7615AABC1D82EB4A00A2634F /* Common_font.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common_font.h; sourceTree = "<group>"; };
+		7615AABD1D82EB7700A2634F /* Common_network.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common_network.h; sourceTree = "<group>"; };
+		7615AABE1D82EBE500A2634F /* Common_nofication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common_nofication.h; sourceTree = "<group>"; };
+		7615AABF1D82EBF500A2634F /* Common_time.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common_time.h; sourceTree = "<group>"; };
+		7615AAC01D82F06F00A2634F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7615AAC11D82F06F00A2634F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		76AF2FA91D6F374600A93AE1 /* ShouGongKe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShouGongKe.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		76AF2FAD1D6F374700A93AE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		76AF2FAF1D6F374700A93AE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		76AF2FB01D6F374700A93AE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		76AF2FB81D6F374800A93AE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		76AF2FBB1D6F374800A93AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		76AF2FBD1D6F374800A93AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76AF2FC21D6F374800A93AE1 /* ShouGongKeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShouGongKeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AF2FC61D6F374800A93AE1 /* ShouGongKeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShouGongKeTests.m; sourceTree = "<group>"; };
 		76AF2FC81D6F374800A93AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -95,6 +106,80 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7615AA9F1D82E8C500A2634F /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				7615AAA01D82E8C500A2634F /* Base */,
+				7615AAA31D82E8C500A2634F /* Category */,
+				7615AAA51D82E8C500A2634F /* Lib(第三方) */,
+				7615AAA61D82E8C500A2634F /* Tools */,
+			);
+			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		7615AAA01D82E8C500A2634F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7615AAA11D82E8C500A2634F /* BaseViewController.h */,
+				7615AAA21D82E8C500A2634F /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		7615AAA31D82E8C500A2634F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7615AAA51D82E8C500A2634F /* Lib(第三方) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lib(第三方)";
+			sourceTree = "<group>";
+		};
+		7615AAA61D82E8C500A2634F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				7615AAA71D82E8C500A2634F /* ShouGongKe-Prefix.pch */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		7615AAA91D82E91B00A2634F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7615AAAA1D82E95100A2634F /* AppDelegate.h */,
+				7615AAAB1D82E95100A2634F /* AppDelegate.m */,
+				7615AAAC1D82E95100A2634F /* Assets.xcassets */,
+				7615AAAD1D82E95100A2634F /* Base.lproj */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		7615AAAD1D82E95100A2634F /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				7615AAAE1D82E95100A2634F /* LaunchScreen.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		7615AAB71D82E9AE00A2634F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				7615AABA1D82EADD00A2634F /* Common_define.h */,
+				7615AABB1D82EB3700A2634F /* Common_color.h */,
+				7615AABC1D82EB4A00A2634F /* Common_font.h */,
+				7615AABD1D82EB7700A2634F /* Common_network.h */,
+				7615AABE1D82EBE500A2634F /* Common_nofication.h */,
+				7615AABF1D82EBF500A2634F /* Common_time.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		76AF2FA01D6F374600A93AE1 = {
 			isa = PBXGroup;
 			children = (
@@ -120,12 +205,10 @@
 		76AF2FAB1D6F374700A93AE1 /* ShouGongKe */ = {
 			isa = PBXGroup;
 			children = (
+				7615AAB71D82E9AE00A2634F /* Constants */,
+				7615AAA91D82E91B00A2634F /* Resource */,
+				7615AA9F1D82E8C500A2634F /* Main(主要) */,
 				76AF2FDF1D6F3A6D00A93AE1 /* Class */,
-				76AF2FAF1D6F374700A93AE1 /* AppDelegate.h */,
-				76AF2FB01D6F374700A93AE1 /* AppDelegate.m */,
-				76AF2FB81D6F374800A93AE1 /* Assets.xcassets */,
-				76AF2FBA1D6F374800A93AE1 /* LaunchScreen.storyboard */,
-				76AF2FBD1D6F374800A93AE1 /* Info.plist */,
 				76AF2FAC1D6F374700A93AE1 /* Supporting Files */,
 			);
 			path = ShouGongKe;
@@ -134,7 +217,8 @@
 		76AF2FAC1D6F374700A93AE1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				76AF2FAD1D6F374700A93AE1 /* main.m */,
+				7615AAC01D82F06F00A2634F /* Info.plist */,
+				7615AAC11D82F06F00A2634F /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -160,7 +244,6 @@
 		76AF2FDF1D6F3A6D00A93AE1 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				76AF2FF81D6F3BBF00A93AE1 /* Main(主要) */,
 				76AF2FEC1D6F3A6D00A93AE1 /* Home(首页) */,
 				76AF2FF41D6F3A6D00A93AE1 /* Tutoria(教程) */,
 				76AF2FE81D6F3A6D00A93AE1 /* Hand(手工课) */,
@@ -357,45 +440,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		76AF2FF81D6F3BBF00A93AE1 /* Main(主要) */ = {
-			isa = PBXGroup;
-			children = (
-				76AF2FF91D6F3BBF00A93AE1 /* Base */,
-				76AF2FFA1D6F3BBF00A93AE1 /* Category */,
-				76AF2FFB1D6F3BBF00A93AE1 /* Lib(第三方) */,
-				76AF2FFC1D6F3BBF00A93AE1 /* Tools */,
-			);
-			path = "Main(主要)";
-			sourceTree = "<group>";
-		};
-		76AF2FF91D6F3BBF00A93AE1 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		76AF2FFA1D6F3BBF00A93AE1 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		76AF2FFB1D6F3BBF00A93AE1 /* Lib(第三方) */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Lib(第三方)";
-			sourceTree = "<group>";
-		};
-		76AF2FFC1D6F3BBF00A93AE1 /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tools;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -502,8 +546,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76AF2FBC1D6F374800A93AE1 /* LaunchScreen.storyboard in Resources */,
-				76AF2FB91D6F374800A93AE1 /* Assets.xcassets in Resources */,
+				7615AAC21D82F06F00A2634F /* Info.plist in Resources */,
+				7615AAB31D82E95100A2634F /* Assets.xcassets in Resources */,
+				7615AAB41D82E95100A2634F /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,8 +621,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76AF2FB11D6F374700A93AE1 /* AppDelegate.m in Sources */,
-				76AF2FAE1D6F374700A93AE1 /* main.m in Sources */,
+				7615AAA81D82E8C500A2634F /* BaseViewController.m in Sources */,
+				7615AAC31D82F06F00A2634F /* main.m in Sources */,
+				7615AAB21D82E95100A2634F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,10 +659,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		76AF2FBA1D6F374800A93AE1 /* LaunchScreen.storyboard */ = {
+		7615AAAE1D82E95100A2634F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				76AF2FBB1D6F374800A93AE1 /* Base */,
+				7615AAAF1D82E95100A2634F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -713,6 +759,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ShouGongKe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.jjm.ShouGongKe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -726,6 +773,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ShouGongKe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.jjm.ShouGongKe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
