@@ -13,6 +13,17 @@
 		7615AAB41D82E95100A2634F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7615AAAE1D82E95100A2634F /* LaunchScreen.storyboard */; };
 		7615AAC21D82F06F00A2634F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7615AAC01D82F06F00A2634F /* Info.plist */; };
 		7615AAC31D82F06F00A2634F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615AAC11D82F06F00A2634F /* main.m */; };
+		7615AAC61D82F57F00A2634F /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615AAC51D82F57F00A2634F /* UIButton+Block.m */; };
+		7615AACB1D82F59300A2634F /* NSString+Regex.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615AAC81D82F59300A2634F /* NSString+Regex.m */; };
+		7615AACC1D82F59300A2634F /* NSString+String.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615AACA1D82F59300A2634F /* NSString+String.m */; };
+		7615AACF1D82F5DF00A2634F /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615AACE1D82F5DF00A2634F /* UIViewExt.m */; };
+		7615AAD21D82F73F00A2634F /* UIButton+EnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615AAD11D82F73F00A2634F /* UIButton+EnlargeEdge.m */; };
+		7615AAD51D82F75A00A2634F /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615AAD41D82F75A00A2634F /* UIColor+Extension.m */; };
+		7615AAD81D82F7CB00A2634F /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615AAD71D82F7CB00A2634F /* UIImage+ImageWithColor.m */; };
+		7615AADB1D82F83300A2634F /* UIView+BlockGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615AADA1D82F83300A2634F /* UIView+BlockGesture.m */; };
+		7615AADE1D82F86300A2634F /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615AADD1D82F86300A2634F /* UIView+ViewController.m */; };
+		7615AAE11D82F89200A2634F /* UIViewController+Dealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615AAE01D82F89200A2634F /* UIViewController+Dealloc.m */; };
+		7615AAE41D82F8BB00A2634F /* WKWebView+SynchronousEvaluateJavaScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615AAE31D82F8BB00A2634F /* WKWebView+SynchronousEvaluateJavaScript.m */; };
 		76AF2FC71D6F374800A93AE1 /* ShouGongKeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF2FC61D6F374800A93AE1 /* ShouGongKeTests.m */; };
 		76AF2FD21D6F374800A93AE1 /* ShouGongKeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF2FD11D6F374800A93AE1 /* ShouGongKeUITests.m */; };
 		A4CA1C376C9BE37BFA13EF4D /* libPods-ShouGongKe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 404D115402F88798CEC5BEEF /* libPods-ShouGongKe.a */; };
@@ -53,6 +64,28 @@
 		7615AABF1D82EBF500A2634F /* Common_time.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common_time.h; sourceTree = "<group>"; };
 		7615AAC01D82F06F00A2634F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7615AAC11D82F06F00A2634F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7615AAC41D82F57F00A2634F /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
+		7615AAC51D82F57F00A2634F /* UIButton+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
+		7615AAC71D82F59300A2634F /* NSString+Regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Regex.h"; sourceTree = "<group>"; };
+		7615AAC81D82F59300A2634F /* NSString+Regex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Regex.m"; sourceTree = "<group>"; };
+		7615AAC91D82F59300A2634F /* NSString+String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+String.h"; sourceTree = "<group>"; };
+		7615AACA1D82F59300A2634F /* NSString+String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+String.m"; sourceTree = "<group>"; };
+		7615AACD1D82F5DF00A2634F /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		7615AACE1D82F5DF00A2634F /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		7615AAD01D82F73F00A2634F /* UIButton+EnlargeEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EnlargeEdge.h"; sourceTree = "<group>"; };
+		7615AAD11D82F73F00A2634F /* UIButton+EnlargeEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EnlargeEdge.m"; sourceTree = "<group>"; };
+		7615AAD31D82F75A00A2634F /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		7615AAD41D82F75A00A2634F /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		7615AAD61D82F7CB00A2634F /* UIImage+ImageWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithColor.h"; sourceTree = "<group>"; };
+		7615AAD71D82F7CB00A2634F /* UIImage+ImageWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithColor.m"; sourceTree = "<group>"; };
+		7615AAD91D82F83300A2634F /* UIView+BlockGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BlockGesture.h"; sourceTree = "<group>"; };
+		7615AADA1D82F83300A2634F /* UIView+BlockGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BlockGesture.m"; sourceTree = "<group>"; };
+		7615AADC1D82F86300A2634F /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
+		7615AADD1D82F86300A2634F /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
+		7615AADF1D82F89200A2634F /* UIViewController+Dealloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Dealloc.h"; sourceTree = "<group>"; };
+		7615AAE01D82F89200A2634F /* UIViewController+Dealloc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Dealloc.m"; sourceTree = "<group>"; };
+		7615AAE21D82F8BB00A2634F /* WKWebView+SynchronousEvaluateJavaScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKWebView+SynchronousEvaluateJavaScript.h"; sourceTree = "<group>"; };
+		7615AAE31D82F8BB00A2634F /* WKWebView+SynchronousEvaluateJavaScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+SynchronousEvaluateJavaScript.m"; sourceTree = "<group>"; };
 		76AF2FA91D6F374600A93AE1 /* ShouGongKe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShouGongKe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AF2FC21D6F374800A93AE1 /* ShouGongKeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShouGongKeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AF2FC61D6F374800A93AE1 /* ShouGongKeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShouGongKeTests.m; sourceTree = "<group>"; };
@@ -129,6 +162,28 @@
 		7615AAA31D82E8C500A2634F /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				7615AAE21D82F8BB00A2634F /* WKWebView+SynchronousEvaluateJavaScript.h */,
+				7615AAE31D82F8BB00A2634F /* WKWebView+SynchronousEvaluateJavaScript.m */,
+				7615AADF1D82F89200A2634F /* UIViewController+Dealloc.h */,
+				7615AAE01D82F89200A2634F /* UIViewController+Dealloc.m */,
+				7615AADC1D82F86300A2634F /* UIView+ViewController.h */,
+				7615AADD1D82F86300A2634F /* UIView+ViewController.m */,
+				7615AAD91D82F83300A2634F /* UIView+BlockGesture.h */,
+				7615AADA1D82F83300A2634F /* UIView+BlockGesture.m */,
+				7615AAD61D82F7CB00A2634F /* UIImage+ImageWithColor.h */,
+				7615AAD71D82F7CB00A2634F /* UIImage+ImageWithColor.m */,
+				7615AAD31D82F75A00A2634F /* UIColor+Extension.h */,
+				7615AAD41D82F75A00A2634F /* UIColor+Extension.m */,
+				7615AAD01D82F73F00A2634F /* UIButton+EnlargeEdge.h */,
+				7615AAD11D82F73F00A2634F /* UIButton+EnlargeEdge.m */,
+				7615AACD1D82F5DF00A2634F /* UIViewExt.h */,
+				7615AACE1D82F5DF00A2634F /* UIViewExt.m */,
+				7615AAC71D82F59300A2634F /* NSString+Regex.h */,
+				7615AAC81D82F59300A2634F /* NSString+Regex.m */,
+				7615AAC91D82F59300A2634F /* NSString+String.h */,
+				7615AACA1D82F59300A2634F /* NSString+String.m */,
+				7615AAC41D82F57F00A2634F /* UIButton+Block.h */,
+				7615AAC51D82F57F00A2634F /* UIButton+Block.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -621,9 +676,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7615AACF1D82F5DF00A2634F /* UIViewExt.m in Sources */,
+				7615AAE41D82F8BB00A2634F /* WKWebView+SynchronousEvaluateJavaScript.m in Sources */,
+				7615AAD21D82F73F00A2634F /* UIButton+EnlargeEdge.m in Sources */,
+				7615AACB1D82F59300A2634F /* NSString+Regex.m in Sources */,
 				7615AAA81D82E8C500A2634F /* BaseViewController.m in Sources */,
+				7615AAD51D82F75A00A2634F /* UIColor+Extension.m in Sources */,
+				7615AADB1D82F83300A2634F /* UIView+BlockGesture.m in Sources */,
+				7615AAD81D82F7CB00A2634F /* UIImage+ImageWithColor.m in Sources */,
+				7615AACC1D82F59300A2634F /* NSString+String.m in Sources */,
 				7615AAC31D82F06F00A2634F /* main.m in Sources */,
+				7615AAE11D82F89200A2634F /* UIViewController+Dealloc.m in Sources */,
+				7615AADE1D82F86300A2634F /* UIView+ViewController.m in Sources */,
 				7615AAB21D82E95100A2634F /* AppDelegate.m in Sources */,
+				7615AAC61D82F57F00A2634F /* UIButton+Block.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
