@@ -22,6 +22,7 @@ PODS:
     - DACircularProgress (~> 2.3)
     - MBProgressHUD (~> 0.9)
     - SDWebImage (!= 3.7.2, ~> 3.7)
+  - RegexKitLite (4.0)
   - SDWebImage (3.8.1):
     - SDWebImage/Core (= 3.8.1)
   - SDWebImage/Core (3.8.1)
@@ -31,6 +32,7 @@ DEPENDENCIES:
   - Masonry (~> 1.0.1)
   - MJRefresh (~> 3.1.10)
   - MWPhotoBrowser (~> 2.1.2)
+  - RegexKitLite (~> 4.0)
   - SDWebImage (~> 3.8.1)
 
 SPEC CHECKSUMS:
@@ -40,8 +42,9 @@ SPEC CHECKSUMS:
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   MJRefresh: bb72948c985914b0b5cecac573a2c69a8915fb02
   MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
+  RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
 
-PODFILE CHECKSUM: f4d82dca0d38c7eb90c2cdcdd60754c04f5f0ebe
+PODFILE CHECKSUM: 6146b7254fba9e22e2cf6583cd1d1f87ed31bee6
 
 COCOAPODS: 1.0.1
