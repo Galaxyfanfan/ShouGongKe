@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D5EA3FE1D84070B00C35029 /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EA3FD1D84070B00C35029 /* AFAppDotNetAPIClient.m */; };
+		2D5EA4011D84072000C35029 /* NSDictionary+RequestEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EA4001D84072000C35029 /* NSDictionary+RequestEncoding.m */; };
 		7615AAA81D82E8C500A2634F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615AAA21D82E8C500A2634F /* BaseViewController.m */; };
 		7615AAB21D82E95100A2634F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615AAAB1D82E95100A2634F /* AppDelegate.m */; };
 		7615AAB31D82E95100A2634F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7615AAAC1D82E95100A2634F /* Assets.xcassets */; };
@@ -49,6 +51,10 @@
 
 /* Begin PBXFileReference section */
 		18D5EEE1278A7776793BF6DD /* Pods-ShouGongKe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShouGongKe.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShouGongKe/Pods-ShouGongKe.release.xcconfig"; sourceTree = "<group>"; };
+		2D5EA3FC1D84070B00C35029 /* AFAppDotNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAppDotNetAPIClient.h; sourceTree = "<group>"; };
+		2D5EA3FD1D84070B00C35029 /* AFAppDotNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAppDotNetAPIClient.m; sourceTree = "<group>"; };
+		2D5EA3FF1D84072000C35029 /* NSDictionary+RequestEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+RequestEncoding.h"; sourceTree = "<group>"; };
+		2D5EA4001D84072000C35029 /* NSDictionary+RequestEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+RequestEncoding.m"; sourceTree = "<group>"; };
 		404D115402F88798CEC5BEEF /* libPods-ShouGongKe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShouGongKe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7615AAA11D82E8C500A2634F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		7615AAA21D82E8C500A2634F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
@@ -165,6 +171,8 @@
 		7615AAA31D82E8C500A2634F /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				2D5EA3FF1D84072000C35029 /* NSDictionary+RequestEncoding.h */,
+				2D5EA4001D84072000C35029 /* NSDictionary+RequestEncoding.m */,
 				7615AAE21D82F8BB00A2634F /* WKWebView+SynchronousEvaluateJavaScript.h */,
 				7615AAE31D82F8BB00A2634F /* WKWebView+SynchronousEvaluateJavaScript.m */,
 				7615AADF1D82F89200A2634F /* UIViewController+Dealloc.h */,
@@ -241,6 +249,8 @@
 		7615AAE51D82FA2100A2634F /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				2D5EA3FC1D84070B00C35029 /* AFAppDotNetAPIClient.h */,
+				2D5EA3FD1D84070B00C35029 /* AFAppDotNetAPIClient.m */,
 				7615AAE61D82FAF400A2634F /* BaseManager.h */,
 				7615AAE71D82FAF400A2634F /* BaseManager.m */,
 			);
@@ -690,6 +700,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D5EA3FE1D84070B00C35029 /* AFAppDotNetAPIClient.m in Sources */,
 				7615AACF1D82F5DF00A2634F /* UIViewExt.m in Sources */,
 				7615AAE41D82F8BB00A2634F /* WKWebView+SynchronousEvaluateJavaScript.m in Sources */,
 				7615AAD21D82F73F00A2634F /* UIButton+EnlargeEdge.m in Sources */,
@@ -699,6 +710,7 @@
 				7615AADB1D82F83300A2634F /* UIView+BlockGesture.m in Sources */,
 				7615AAD81D82F7CB00A2634F /* UIImage+ImageWithColor.m in Sources */,
 				7615AACC1D82F59300A2634F /* NSString+String.m in Sources */,
+				2D5EA4011D84072000C35029 /* NSDictionary+RequestEncoding.m in Sources */,
 				7615AAE81D82FAF400A2634F /* BaseManager.m in Sources */,
 				7615AAC31D82F06F00A2634F /* main.m in Sources */,
 				7615AAE11D82F89200A2634F /* UIViewController+Dealloc.m in Sources */,
@@ -839,6 +851,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ShouGongKe/Main(主要)/Tools/ShouGongKe-Prefix.pch";
 				INFOPLIST_FILE = ShouGongKe/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -853,6 +866,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ShouGongKe/Main(主要)/Tools/ShouGongKe-Prefix.pch";
 				INFOPLIST_FILE = ShouGongKe/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

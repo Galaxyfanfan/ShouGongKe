@@ -9,6 +9,9 @@
 #ifndef ShouGongKe_Prefix_pch
 #define ShouGongKe_Prefix_pch
 
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <WebKit/WebKit.h>
 #import "Common_define.h"
 #import "Common_color.h"
 #import "Common_font.h"
