@@ -15,6 +15,12 @@
 		2DE88B3B1D8FE2380027674D /* AppDelegate+AppLifeCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE88B3A1D8FE2380027674D /* AppDelegate+AppLifeCircle.m */; };
 		2DE88B3E1D8FE24E0027674D /* AppDelegate+AppService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE88B3D1D8FE24E0027674D /* AppDelegate+AppService.m */; };
 		2DE88B411D8FE6AD0027674D /* JMAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE88B401D8FE6AD0027674D /* JMAdViewController.m */; };
+		76151AD01D90319B0097C6DE /* JMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76151ACF1D90319B0097C6DE /* JMTabBarController.m */; };
+		76151AD31D9033950097C6DE /* JMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76151AD21D9033950097C6DE /* JMHomeViewController.m */; };
+		76151AD61D9033B10097C6DE /* JMTutoriaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76151AD51D9033B10097C6DE /* JMTutoriaViewController.m */; };
+		76151AD91D9033C00097C6DE /* JMHandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76151AD81D9033C00097C6DE /* JMHandViewController.m */; };
+		76151ADF1D9033F60097C6DE /* JMFairViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76151ADE1D9033F60097C6DE /* JMFairViewController.m */; };
+		76151AE21D9034080097C6DE /* JMMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76151AE11D9034080097C6DE /* JMMyViewController.m */; };
 		7615AAA81D82E8C500A2634F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615AAA21D82E8C500A2634F /* BaseViewController.m */; };
 		7615AAB31D82E95100A2634F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7615AAAC1D82E95100A2634F /* Assets.xcassets */; };
 		7615AAB41D82E95100A2634F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7615AAAE1D82E95100A2634F /* LaunchScreen.storyboard */; };
@@ -71,6 +77,18 @@
 		2DE88B3F1D8FE6AD0027674D /* JMAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMAdViewController.h; path = ShouGongKe/AppDelegate/JMAdViewController.h; sourceTree = SOURCE_ROOT; };
 		2DE88B401D8FE6AD0027674D /* JMAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMAdViewController.m; path = ShouGongKe/AppDelegate/JMAdViewController.m; sourceTree = SOURCE_ROOT; };
 		404D115402F88798CEC5BEEF /* libPods-ShouGongKe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShouGongKe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76151ACE1D90319B0097C6DE /* JMTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMTabBarController.h; sourceTree = "<group>"; };
+		76151ACF1D90319B0097C6DE /* JMTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMTabBarController.m; sourceTree = "<group>"; };
+		76151AD11D9033950097C6DE /* JMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMHomeViewController.h; sourceTree = "<group>"; };
+		76151AD21D9033950097C6DE /* JMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMHomeViewController.m; sourceTree = "<group>"; };
+		76151AD41D9033B10097C6DE /* JMTutoriaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMTutoriaViewController.h; sourceTree = "<group>"; };
+		76151AD51D9033B10097C6DE /* JMTutoriaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMTutoriaViewController.m; sourceTree = "<group>"; };
+		76151AD71D9033C00097C6DE /* JMHandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMHandViewController.h; sourceTree = "<group>"; };
+		76151AD81D9033C00097C6DE /* JMHandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMHandViewController.m; sourceTree = "<group>"; };
+		76151ADD1D9033F60097C6DE /* JMFairViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMFairViewController.h; sourceTree = "<group>"; };
+		76151ADE1D9033F60097C6DE /* JMFairViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMFairViewController.m; sourceTree = "<group>"; };
+		76151AE01D9034080097C6DE /* JMMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMMyViewController.h; sourceTree = "<group>"; };
+		76151AE11D9034080097C6DE /* JMMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMMyViewController.m; sourceTree = "<group>"; };
 		7615AAA11D82E8C500A2634F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		7615AAA21D82E8C500A2634F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		7615AAA71D82E8C500A2634F /* ShouGongKe-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ShouGongKe-Prefix.pch"; sourceTree = "<group>"; };
@@ -192,6 +210,8 @@
 			children = (
 				7615AAA11D82E8C500A2634F /* BaseViewController.h */,
 				7615AAA21D82E8C500A2634F /* BaseViewController.m */,
+				76151ACE1D90319B0097C6DE /* JMTabBarController.h */,
+				76151ACF1D90319B0097C6DE /* JMTabBarController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -404,6 +424,8 @@
 		76AF2FE51D6F3A6D00A93AE1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				76151ADD1D9033F60097C6DE /* JMFairViewController.h */,
+				76151ADE1D9033F60097C6DE /* JMFairViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -435,6 +457,8 @@
 		76AF2FE91D6F3A6D00A93AE1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				76151AD71D9033C00097C6DE /* JMHandViewController.h */,
+				76151AD81D9033C00097C6DE /* JMHandViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -466,6 +490,8 @@
 		76AF2FED1D6F3A6D00A93AE1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				76151AD11D9033950097C6DE /* JMHomeViewController.h */,
+				76151AD21D9033950097C6DE /* JMHomeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -497,6 +523,8 @@
 		76AF2FF11D6F3A6D00A93AE1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				76151AE01D9034080097C6DE /* JMMyViewController.h */,
+				76151AE11D9034080097C6DE /* JMMyViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -528,6 +556,8 @@
 		76AF2FF51D6F3A6D00A93AE1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				76151AD41D9033B10097C6DE /* JMTutoriaViewController.h */,
+				76151AD51D9033B10097C6DE /* JMTutoriaViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -732,9 +762,13 @@
 				7615AAE41D82F8BB00A2634F /* WKWebView+SynchronousEvaluateJavaScript.m in Sources */,
 				7615AACB1D82F59300A2634F /* NSString+Regex.m in Sources */,
 				2DE88B321D8FE0E60027674D /* AppDelegate.m in Sources */,
+				76151AE21D9034080097C6DE /* JMMyViewController.m in Sources */,
 				7615AAA81D82E8C500A2634F /* BaseViewController.m in Sources */,
+				76151AD61D9033B10097C6DE /* JMTutoriaViewController.m in Sources */,
+				76151AD31D9033950097C6DE /* JMHomeViewController.m in Sources */,
 				2DE88B411D8FE6AD0027674D /* JMAdViewController.m in Sources */,
 				7615AAD51D82F75A00A2634F /* UIColor+Extension.m in Sources */,
+				76151AD91D9033C00097C6DE /* JMHandViewController.m in Sources */,
 				7615AADB1D82F83300A2634F /* UIView+BlockGesture.m in Sources */,
 				7615AAD81D82F7CB00A2634F /* UIImage+ImageWithColor.m in Sources */,
 				7615AACC1D82F59300A2634F /* NSString+String.m in Sources */,
@@ -746,6 +780,8 @@
 				7615AAC31D82F06F00A2634F /* main.m in Sources */,
 				7615AAE11D82F89200A2634F /* UIViewController+Dealloc.m in Sources */,
 				7615AADE1D82F86300A2634F /* UIView+ViewController.m in Sources */,
+				76151ADF1D9033F60097C6DE /* JMFairViewController.m in Sources */,
+				76151AD01D90319B0097C6DE /* JMTabBarController.m in Sources */,
 				7615AAC61D82F57F00A2634F /* UIButton+Block.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
