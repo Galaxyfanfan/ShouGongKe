@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2D5EA3FE1D84070B00C35029 /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EA3FD1D84070B00C35029 /* AFAppDotNetAPIClient.m */; };
 		2D5EA4011D84072000C35029 /* NSDictionary+RequestEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EA4001D84072000C35029 /* NSDictionary+RequestEncoding.m */; };
+		2DE88B2E1D8FD7860027674D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE88B2D1D8FD7860027674D /* WebKit.framework */; };
 		7615AAA81D82E8C500A2634F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615AAA21D82E8C500A2634F /* BaseViewController.m */; };
 		7615AAB21D82E95100A2634F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615AAAB1D82E95100A2634F /* AppDelegate.m */; };
 		7615AAB31D82E95100A2634F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7615AAAC1D82E95100A2634F /* Assets.xcassets */; };
@@ -19,7 +20,6 @@
 		7615AACB1D82F59300A2634F /* NSString+Regex.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615AAC81D82F59300A2634F /* NSString+Regex.m */; };
 		7615AACC1D82F59300A2634F /* NSString+String.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615AACA1D82F59300A2634F /* NSString+String.m */; };
 		7615AACF1D82F5DF00A2634F /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615AACE1D82F5DF00A2634F /* UIViewExt.m */; };
-		7615AAD21D82F73F00A2634F /* UIButton+EnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615AAD11D82F73F00A2634F /* UIButton+EnlargeEdge.m */; };
 		7615AAD51D82F75A00A2634F /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615AAD41D82F75A00A2634F /* UIColor+Extension.m */; };
 		7615AAD81D82F7CB00A2634F /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615AAD71D82F7CB00A2634F /* UIImage+ImageWithColor.m */; };
 		7615AADB1D82F83300A2634F /* UIView+BlockGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615AADA1D82F83300A2634F /* UIView+BlockGesture.m */; };
@@ -55,6 +55,7 @@
 		2D5EA3FD1D84070B00C35029 /* AFAppDotNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAppDotNetAPIClient.m; sourceTree = "<group>"; };
 		2D5EA3FF1D84072000C35029 /* NSDictionary+RequestEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+RequestEncoding.h"; sourceTree = "<group>"; };
 		2D5EA4001D84072000C35029 /* NSDictionary+RequestEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+RequestEncoding.m"; sourceTree = "<group>"; };
+		2DE88B2D1D8FD7860027674D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		404D115402F88798CEC5BEEF /* libPods-ShouGongKe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShouGongKe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7615AAA11D82E8C500A2634F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		7615AAA21D82E8C500A2634F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
@@ -79,8 +80,6 @@
 		7615AACA1D82F59300A2634F /* NSString+String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+String.m"; sourceTree = "<group>"; };
 		7615AACD1D82F5DF00A2634F /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
 		7615AACE1D82F5DF00A2634F /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
-		7615AAD01D82F73F00A2634F /* UIButton+EnlargeEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EnlargeEdge.h"; sourceTree = "<group>"; };
-		7615AAD11D82F73F00A2634F /* UIButton+EnlargeEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EnlargeEdge.m"; sourceTree = "<group>"; };
 		7615AAD31D82F75A00A2634F /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
 		7615AAD41D82F75A00A2634F /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
 		7615AAD61D82F7CB00A2634F /* UIImage+ImageWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithColor.h"; sourceTree = "<group>"; };
@@ -110,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DE88B2E1D8FD7860027674D /* WebKit.framework in Frameworks */,
 				A4CA1C376C9BE37BFA13EF4D /* libPods-ShouGongKe.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,6 +143,7 @@
 		644AA1DF8BA6D648FF585CC8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2DE88B2D1D8FD7860027674D /* WebKit.framework */,
 				404D115402F88798CEC5BEEF /* libPods-ShouGongKe.a */,
 			);
 			name = Frameworks;
@@ -185,8 +186,6 @@
 				7615AAD71D82F7CB00A2634F /* UIImage+ImageWithColor.m */,
 				7615AAD31D82F75A00A2634F /* UIColor+Extension.h */,
 				7615AAD41D82F75A00A2634F /* UIColor+Extension.m */,
-				7615AAD01D82F73F00A2634F /* UIButton+EnlargeEdge.h */,
-				7615AAD11D82F73F00A2634F /* UIButton+EnlargeEdge.m */,
 				7615AACD1D82F5DF00A2634F /* UIViewExt.h */,
 				7615AACE1D82F5DF00A2634F /* UIViewExt.m */,
 				7615AAC71D82F59300A2634F /* NSString+Regex.h */,
@@ -703,7 +702,6 @@
 				2D5EA3FE1D84070B00C35029 /* AFAppDotNetAPIClient.m in Sources */,
 				7615AACF1D82F5DF00A2634F /* UIViewExt.m in Sources */,
 				7615AAE41D82F8BB00A2634F /* WKWebView+SynchronousEvaluateJavaScript.m in Sources */,
-				7615AAD21D82F73F00A2634F /* UIButton+EnlargeEdge.m in Sources */,
 				7615AACB1D82F59300A2634F /* NSString+Regex.m in Sources */,
 				7615AAA81D82E8C500A2634F /* BaseViewController.m in Sources */,
 				7615AAD51D82F75A00A2634F /* UIColor+Extension.m in Sources */,
@@ -851,6 +849,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ShouGongKe/Main(主要)/Tools/ShouGongKe-Prefix.pch";
 				INFOPLIST_FILE = ShouGongKe/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -866,6 +865,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ShouGongKe/Main(主要)/Tools/ShouGongKe-Prefix.pch";
 				INFOPLIST_FILE = ShouGongKe/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;

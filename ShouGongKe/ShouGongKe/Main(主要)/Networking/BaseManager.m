@@ -16,26 +16,26 @@
 -(NSURLSessionDataTask *)requestDataWithUrl:(NSString *)url parameter:(NSDictionary*)parameter block:(void(^)(NSDictionary* json_dic,NSError *error))block{
     
 
-    DLog(@"\n<<-----------请求-------------------\n Url == %@%@\n Params == %@\n DicStyle == %@\n------------------------------->>", EasyGo_BASE_URL, url, [parameter jsonEncodedKeyValueString], parameter);
+    DLog(@"\n<<-----------请求-------------------\n Url == %@%@\n Params == %@\n DicStyle == %@\n------------------------------->>", SGK_BASE_URL, url, [parameter jsonEncodedKeyValueString], parameter);
 
-    NSDictionary *mutableParams = [NSMutableDictionary dictionaryWithDictionary:parameter];
-    [mutableParams setValue:GetAppBundleVersion forKey:@"appversion"];
+//    NSDictionary *mutableParams = [NSMutableDictionary dictionaryWithDictionary:parameter];
+//    [mutableParams setValue:GetAppBundleVersion forKey:@"appversion"];
+//    
+//    [mutableParams setValue:@"1" forKey:@"platformtype"];
+//    [mutableParams setValue:[NSString stringWithFormat:@"%.1f",kSystermVersion] forKey:@"osversion"];
+//    [mutableParams setValue:[HelpTool deviceVersion] forKey:@"machinemodel"];
+//    
+//    if ([GetDataManager.userId isEqualToString:@""]) {
+//        [mutableParams setValue:@"0" forKey:@"uid"];
+//    } else {
+//        [mutableParams setValue:GetDataManager.userId forKey:@"uid"];
+//    }
+//    DLog(@"\n<<-----------请求-------------------\n Url == %@%@\n Params == %@\n DicStyle == %@\n------------------------------->>", SGK_BASE_URL, url, [mutableParams jsonEncodedKeyValueString], mutableParams);
     
-    [mutableParams setValue:@"1" forKey:@"platformtype"];
-    [mutableParams setValue:[NSString stringWithFormat:@"%.1f",kSystermVersion] forKey:@"osversion"];
-    [mutableParams setValue:[HelpTool deviceVersion] forKey:@"machinemodel"];
-    
-    if ([GetDataManager.userId isEqualToString:@""]) {
-        [mutableParams setValue:@"0" forKey:@"uid"];
-    } else {
-        [mutableParams setValue:GetDataManager.userId forKey:@"uid"];
-    }
-    DLog(@"\n<<-----------请求-------------------\n Url == %@%@\n Params == %@\n DicStyle == %@\n------------------------------->>", EasyGo_BASE_URL, url, [mutableParams jsonEncodedKeyValueString], mutableParams);
-    
-    return [[AFAppDotNetAPIClient sharedClient] POST:url parameters:mutableParams success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
+    return [[AFAppDotNetAPIClient sharedClient] POST:url parameters:parameter success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
         NSDictionary *json_dic = (NSDictionary*)responseObject;
         
-        DLog(@"\n<<-----------返回--------------------\n Url == %@%@\n Res == %@\n DicStyle == %@\n------------------------------->>", EasyGo_BASE_URL, url, [json_dic jsonEncodedKeyValueString], json_dic);
+        DLog(@"\n<<-----------返回--------------------\n Url == %@%@\n Res == %@\n DicStyle == %@\n------------------------------->>", SGK_BASE_URL, url, [json_dic jsonEncodedKeyValueString], json_dic);
         
         if (block){
             block(json_dic,nil);
@@ -82,11 +82,11 @@
 
 - (NSURLSessionDataTask *)requestDataWithGet:(NSString*)url parameter:(NSDictionary*)parameter block:(void(^)(NSDictionary* json_dic,NSError *error))block{
     
-    DLog(@"\n<<-----------请求-------------------\n Url == %@%@\n Params == %@\n DicStyle == %@\n------------------------------->>", EasyGo_BASE_URL, url, [parameter jsonEncodedKeyValueString], parameter);
+    DLog(@"\n<<-----------请求-------------------\n Url == %@%@\n Params == %@\n DicStyle == %@\n------------------------------->>", SGK_BASE_URL, url, [parameter jsonEncodedKeyValueString], parameter);
     
     return [[AFAppDotNetAPIClient sharedClient]GET:url parameters:parameter success:^(NSURLSessionDataTask * task, id responseObject) {
             NSDictionary *json_dic = (NSDictionary*)responseObject;
-            DLog(@"\n<<-----------返回--------------------\n Url == %@%@\n Res == %@\n DicStyle == %@\n------------------------------->>", EasyGo_BASE_URL, url, [json_dic jsonEncodedKeyValueString], json_dic);
+            DLog(@"\n<<-----------返回--------------------\n Url == %@%@\n Res == %@\n DicStyle == %@\n------------------------------->>", SGK_BASE_URL, url, [json_dic jsonEncodedKeyValueString], json_dic);
             if (block){
                 block(json_dic,nil);
             }

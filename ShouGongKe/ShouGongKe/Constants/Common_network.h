@@ -10,4 +10,6 @@
 #define Common_network_h
 
 
+#define SGK_BASE_URL @"http://m.shougongke.com/index.php"
+
 #endif /* Common_network_h */
