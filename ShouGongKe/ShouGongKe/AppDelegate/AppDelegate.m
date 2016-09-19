@@ -21,18 +21,18 @@
     [self setAppWindows];
     [self setRootViewController];
     
-    [self configurationLaunchUserOption];
-    
-    [self registerBugly];
-    
-    [self registerMob];
-    
-    [self registerUmeng];
-    
-    
-    [self upLoadMessageAboutUser];
-    
-    [self checkAppUpDataWithshowOption:NO];
+//    [self configurationLaunchUserOption];
+//    
+//    [self registerBugly];
+//    
+//    [self registerMob];
+//    
+//    [self registerUmeng];
+//    
+//    
+//    [self upLoadMessageAboutUser];
+//    
+//    [self checkAppUpDataWithshowOption:NO];
     
 //    [SZNotificationCenter addObserver:self selector:@selector(phontoBroserPush:) name:kPushPhotoBrowserNotifitationName object:nil];
 //    [SZNotificationCenter addObserver:self selector:@selector(playCallBackVideo:) name:kPresentVideoPlayerNotifitationName object:nil];

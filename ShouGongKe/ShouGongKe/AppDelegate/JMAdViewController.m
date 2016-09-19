@@ -10,4 +10,7 @@
 
 @implementation JMAdViewController
 
+- (void)viewDidLoad{
+    self.view.backgroundColor = [UIColor orangeColor];
+}
 @end
