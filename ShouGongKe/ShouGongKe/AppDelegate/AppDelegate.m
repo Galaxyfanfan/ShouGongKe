@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "AppDelegate+RootController.h"
+#import "AppDelegate+AppLifeCircle.h"
+#import "AppDelegate+AppService.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +18,27 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [self setAppWindows];
+    [self setRootViewController];
+    
+    [self configurationLaunchUserOption];
+    
+    [self registerBugly];
+    
+    [self registerMob];
+    
+    [self registerUmeng];
+    
+    
+    [self upLoadMessageAboutUser];
+    
+    [self checkAppUpDataWithshowOption:NO];
+    
+//    [SZNotificationCenter addObserver:self selector:@selector(phontoBroserPush:) name:kPushPhotoBrowserNotifitationName object:nil];
+//    [SZNotificationCenter addObserver:self selector:@selector(playCallBackVideo:) name:kPresentVideoPlayerNotifitationName object:nil];
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
