@@ -10,4 +10,13 @@
 
 @interface BaseViewController : UIViewController
 
++ (UIBarButtonItem *)leftBarButtonWithName:(NSString *)name
+                                 imageName:(NSString *)imageName
+                                    target:(id)target
+                                    action:(SEL)action;
+// 设置导航栏右按钮
++ (UIBarButtonItem *)rightBarButtonWithName:(NSString *)name
+                                  imageName:(NSString *)imageName
+                                     target:(id)target
+                                     action:(SEL)action;
 @end

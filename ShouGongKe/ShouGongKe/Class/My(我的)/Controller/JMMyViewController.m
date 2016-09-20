@@ -7,9 +7,12 @@
 //
 
 #import "JMMyViewController.h"
+@interface JMMyViewController()
 
+@end
 @implementation JMMyViewController
 - (void)viewDidLoad{
+    [super viewDidLoad];
     self.view.backgroundColor = [UIColor orangeColor];
 }
 @end

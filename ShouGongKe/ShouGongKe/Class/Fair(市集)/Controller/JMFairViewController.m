@@ -7,9 +7,12 @@
 //
 
 #import "JMFairViewController.h"
+@interface JMFairViewController()
 
+@end
 @implementation JMFairViewController
 - (void)viewDidLoad{
+    [super viewDidLoad];
     self.view.backgroundColor = [UIColor blueColor];
 }
 @end

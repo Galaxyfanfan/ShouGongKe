@@ -7,9 +7,12 @@
 //
 
 #import "JMHandViewController.h"
+@interface JMHandViewController()
 
+@end
 @implementation JMHandViewController
 - (void)viewDidLoad{
+    [super viewDidLoad];
     self.view.backgroundColor = [UIColor yellowColor];
 }
 @end

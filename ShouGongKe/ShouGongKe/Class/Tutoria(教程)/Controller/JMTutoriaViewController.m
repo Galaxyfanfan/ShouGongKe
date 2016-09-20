@@ -7,9 +7,12 @@
 //
 
 #import "JMTutoriaViewController.h"
+@interface JMTutoriaViewController()
 
+@end
 @implementation JMTutoriaViewController
 - (void)viewDidLoad{
+    [super viewDidLoad];
     self.view.backgroundColor = [UIColor magentaColor];
 }
 @end
