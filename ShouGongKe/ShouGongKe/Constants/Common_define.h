@@ -5,11 +5,16 @@
 //  Created by Galaxy on 16/9/9.
 //  Copyright © 2016年 Galaxy. All rights reserved.
 //
+#import "UIImageView+AFNetworking.h"
 
 #ifndef Common_define_h
 #define Common_define_h
 
 
+
+/// block self
+#define kSelfWeak __weak typeof(self) weakSelf = self
+#define kSelfStrong __strong __typeof__(weakSelf) strongSelf = weakSelf
 
 /// Dlog
 #ifdef DEBUG

@@ -10,7 +10,7 @@
 
 @interface BaseManager : NSObject
 
--(NSURLSessionDataTask *)requestDataWithUrl:(NSString *)url parameter:(NSDictionary*)parameter block:(void(^)(NSDictionary* json_dic,NSError *error))block;
-- (NSURLSessionDataTask *)requestDataWithGet:(NSString*)url block:(void(^)(NSDictionary* json_dic,NSError *error))block;
+-(NSURLSessionDataTask *)requestDataWithPost:(NSString *)url parameter:(NSDictionary*)parameter block:(void(^)(NSDictionary* json_dic,NSError *error))block;
 - (NSURLSessionDataTask *)requestDataWithGet:(NSString*)url parameter:(NSDictionary*)parameter block:(void(^)(NSDictionary* json_dic,NSError *error))block;
+
 @end

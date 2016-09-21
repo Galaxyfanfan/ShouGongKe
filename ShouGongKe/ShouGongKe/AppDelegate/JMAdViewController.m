@@ -22,7 +22,7 @@
     [self.view addSubview:self.adImgView];
     self.adImgView.image = [UIImage imageNamed:@"adimage1"];
     
-    [NSTimer scheduledTimerWithTimeInterval:3.0 target:self selector:@selector(removeAdImageView) userInfo:nil repeats:NO];
+    [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(removeAdImageView) userInfo:nil repeats:NO];
     
 }
 - (void)removeAdImageView{
