@@ -18,8 +18,8 @@
     [self setNavBarButton];
 }
 - (void)setNavBarButton{
-    self.navigationItem.leftBarButtonItem = [self leftBarButtonWithAdd];
-    self.navigationItem.rightBarButtonItem = [self rightBarButtonWithSearch];
+ //   self.navigationItem.leftBarButtonItem = [self leftBarButtonWithAdd];
+//    self.navigationItem.rightBarButtonItem = [self rightBarButtonWithSearch];
 }
 
 

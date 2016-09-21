@@ -37,6 +37,10 @@
 		7615AAE11D82F89200A2634F /* UIViewController+Dealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615AAE01D82F89200A2634F /* UIViewController+Dealloc.m */; };
 		7615AAE41D82F8BB00A2634F /* WKWebView+SynchronousEvaluateJavaScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615AAE31D82F8BB00A2634F /* WKWebView+SynchronousEvaluateJavaScript.m */; };
 		7615AAE81D82FAF400A2634F /* BaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7615AAE71D82FAF400A2634F /* BaseManager.m */; };
+		761C69BA1D92DB92009DD827 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 761C69B21D92DB92009DD827 /* UIView+Frame.m */; };
+		761C69BB1D92DB92009DD827 /* YZDisplayTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 761C69B41D92DB92009DD827 /* YZDisplayTitleLabel.m */; };
+		761C69BC1D92DB92009DD827 /* YZDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 761C69B61D92DB92009DD827 /* YZDisplayViewController.m */; };
+		761C69BD1D92DB92009DD827 /* YZFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 761C69B91D92DB92009DD827 /* YZFlowLayout.m */; };
 		76AF2FC71D6F374800A93AE1 /* ShouGongKeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF2FC61D6F374800A93AE1 /* ShouGongKeTests.m */; };
 		76AF2FD21D6F374800A93AE1 /* ShouGongKeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF2FD11D6F374800A93AE1 /* ShouGongKeUITests.m */; };
 		A4CA1C376C9BE37BFA13EF4D /* libPods-ShouGongKe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 404D115402F88798CEC5BEEF /* libPods-ShouGongKe.a */; };
@@ -124,6 +128,15 @@
 		7615AAE31D82F8BB00A2634F /* WKWebView+SynchronousEvaluateJavaScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+SynchronousEvaluateJavaScript.m"; sourceTree = "<group>"; };
 		7615AAE61D82FAF400A2634F /* BaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseManager.h; sourceTree = "<group>"; };
 		7615AAE71D82FAF400A2634F /* BaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseManager.m; sourceTree = "<group>"; };
+		761C69B11D92DB92009DD827 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		761C69B21D92DB92009DD827 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		761C69B31D92DB92009DD827 /* YZDisplayTitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZDisplayTitleLabel.h; sourceTree = "<group>"; };
+		761C69B41D92DB92009DD827 /* YZDisplayTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZDisplayTitleLabel.m; sourceTree = "<group>"; };
+		761C69B51D92DB92009DD827 /* YZDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZDisplayViewController.h; sourceTree = "<group>"; };
+		761C69B61D92DB92009DD827 /* YZDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZDisplayViewController.m; sourceTree = "<group>"; };
+		761C69B71D92DB92009DD827 /* YZDisplayViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZDisplayViewHeader.h; sourceTree = "<group>"; };
+		761C69B81D92DB92009DD827 /* YZFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZFlowLayout.h; sourceTree = "<group>"; };
+		761C69B91D92DB92009DD827 /* YZFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZFlowLayout.m; sourceTree = "<group>"; };
 		76AF2FA91D6F374600A93AE1 /* ShouGongKe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShouGongKe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AF2FC21D6F374800A93AE1 /* ShouGongKeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShouGongKeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AF2FC61D6F374800A93AE1 /* ShouGongKeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShouGongKeTests.m; sourceTree = "<group>"; };
@@ -248,6 +261,7 @@
 		7615AAA51D82E8C500A2634F /* Lib(第三方) */ = {
 			isa = PBXGroup;
 			children = (
+				761C69B01D92DB92009DD827 /* YZDisplayViewController */,
 			);
 			path = "Lib(第三方)";
 			sourceTree = "<group>";
@@ -300,6 +314,22 @@
 			);
 			name = Networking;
 			path = "Main(主要)/Networking";
+			sourceTree = "<group>";
+		};
+		761C69B01D92DB92009DD827 /* YZDisplayViewController */ = {
+			isa = PBXGroup;
+			children = (
+				761C69B11D92DB92009DD827 /* UIView+Frame.h */,
+				761C69B21D92DB92009DD827 /* UIView+Frame.m */,
+				761C69B31D92DB92009DD827 /* YZDisplayTitleLabel.h */,
+				761C69B41D92DB92009DD827 /* YZDisplayTitleLabel.m */,
+				761C69B51D92DB92009DD827 /* YZDisplayViewController.h */,
+				761C69B61D92DB92009DD827 /* YZDisplayViewController.m */,
+				761C69B71D92DB92009DD827 /* YZDisplayViewHeader.h */,
+				761C69B81D92DB92009DD827 /* YZFlowLayout.h */,
+				761C69B91D92DB92009DD827 /* YZFlowLayout.m */,
+			);
+			path = YZDisplayViewController;
 			sourceTree = "<group>";
 		};
 		76AF2FA01D6F374600A93AE1 = {
@@ -777,12 +807,16 @@
 				2DE88B381D8FE2150027674D /* AppDelegate+RootController.m in Sources */,
 				2D5EA4011D84072000C35029 /* NSDictionary+RequestEncoding.m in Sources */,
 				7615AAE81D82FAF400A2634F /* BaseManager.m in Sources */,
+				761C69BD1D92DB92009DD827 /* YZFlowLayout.m in Sources */,
 				7615AAC31D82F06F00A2634F /* main.m in Sources */,
+				761C69BA1D92DB92009DD827 /* UIView+Frame.m in Sources */,
 				7615AAE11D82F89200A2634F /* UIViewController+Dealloc.m in Sources */,
+				761C69BC1D92DB92009DD827 /* YZDisplayViewController.m in Sources */,
 				7615AADE1D82F86300A2634F /* UIView+ViewController.m in Sources */,
 				76151ADF1D9033F60097C6DE /* JMFairViewController.m in Sources */,
 				76151AD01D90319B0097C6DE /* JMTabBarController.m in Sources */,
 				7615AAC61D82F57F00A2634F /* UIButton+Block.m in Sources */,
+				761C69BB1D92DB92009DD827 /* YZDisplayTitleLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

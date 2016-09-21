@@ -6,8 +6,8 @@
 //  Copyright © 2016年 Galaxy. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import "YZDisplayViewController.h"
 
-@interface JMHomeViewController : BaseViewController
+@interface JMHomeViewController : YZDisplayViewController
 
 @end
