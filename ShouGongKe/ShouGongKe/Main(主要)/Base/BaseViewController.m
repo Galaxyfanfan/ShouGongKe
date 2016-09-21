@@ -166,7 +166,29 @@ static CGFloat const sizeButton = 40.0;
 
 
 
-
+#pragma mark - 设置导航栏 添加 和 搜索 按钮
+// 设置导航栏左按钮
+- (UIBarButtonItem *)leftBarButtonWithAdd{
+    UIButton *btn = [[self class] setleftButtonTitle:nil image:@"write"];
+    [btn addTarget:self action:@selector(gotoAdd) forControlEvents:UIControlEventTouchUpInside];
+    
+    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithCustomView:btn];
+    return item;
+}
+// 设置导航栏右按钮
+- (UIBarButtonItem *)rightBarButtonWithSearch{
+    UIButton *btn = [[self class] setRightButton:nil image:@"search"];
+    [btn addTarget:self action:@selector(goToSearch) forControlEvents:UIControlEventTouchUpInside];
+    
+    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithCustomView:btn];
+    return item;
+}
+- (void)gotoAdd{
+    NSLog(@"添加");
+}
+- (void)goToSearch{
+    NSLog(@"搜索");
+}
 
 
 @end

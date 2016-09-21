@@ -15,11 +15,11 @@
 - (void)viewDidLoad{
     [super viewDidLoad];
     
-    
+    [self setNavBarButton];
 }
 - (void)setNavBarButton{
-//    self.navigationItem.leftBarButtonItem = [[self class] leftBarButtonWithName:nil imageName:@"icon_back" target:self action:@selector(backToSuperView)];
-//    self.navigationItem.rightBarButtonItem = [[self class] rightBarButtonWithName:@"完成" imageName:nil target:self action:@selector(commitButtonClick)];
+    self.navigationItem.leftBarButtonItem = [self leftBarButtonWithAdd];
+    self.navigationItem.rightBarButtonItem = [self rightBarButtonWithSearch];
 }
 
 

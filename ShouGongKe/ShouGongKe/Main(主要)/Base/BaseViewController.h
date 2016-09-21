@@ -19,4 +19,9 @@
                                   imageName:(NSString *)imageName
                                      target:(id)target
                                      action:(SEL)action;
+
+
+
+- (UIBarButtonItem *)leftBarButtonWithAdd;
+- (UIBarButtonItem *)rightBarButtonWithSearch;
 @end
