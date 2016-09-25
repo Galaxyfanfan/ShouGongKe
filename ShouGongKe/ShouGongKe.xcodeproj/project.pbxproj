@@ -41,6 +41,10 @@
 		761C69BB1D92DB92009DD827 /* YZDisplayTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 761C69B41D92DB92009DD827 /* YZDisplayTitleLabel.m */; };
 		761C69BC1D92DB92009DD827 /* YZDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 761C69B61D92DB92009DD827 /* YZDisplayViewController.m */; };
 		761C69BD1D92DB92009DD827 /* YZFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 761C69B91D92DB92009DD827 /* YZFlowLayout.m */; };
+		76593BA51D97940E00AD20D1 /* JMChoicenessController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76593BA41D97940E00AD20D1 /* JMChoicenessController.m */; };
+		76593BA81D97945200AD20D1 /* JMAttentionVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76593BA71D97945200AD20D1 /* JMAttentionVController.m */; };
+		76593BAB1D97947200AD20D1 /* JMExpertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76593BAA1D97947200AD20D1 /* JMExpertController.m */; };
+		76593BAE1D97949E00AD20D1 /* JMActivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76593BAD1D97949E00AD20D1 /* JMActivityController.m */; };
 		76AF2FC71D6F374800A93AE1 /* ShouGongKeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF2FC61D6F374800A93AE1 /* ShouGongKeTests.m */; };
 		76AF2FD21D6F374800A93AE1 /* ShouGongKeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF2FD11D6F374800A93AE1 /* ShouGongKeUITests.m */; };
 		A4CA1C376C9BE37BFA13EF4D /* libPods-ShouGongKe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 404D115402F88798CEC5BEEF /* libPods-ShouGongKe.a */; };
@@ -137,6 +141,14 @@
 		761C69B71D92DB92009DD827 /* YZDisplayViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZDisplayViewHeader.h; sourceTree = "<group>"; };
 		761C69B81D92DB92009DD827 /* YZFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZFlowLayout.h; sourceTree = "<group>"; };
 		761C69B91D92DB92009DD827 /* YZFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZFlowLayout.m; sourceTree = "<group>"; };
+		76593BA31D97940E00AD20D1 /* JMChoicenessController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMChoicenessController.h; sourceTree = "<group>"; };
+		76593BA41D97940E00AD20D1 /* JMChoicenessController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMChoicenessController.m; sourceTree = "<group>"; };
+		76593BA61D97945200AD20D1 /* JMAttentionVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMAttentionVController.h; sourceTree = "<group>"; };
+		76593BA71D97945200AD20D1 /* JMAttentionVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMAttentionVController.m; sourceTree = "<group>"; };
+		76593BA91D97947200AD20D1 /* JMExpertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMExpertController.h; sourceTree = "<group>"; };
+		76593BAA1D97947200AD20D1 /* JMExpertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMExpertController.m; sourceTree = "<group>"; };
+		76593BAC1D97949E00AD20D1 /* JMActivityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMActivityController.h; sourceTree = "<group>"; };
+		76593BAD1D97949E00AD20D1 /* JMActivityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMActivityController.m; sourceTree = "<group>"; };
 		76AF2FA91D6F374600A93AE1 /* ShouGongKe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShouGongKe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AF2FC21D6F374800A93AE1 /* ShouGongKeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShouGongKeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AF2FC61D6F374800A93AE1 /* ShouGongKeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShouGongKeTests.m; sourceTree = "<group>"; };
@@ -522,6 +534,14 @@
 			children = (
 				76151AD11D9033950097C6DE /* JMHomeViewController.h */,
 				76151AD21D9033950097C6DE /* JMHomeViewController.m */,
+				76593BA31D97940E00AD20D1 /* JMChoicenessController.h */,
+				76593BA41D97940E00AD20D1 /* JMChoicenessController.m */,
+				76593BA61D97945200AD20D1 /* JMAttentionVController.h */,
+				76593BA71D97945200AD20D1 /* JMAttentionVController.m */,
+				76593BA91D97947200AD20D1 /* JMExpertController.h */,
+				76593BAA1D97947200AD20D1 /* JMExpertController.m */,
+				76593BAC1D97949E00AD20D1 /* JMActivityController.h */,
+				76593BAD1D97949E00AD20D1 /* JMActivityController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -790,8 +810,10 @@
 				2D5EA3FE1D84070B00C35029 /* AFAppDotNetAPIClient.m in Sources */,
 				7615AACF1D82F5DF00A2634F /* UIViewExt.m in Sources */,
 				7615AAE41D82F8BB00A2634F /* WKWebView+SynchronousEvaluateJavaScript.m in Sources */,
+				76593BAB1D97947200AD20D1 /* JMExpertController.m in Sources */,
 				7615AACB1D82F59300A2634F /* NSString+Regex.m in Sources */,
 				2DE88B321D8FE0E60027674D /* AppDelegate.m in Sources */,
+				76593BA51D97940E00AD20D1 /* JMChoicenessController.m in Sources */,
 				76151AE21D9034080097C6DE /* JMMyViewController.m in Sources */,
 				7615AAA81D82E8C500A2634F /* BaseViewController.m in Sources */,
 				76151AD61D9033B10097C6DE /* JMTutoriaViewController.m in Sources */,
@@ -812,7 +834,9 @@
 				761C69BA1D92DB92009DD827 /* UIView+Frame.m in Sources */,
 				7615AAE11D82F89200A2634F /* UIViewController+Dealloc.m in Sources */,
 				761C69BC1D92DB92009DD827 /* YZDisplayViewController.m in Sources */,
+				76593BA81D97945200AD20D1 /* JMAttentionVController.m in Sources */,
 				7615AADE1D82F86300A2634F /* UIView+ViewController.m in Sources */,
+				76593BAE1D97949E00AD20D1 /* JMActivityController.m in Sources */,
 				76151ADF1D9033F60097C6DE /* JMFairViewController.m in Sources */,
 				76151AD01D90319B0097C6DE /* JMTabBarController.m in Sources */,
 				7615AAC61D82F57F00A2634F /* UIButton+Block.m in Sources */,

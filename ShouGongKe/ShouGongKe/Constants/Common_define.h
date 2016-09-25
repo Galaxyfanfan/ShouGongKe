@@ -11,6 +11,8 @@
 #define Common_define_h
 
 
+#define kTopTitleHeight 40
+
 
 /// block self
 #define kSelfWeak __weak typeof(self) weakSelf = self

@@ -28,9 +28,13 @@
 #define kBaseRedColor UIColorRGB(243,83,81)
 
 
+#define kColorWhite [UIColor whiteColor]
 
+#define kColorBlack [UIColor blackColor]
 
+#define kColorRed [UIColor redColor]
 
+#define kColorDarkGray [UIColor darkGrayColor]
 
 
 
