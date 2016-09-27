@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D275BAB1D9A6827009CB401 /* JMActivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D275BAA1D9A6827009CB401 /* JMActivityController.m */; };
+		2D275BAE1D9A682F009CB401 /* JMAttentionVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D275BAD1D9A682F009CB401 /* JMAttentionVController.m */; };
+		2D275BB11D9A6838009CB401 /* JMChoicenessController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D275BB01D9A6838009CB401 /* JMChoicenessController.m */; };
+		2D275BB41D9A683E009CB401 /* JMExpertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D275BB31D9A683E009CB401 /* JMExpertController.m */; };
+		2D275BB71D9A68B6009CB401 /* JMChoicenessCLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D275BB61D9A68B6009CB401 /* JMChoicenessCLView.m */; };
+		2D275BBA1D9A6C32009CB401 /* JMChoicenessScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D275BB91D9A6C32009CB401 /* JMChoicenessScrollViewCell.m */; };
 		2D5EA3FE1D84070B00C35029 /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EA3FD1D84070B00C35029 /* AFAppDotNetAPIClient.m */; };
 		2D5EA4011D84072000C35029 /* NSDictionary+RequestEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EA4001D84072000C35029 /* NSDictionary+RequestEncoding.m */; };
 		2DE88B2E1D8FD7860027674D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE88B2D1D8FD7860027674D /* WebKit.framework */; };
@@ -41,10 +47,6 @@
 		761C69BB1D92DB92009DD827 /* YZDisplayTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 761C69B41D92DB92009DD827 /* YZDisplayTitleLabel.m */; };
 		761C69BC1D92DB92009DD827 /* YZDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 761C69B61D92DB92009DD827 /* YZDisplayViewController.m */; };
 		761C69BD1D92DB92009DD827 /* YZFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 761C69B91D92DB92009DD827 /* YZFlowLayout.m */; };
-		76593BA51D97940E00AD20D1 /* JMChoicenessController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76593BA41D97940E00AD20D1 /* JMChoicenessController.m */; };
-		76593BA81D97945200AD20D1 /* JMAttentionVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76593BA71D97945200AD20D1 /* JMAttentionVController.m */; };
-		76593BAB1D97947200AD20D1 /* JMExpertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76593BAA1D97947200AD20D1 /* JMExpertController.m */; };
-		76593BAE1D97949E00AD20D1 /* JMActivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76593BAD1D97949E00AD20D1 /* JMActivityController.m */; };
 		76AF2FC71D6F374800A93AE1 /* ShouGongKeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF2FC61D6F374800A93AE1 /* ShouGongKeTests.m */; };
 		76AF2FD21D6F374800A93AE1 /* ShouGongKeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF2FD11D6F374800A93AE1 /* ShouGongKeUITests.m */; };
 		A4CA1C376C9BE37BFA13EF4D /* libPods-ShouGongKe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 404D115402F88798CEC5BEEF /* libPods-ShouGongKe.a */; };
@@ -69,6 +71,18 @@
 
 /* Begin PBXFileReference section */
 		18D5EEE1278A7776793BF6DD /* Pods-ShouGongKe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShouGongKe.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShouGongKe/Pods-ShouGongKe.release.xcconfig"; sourceTree = "<group>"; };
+		2D275BA91D9A6827009CB401 /* JMActivityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMActivityController.h; sourceTree = "<group>"; };
+		2D275BAA1D9A6827009CB401 /* JMActivityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMActivityController.m; sourceTree = "<group>"; };
+		2D275BAC1D9A682F009CB401 /* JMAttentionVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMAttentionVController.h; sourceTree = "<group>"; };
+		2D275BAD1D9A682F009CB401 /* JMAttentionVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMAttentionVController.m; sourceTree = "<group>"; };
+		2D275BAF1D9A6838009CB401 /* JMChoicenessController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMChoicenessController.h; sourceTree = "<group>"; };
+		2D275BB01D9A6838009CB401 /* JMChoicenessController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMChoicenessController.m; sourceTree = "<group>"; };
+		2D275BB21D9A683E009CB401 /* JMExpertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMExpertController.h; sourceTree = "<group>"; };
+		2D275BB31D9A683E009CB401 /* JMExpertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMExpertController.m; sourceTree = "<group>"; };
+		2D275BB51D9A68B6009CB401 /* JMChoicenessCLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMChoicenessCLView.h; sourceTree = "<group>"; };
+		2D275BB61D9A68B6009CB401 /* JMChoicenessCLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMChoicenessCLView.m; sourceTree = "<group>"; };
+		2D275BB81D9A6C32009CB401 /* JMChoicenessScrollViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMChoicenessScrollViewCell.h; sourceTree = "<group>"; };
+		2D275BB91D9A6C32009CB401 /* JMChoicenessScrollViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMChoicenessScrollViewCell.m; sourceTree = "<group>"; };
 		2D5EA3FC1D84070B00C35029 /* AFAppDotNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAppDotNetAPIClient.h; sourceTree = "<group>"; };
 		2D5EA3FD1D84070B00C35029 /* AFAppDotNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAppDotNetAPIClient.m; sourceTree = "<group>"; };
 		2D5EA3FF1D84072000C35029 /* NSDictionary+RequestEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+RequestEncoding.h"; sourceTree = "<group>"; };
@@ -141,14 +155,6 @@
 		761C69B71D92DB92009DD827 /* YZDisplayViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZDisplayViewHeader.h; sourceTree = "<group>"; };
 		761C69B81D92DB92009DD827 /* YZFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZFlowLayout.h; sourceTree = "<group>"; };
 		761C69B91D92DB92009DD827 /* YZFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZFlowLayout.m; sourceTree = "<group>"; };
-		76593BA31D97940E00AD20D1 /* JMChoicenessController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMChoicenessController.h; sourceTree = "<group>"; };
-		76593BA41D97940E00AD20D1 /* JMChoicenessController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMChoicenessController.m; sourceTree = "<group>"; };
-		76593BA61D97945200AD20D1 /* JMAttentionVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMAttentionVController.h; sourceTree = "<group>"; };
-		76593BA71D97945200AD20D1 /* JMAttentionVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMAttentionVController.m; sourceTree = "<group>"; };
-		76593BA91D97947200AD20D1 /* JMExpertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMExpertController.h; sourceTree = "<group>"; };
-		76593BAA1D97947200AD20D1 /* JMExpertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMExpertController.m; sourceTree = "<group>"; };
-		76593BAC1D97949E00AD20D1 /* JMActivityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMActivityController.h; sourceTree = "<group>"; };
-		76593BAD1D97949E00AD20D1 /* JMActivityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMActivityController.m; sourceTree = "<group>"; };
 		76AF2FA91D6F374600A93AE1 /* ShouGongKe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShouGongKe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AF2FC21D6F374800A93AE1 /* ShouGongKeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShouGongKeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AF2FC61D6F374800A93AE1 /* ShouGongKeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShouGongKeTests.m; sourceTree = "<group>"; };
@@ -186,6 +192,142 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D275B901D9A67C1009CB401 /* Activity（活动） */ = {
+			isa = PBXGroup;
+			children = (
+				2D275B911D9A67C1009CB401 /* Controller */,
+				2D275B921D9A67C1009CB401 /* Model */,
+				2D275B931D9A67C1009CB401 /* View */,
+			);
+			path = "Activity（活动）";
+			sourceTree = "<group>";
+		};
+		2D275B911D9A67C1009CB401 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2D275BA91D9A6827009CB401 /* JMActivityController.h */,
+				2D275BAA1D9A6827009CB401 /* JMActivityController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2D275B921D9A67C1009CB401 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D275B931D9A67C1009CB401 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D275B941D9A67C1009CB401 /* Attention（关注） */ = {
+			isa = PBXGroup;
+			children = (
+				2D275B951D9A67C1009CB401 /* Controller */,
+				2D275B961D9A67C1009CB401 /* Model */,
+				2D275B971D9A67C1009CB401 /* View */,
+			);
+			path = "Attention（关注）";
+			sourceTree = "<group>";
+		};
+		2D275B951D9A67C1009CB401 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2D275BAC1D9A682F009CB401 /* JMAttentionVController.h */,
+				2D275BAD1D9A682F009CB401 /* JMAttentionVController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2D275B961D9A67C1009CB401 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D275B971D9A67C1009CB401 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D275B981D9A67C1009CB401 /* Choiceness（精选） */ = {
+			isa = PBXGroup;
+			children = (
+				2D275B991D9A67C1009CB401 /* Controller */,
+				2D275B9A1D9A67C1009CB401 /* Model */,
+				2D275B9B1D9A67C1009CB401 /* View */,
+			);
+			path = "Choiceness（精选）";
+			sourceTree = "<group>";
+		};
+		2D275B991D9A67C1009CB401 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2D275BAF1D9A6838009CB401 /* JMChoicenessController.h */,
+				2D275BB01D9A6838009CB401 /* JMChoicenessController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2D275B9A1D9A67C1009CB401 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D275B9B1D9A67C1009CB401 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2D275BB51D9A68B6009CB401 /* JMChoicenessCLView.h */,
+				2D275BB61D9A68B6009CB401 /* JMChoicenessCLView.m */,
+				2D275BB81D9A6C32009CB401 /* JMChoicenessScrollViewCell.h */,
+				2D275BB91D9A6C32009CB401 /* JMChoicenessScrollViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D275B9C1D9A67C1009CB401 /* Expert（达人） */ = {
+			isa = PBXGroup;
+			children = (
+				2D275B9D1D9A67C1009CB401 /* Controller */,
+				2D275B9E1D9A67C1009CB401 /* Model */,
+				2D275B9F1D9A67C1009CB401 /* View */,
+			);
+			path = "Expert（达人）";
+			sourceTree = "<group>";
+		};
+		2D275B9D1D9A67C1009CB401 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2D275BB21D9A683E009CB401 /* JMExpertController.h */,
+				2D275BB31D9A683E009CB401 /* JMExpertController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2D275B9E1D9A67C1009CB401 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D275B9F1D9A67C1009CB401 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		2DE88B2F1D8FE0E60027674D /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -522,6 +664,10 @@
 		76AF2FEC1D6F3A6D00A93AE1 /* Home(首页) */ = {
 			isa = PBXGroup;
 			children = (
+				2D275B981D9A67C1009CB401 /* Choiceness（精选） */,
+				2D275B941D9A67C1009CB401 /* Attention（关注） */,
+				2D275B9C1D9A67C1009CB401 /* Expert（达人） */,
+				2D275B901D9A67C1009CB401 /* Activity（活动） */,
 				76AF2FED1D6F3A6D00A93AE1 /* Controller */,
 				76AF2FEE1D6F3A6D00A93AE1 /* Model */,
 				76AF2FEF1D6F3A6D00A93AE1 /* View */,
@@ -534,14 +680,6 @@
 			children = (
 				76151AD11D9033950097C6DE /* JMHomeViewController.h */,
 				76151AD21D9033950097C6DE /* JMHomeViewController.m */,
-				76593BA31D97940E00AD20D1 /* JMChoicenessController.h */,
-				76593BA41D97940E00AD20D1 /* JMChoicenessController.m */,
-				76593BA61D97945200AD20D1 /* JMAttentionVController.h */,
-				76593BA71D97945200AD20D1 /* JMAttentionVController.m */,
-				76593BA91D97947200AD20D1 /* JMExpertController.h */,
-				76593BAA1D97947200AD20D1 /* JMExpertController.m */,
-				76593BAC1D97949E00AD20D1 /* JMActivityController.h */,
-				76593BAD1D97949E00AD20D1 /* JMActivityController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -807,23 +945,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D275BB41D9A683E009CB401 /* JMExpertController.m in Sources */,
 				2D5EA3FE1D84070B00C35029 /* AFAppDotNetAPIClient.m in Sources */,
 				7615AACF1D82F5DF00A2634F /* UIViewExt.m in Sources */,
 				7615AAE41D82F8BB00A2634F /* WKWebView+SynchronousEvaluateJavaScript.m in Sources */,
-				76593BAB1D97947200AD20D1 /* JMExpertController.m in Sources */,
 				7615AACB1D82F59300A2634F /* NSString+Regex.m in Sources */,
+				2D275BAB1D9A6827009CB401 /* JMActivityController.m in Sources */,
 				2DE88B321D8FE0E60027674D /* AppDelegate.m in Sources */,
-				76593BA51D97940E00AD20D1 /* JMChoicenessController.m in Sources */,
 				76151AE21D9034080097C6DE /* JMMyViewController.m in Sources */,
 				7615AAA81D82E8C500A2634F /* BaseViewController.m in Sources */,
 				76151AD61D9033B10097C6DE /* JMTutoriaViewController.m in Sources */,
 				76151AD31D9033950097C6DE /* JMHomeViewController.m in Sources */,
+				2D275BB11D9A6838009CB401 /* JMChoicenessController.m in Sources */,
 				2DE88B411D8FE6AD0027674D /* JMAdViewController.m in Sources */,
 				7615AAD51D82F75A00A2634F /* UIColor+Extension.m in Sources */,
+				2D275BB71D9A68B6009CB401 /* JMChoicenessCLView.m in Sources */,
+				2D275BAE1D9A682F009CB401 /* JMAttentionVController.m in Sources */,
 				76151AD91D9033C00097C6DE /* JMHandViewController.m in Sources */,
 				7615AADB1D82F83300A2634F /* UIView+BlockGesture.m in Sources */,
 				7615AAD81D82F7CB00A2634F /* UIImage+ImageWithColor.m in Sources */,
 				7615AACC1D82F59300A2634F /* NSString+String.m in Sources */,
+				2D275BBA1D9A6C32009CB401 /* JMChoicenessScrollViewCell.m in Sources */,
 				2DE88B3E1D8FE24E0027674D /* AppDelegate+AppService.m in Sources */,
 				2DE88B3B1D8FE2380027674D /* AppDelegate+AppLifeCircle.m in Sources */,
 				2DE88B381D8FE2150027674D /* AppDelegate+RootController.m in Sources */,
@@ -834,9 +976,7 @@
 				761C69BA1D92DB92009DD827 /* UIView+Frame.m in Sources */,
 				7615AAE11D82F89200A2634F /* UIViewController+Dealloc.m in Sources */,
 				761C69BC1D92DB92009DD827 /* YZDisplayViewController.m in Sources */,
-				76593BA81D97945200AD20D1 /* JMAttentionVController.m in Sources */,
 				7615AADE1D82F86300A2634F /* UIView+ViewController.m in Sources */,
-				76593BAE1D97949E00AD20D1 /* JMActivityController.m in Sources */,
 				76151ADF1D9033F60097C6DE /* JMFairViewController.m in Sources */,
 				76151AD01D90319B0097C6DE /* JMTabBarController.m in Sources */,
 				7615AAC61D82F57F00A2634F /* UIButton+Block.m in Sources */,

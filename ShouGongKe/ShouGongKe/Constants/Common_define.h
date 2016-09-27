@@ -10,8 +10,16 @@
 #ifndef Common_define_h
 #define Common_define_h
 
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define kAllHeight          ([UIScreen mainScreen].applicationFrame.size.height + 20.0)
+#define kBodyHeight         ([UIScreen mainScreen].applicationFrame.size.height - 44.0)
+#define SCREEN_BOUNDS [UIScreen mainScreen].bounds
+
 
 #define kTopTitleHeight 40
+
+
 
 
 /// block self

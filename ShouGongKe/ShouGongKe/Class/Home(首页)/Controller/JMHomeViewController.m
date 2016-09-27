@@ -35,7 +35,7 @@
         *titleScrollViewColor = kColorWhite;
         *norColor = kColorDarkGray;
         *selColor = kBaseRedColor;
-        *titleFont = kFontSize12;
+        *titleFont = kFontSize14;
         *titleHeight = kTopTitleHeight;
     }];
     
