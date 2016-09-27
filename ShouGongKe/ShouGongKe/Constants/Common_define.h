@@ -6,6 +6,8 @@
 //  Copyright © 2016年 Galaxy. All rights reserved.
 //
 #import "UIImageView+AFNetworking.h"
+#import "UIColor+Extension.h"
+
 
 #ifndef Common_define_h
 #define Common_define_h
@@ -18,8 +20,10 @@
 
 
 #define kTopTitleHeight 40
+#define kNavBarHeight 64
+#define kTabBarHeight 49
 
-
+#define kHomeContentHeight (SCREEN_HEIGHT - kNavBarHeight - kTabBarHeight - kTopTitleHeight)
 
 
 /// block self

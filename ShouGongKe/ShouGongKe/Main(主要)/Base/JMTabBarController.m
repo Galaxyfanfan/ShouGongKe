@@ -74,6 +74,10 @@
     }];
     
     
+    
+    // 去掉黑线
+//    [self.tabBar setShadowImage:[[UIImage alloc] init]];
+//    [self.tabBar setBackgroundImage:[UIImage imageNamed:@"bottomTabBar"]];
 }
 
 

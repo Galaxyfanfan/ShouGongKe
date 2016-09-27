@@ -24,6 +24,8 @@ PODS:
     - MBProgressHUD (~> 0.9)
     - SDWebImage (!= 3.7.2, ~> 3.7)
   - RegexKitLite (4.0)
+  - SDCycleScrollView (1.65):
+    - SDWebImage (~> 3.7)
   - SDWebImage (3.8.1):
     - SDWebImage/Core (= 3.8.1)
   - SDWebImage/Core (3.8.1)
@@ -35,6 +37,7 @@ DEPENDENCIES:
   - MJRefresh (~> 3.1.10)
   - MWPhotoBrowser (~> 2.1.2)
   - RegexKitLite (~> 4.0)
+  - SDCycleScrollView (~> 1.65)
   - SDWebImage (~> 3.8.1)
 
 SPEC CHECKSUMS:
@@ -46,8 +49,9 @@ SPEC CHECKSUMS:
   MJRefresh: bb72948c985914b0b5cecac573a2c69a8915fb02
   MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
   RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
+  SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
 
-PODFILE CHECKSUM: f4bbc9d20bd39767e15733e3ccf5fc2bfc87e9fb
+PODFILE CHECKSUM: 83be85f0295adb4024770fcc3ad5a8ce20e83444
 
 COCOAPODS: 1.0.1

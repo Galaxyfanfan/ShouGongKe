@@ -35,8 +35,10 @@
 #pragma mark - 懒加载
 - (JMChoicenessCLView *)clView{
     if (!_clView) {
-        UICollectionViewLayout *layout = [[UICollectionViewLayout alloc]init];
-        _clView = [[JMChoicenessCLView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT) collectionViewLayout:layout];
+        UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc]init];
+
+        _clView = [[JMChoicenessCLView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, kHomeContentHeight) collectionViewLayout:layout];
+        
         
     }
     return _clView;

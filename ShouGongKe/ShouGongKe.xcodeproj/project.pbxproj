@@ -47,6 +47,9 @@
 		761C69BB1D92DB92009DD827 /* YZDisplayTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 761C69B41D92DB92009DD827 /* YZDisplayTitleLabel.m */; };
 		761C69BC1D92DB92009DD827 /* YZDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 761C69B61D92DB92009DD827 /* YZDisplayViewController.m */; };
 		761C69BD1D92DB92009DD827 /* YZFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 761C69B91D92DB92009DD827 /* YZFlowLayout.m */; };
+		7678F2831D9ABC64004F8B21 /* JMChoicenessSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7678F2821D9ABC64004F8B21 /* JMChoicenessSelectCell.m */; };
+		7678F2861D9ABCF2004F8B21 /* JMChoicenessRecommendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7678F2851D9ABCF2004F8B21 /* JMChoicenessRecommendCell.m */; };
+		7678F2891D9ABD08004F8B21 /* JMChoicenessHotCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7678F2881D9ABD08004F8B21 /* JMChoicenessHotCell.m */; };
 		76AF2FC71D6F374800A93AE1 /* ShouGongKeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF2FC61D6F374800A93AE1 /* ShouGongKeTests.m */; };
 		76AF2FD21D6F374800A93AE1 /* ShouGongKeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF2FD11D6F374800A93AE1 /* ShouGongKeUITests.m */; };
 		A4CA1C376C9BE37BFA13EF4D /* libPods-ShouGongKe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 404D115402F88798CEC5BEEF /* libPods-ShouGongKe.a */; };
@@ -155,6 +158,12 @@
 		761C69B71D92DB92009DD827 /* YZDisplayViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZDisplayViewHeader.h; sourceTree = "<group>"; };
 		761C69B81D92DB92009DD827 /* YZFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZFlowLayout.h; sourceTree = "<group>"; };
 		761C69B91D92DB92009DD827 /* YZFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZFlowLayout.m; sourceTree = "<group>"; };
+		7678F2811D9ABC64004F8B21 /* JMChoicenessSelectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMChoicenessSelectCell.h; sourceTree = "<group>"; };
+		7678F2821D9ABC64004F8B21 /* JMChoicenessSelectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMChoicenessSelectCell.m; sourceTree = "<group>"; };
+		7678F2841D9ABCF2004F8B21 /* JMChoicenessRecommendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMChoicenessRecommendCell.h; sourceTree = "<group>"; };
+		7678F2851D9ABCF2004F8B21 /* JMChoicenessRecommendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMChoicenessRecommendCell.m; sourceTree = "<group>"; };
+		7678F2871D9ABD08004F8B21 /* JMChoicenessHotCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMChoicenessHotCell.h; sourceTree = "<group>"; };
+		7678F2881D9ABD08004F8B21 /* JMChoicenessHotCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMChoicenessHotCell.m; sourceTree = "<group>"; };
 		76AF2FA91D6F374600A93AE1 /* ShouGongKe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShouGongKe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AF2FC21D6F374800A93AE1 /* ShouGongKeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShouGongKeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AF2FC61D6F374800A93AE1 /* ShouGongKeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShouGongKeTests.m; sourceTree = "<group>"; };
@@ -291,6 +300,12 @@
 				2D275BB61D9A68B6009CB401 /* JMChoicenessCLView.m */,
 				2D275BB81D9A6C32009CB401 /* JMChoicenessScrollViewCell.h */,
 				2D275BB91D9A6C32009CB401 /* JMChoicenessScrollViewCell.m */,
+				7678F2811D9ABC64004F8B21 /* JMChoicenessSelectCell.h */,
+				7678F2821D9ABC64004F8B21 /* JMChoicenessSelectCell.m */,
+				7678F2841D9ABCF2004F8B21 /* JMChoicenessRecommendCell.h */,
+				7678F2851D9ABCF2004F8B21 /* JMChoicenessRecommendCell.m */,
+				7678F2871D9ABD08004F8B21 /* JMChoicenessHotCell.h */,
+				7678F2881D9ABD08004F8B21 /* JMChoicenessHotCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -955,6 +970,8 @@
 				76151AE21D9034080097C6DE /* JMMyViewController.m in Sources */,
 				7615AAA81D82E8C500A2634F /* BaseViewController.m in Sources */,
 				76151AD61D9033B10097C6DE /* JMTutoriaViewController.m in Sources */,
+				7678F2831D9ABC64004F8B21 /* JMChoicenessSelectCell.m in Sources */,
+				7678F2861D9ABCF2004F8B21 /* JMChoicenessRecommendCell.m in Sources */,
 				76151AD31D9033950097C6DE /* JMHomeViewController.m in Sources */,
 				2D275BB11D9A6838009CB401 /* JMChoicenessController.m in Sources */,
 				2DE88B411D8FE6AD0027674D /* JMAdViewController.m in Sources */,
@@ -980,6 +997,7 @@
 				76151ADF1D9033F60097C6DE /* JMFairViewController.m in Sources */,
 				76151AD01D90319B0097C6DE /* JMTabBarController.m in Sources */,
 				7615AAC61D82F57F00A2634F /* UIButton+Block.m in Sources */,
+				7678F2891D9ABD08004F8B21 /* JMChoicenessHotCell.m in Sources */,
 				761C69BB1D92DB92009DD827 /* YZDisplayTitleLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
