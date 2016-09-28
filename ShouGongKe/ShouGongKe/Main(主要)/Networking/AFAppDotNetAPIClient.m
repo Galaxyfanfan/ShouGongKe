@@ -30,8 +30,10 @@
     dispatch_once(&onceToken, ^{
         _sharedClient = [[AFAppDotNetAPIClient alloc] initWithBaseURL:[NSURL URLWithString:SGK_BASE_URL]];
         _sharedClient.securityPolicy = [AFSecurityPolicy policyWithPinningMode:AFSSLPinningModeNone];
+
         AFJSONResponseSerializer *serializer = [AFJSONResponseSerializer serializer];
         serializer.removesKeysWithNullValues = YES;
+        serializer.acceptableContentTypes = [NSSet setWithObject:@"text/html"];
         _sharedClient.responseSerializer = serializer;
     });
     

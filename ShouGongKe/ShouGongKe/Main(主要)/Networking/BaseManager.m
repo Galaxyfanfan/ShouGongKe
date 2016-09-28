@@ -47,7 +47,7 @@
         
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         NSDictionary *json_dic = (NSDictionary*)responseObject;
-        DLog(@"\n<<-----------返回--------------------\n Url == %@%@\n Res == %@\n DicStyle == %@\n------------------------------->>", SGK_BASE_URL, url, [json_dic jsonEncodedKeyValueString], json_dic);
+        DLog(@"\n<<-----------返回--------------------\n Url == %@?%@\n Res == %@\n DicStyle == %@\n------------------------------->>", SGK_BASE_URL, url, [json_dic jsonEncodedKeyValueString], json_dic);
         if (block){
             block(json_dic,nil);
         }

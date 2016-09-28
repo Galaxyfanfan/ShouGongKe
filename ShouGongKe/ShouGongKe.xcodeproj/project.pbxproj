@@ -15,6 +15,10 @@
 		2D275BBA1D9A6C32009CB401 /* JMChoicenessScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D275BB91D9A6C32009CB401 /* JMChoicenessScrollViewCell.m */; };
 		2D5EA3FE1D84070B00C35029 /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EA3FD1D84070B00C35029 /* AFAppDotNetAPIClient.m */; };
 		2D5EA4011D84072000C35029 /* NSDictionary+RequestEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EA4001D84072000C35029 /* NSDictionary+RequestEncoding.m */; };
+		2DB0798D1D9BA70100403E18 /* SGKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB0798C1D9BA70100403E18 /* SGKManager.m */; };
+		2DB079901D9BB6FD00403E18 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB0798F1D9BB6FD00403E18 /* BaseModel.m */; };
+		2DB079931D9BB70700403E18 /* StatusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB079921D9BB70700403E18 /* StatusModel.m */; };
+		2DB079961D9BB73400403E18 /* StatusRecordListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB079951D9BB73400403E18 /* StatusRecordListModel.m */; };
 		2DE88B2E1D8FD7860027674D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE88B2D1D8FD7860027674D /* WebKit.framework */; };
 		2DE88B321D8FE0E60027674D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE88B311D8FE0E60027674D /* AppDelegate.m */; };
 		2DE88B381D8FE2150027674D /* AppDelegate+RootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE88B371D8FE2150027674D /* AppDelegate+RootController.m */; };
@@ -90,6 +94,14 @@
 		2D5EA3FD1D84070B00C35029 /* AFAppDotNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAppDotNetAPIClient.m; sourceTree = "<group>"; };
 		2D5EA3FF1D84072000C35029 /* NSDictionary+RequestEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+RequestEncoding.h"; sourceTree = "<group>"; };
 		2D5EA4001D84072000C35029 /* NSDictionary+RequestEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+RequestEncoding.m"; sourceTree = "<group>"; };
+		2DB0798B1D9BA70100403E18 /* SGKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGKManager.h; sourceTree = "<group>"; };
+		2DB0798C1D9BA70100403E18 /* SGKManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGKManager.m; sourceTree = "<group>"; };
+		2DB0798E1D9BB6FD00403E18 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		2DB0798F1D9BB6FD00403E18 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		2DB079911D9BB70700403E18 /* StatusModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusModel.h; sourceTree = "<group>"; };
+		2DB079921D9BB70700403E18 /* StatusModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusModel.m; sourceTree = "<group>"; };
+		2DB079941D9BB73400403E18 /* StatusRecordListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusRecordListModel.h; sourceTree = "<group>"; };
+		2DB079951D9BB73400403E18 /* StatusRecordListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusRecordListModel.m; sourceTree = "<group>"; };
 		2DE88B2D1D8FD7860027674D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		2DE88B301D8FE0E60027674D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2DE88B311D8FE0E60027674D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -394,6 +406,12 @@
 				7615AAA21D82E8C500A2634F /* BaseViewController.m */,
 				76151ACE1D90319B0097C6DE /* JMTabBarController.h */,
 				76151ACF1D90319B0097C6DE /* JMTabBarController.m */,
+				2DB0798E1D9BB6FD00403E18 /* BaseModel.h */,
+				2DB0798F1D9BB6FD00403E18 /* BaseModel.m */,
+				2DB079911D9BB70700403E18 /* StatusModel.h */,
+				2DB079921D9BB70700403E18 /* StatusModel.m */,
+				2DB079941D9BB73400403E18 /* StatusRecordListModel.h */,
+				2DB079951D9BB73400403E18 /* StatusRecordListModel.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -480,6 +498,8 @@
 				2D5EA3FD1D84070B00C35029 /* AFAppDotNetAPIClient.m */,
 				7615AAE61D82FAF400A2634F /* BaseManager.h */,
 				7615AAE71D82FAF400A2634F /* BaseManager.m */,
+				2DB0798B1D9BA70100403E18 /* SGKManager.h */,
+				2DB0798C1D9BA70100403E18 /* SGKManager.m */,
 			);
 			name = Networking;
 			path = "Main(主要)/Networking";
@@ -961,6 +981,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D275BB41D9A683E009CB401 /* JMExpertController.m in Sources */,
+				2DB079931D9BB70700403E18 /* StatusModel.m in Sources */,
 				2D5EA3FE1D84070B00C35029 /* AFAppDotNetAPIClient.m in Sources */,
 				7615AACF1D82F5DF00A2634F /* UIViewExt.m in Sources */,
 				7615AAE41D82F8BB00A2634F /* WKWebView+SynchronousEvaluateJavaScript.m in Sources */,
@@ -990,13 +1011,16 @@
 				7615AAE81D82FAF400A2634F /* BaseManager.m in Sources */,
 				761C69BD1D92DB92009DD827 /* YZFlowLayout.m in Sources */,
 				7615AAC31D82F06F00A2634F /* main.m in Sources */,
+				2DB079901D9BB6FD00403E18 /* BaseModel.m in Sources */,
 				761C69BA1D92DB92009DD827 /* UIView+Frame.m in Sources */,
+				2DB0798D1D9BA70100403E18 /* SGKManager.m in Sources */,
 				7615AAE11D82F89200A2634F /* UIViewController+Dealloc.m in Sources */,
 				761C69BC1D92DB92009DD827 /* YZDisplayViewController.m in Sources */,
 				7615AADE1D82F86300A2634F /* UIView+ViewController.m in Sources */,
 				76151ADF1D9033F60097C6DE /* JMFairViewController.m in Sources */,
 				76151AD01D90319B0097C6DE /* JMTabBarController.m in Sources */,
 				7615AAC61D82F57F00A2634F /* UIButton+Block.m in Sources */,
+				2DB079961D9BB73400403E18 /* StatusRecordListModel.m in Sources */,
 				7678F2891D9ABD08004F8B21 /* JMChoicenessHotCell.m in Sources */,
 				761C69BB1D92DB92009DD827 /* YZDisplayTitleLabel.m in Sources */,
 			);

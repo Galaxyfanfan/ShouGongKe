@@ -19,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self initViews];
+    [self loadHomeData];
     
 }
 
@@ -27,7 +28,20 @@
 }
 
 
+- (void)loadHomeData{
+    
+    
+    [[SGKManager sharedSGKHttpManager]getHomeChoicenessDataWithGET:nil block:^(NSDictionary *json_dic, NSError *error) {
+        if([[json_dic objectForKey:kNetworkStatus] isEqual:kNetworkStatusSuccess]){
+            NSArray *dataArr = [json_dic objectForKey:kNetworkData];
+            DLog(@"%@",dataArr);
+            
+        }else{
 
+        }
+    }];
+    
+}
 
 
 
