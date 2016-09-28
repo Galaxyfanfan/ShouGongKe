@@ -7,7 +7,7 @@
 //
 #import "SGKManager.h"
 //
-static NSString *const getHomeChoicenessData = @"index.php?&c=index&a=indexNewest&vid=21";
+static NSString *const getHomeChoicenessData = @"index.php";
 
 @implementation SGKManager
 

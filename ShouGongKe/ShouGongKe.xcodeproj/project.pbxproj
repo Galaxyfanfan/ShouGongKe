@@ -54,6 +54,11 @@
 		7678F2831D9ABC64004F8B21 /* JMChoicenessSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7678F2821D9ABC64004F8B21 /* JMChoicenessSelectCell.m */; };
 		7678F2861D9ABCF2004F8B21 /* JMChoicenessRecommendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7678F2851D9ABCF2004F8B21 /* JMChoicenessRecommendCell.m */; };
 		7678F2891D9ABD08004F8B21 /* JMChoicenessHotCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7678F2881D9ABD08004F8B21 /* JMChoicenessHotCell.m */; };
+		7682F9811D9C00EB005A9EA4 /* JMChoicenessModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7682F9801D9C00EB005A9EA4 /* JMChoicenessModel.m */; };
+		7682F9841D9C01B2005A9EA4 /* JMSlideModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7682F9831D9C01B2005A9EA4 /* JMSlideModel.m */; };
+		7682F9871D9C01D6005A9EA4 /* JMNavigationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7682F9861D9C01D6005A9EA4 /* JMNavigationModel.m */; };
+		7682F98A1D9C01F1005A9EA4 /* JMAdvanceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7682F9891D9C01F1005A9EA4 /* JMAdvanceModel.m */; };
+		7682F98D1D9C025C005A9EA4 /* JMHotTopicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7682F98C1D9C025C005A9EA4 /* JMHotTopicModel.m */; };
 		76AF2FC71D6F374800A93AE1 /* ShouGongKeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF2FC61D6F374800A93AE1 /* ShouGongKeTests.m */; };
 		76AF2FD21D6F374800A93AE1 /* ShouGongKeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF2FD11D6F374800A93AE1 /* ShouGongKeUITests.m */; };
 		A4CA1C376C9BE37BFA13EF4D /* libPods-ShouGongKe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 404D115402F88798CEC5BEEF /* libPods-ShouGongKe.a */; };
@@ -176,6 +181,16 @@
 		7678F2851D9ABCF2004F8B21 /* JMChoicenessRecommendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMChoicenessRecommendCell.m; sourceTree = "<group>"; };
 		7678F2871D9ABD08004F8B21 /* JMChoicenessHotCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMChoicenessHotCell.h; sourceTree = "<group>"; };
 		7678F2881D9ABD08004F8B21 /* JMChoicenessHotCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMChoicenessHotCell.m; sourceTree = "<group>"; };
+		7682F97F1D9C00EB005A9EA4 /* JMChoicenessModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMChoicenessModel.h; path = "ShouGongKe/Class/Home(首页)/Choiceness（精选）/View/JMChoicenessModel.h"; sourceTree = SOURCE_ROOT; };
+		7682F9801D9C00EB005A9EA4 /* JMChoicenessModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMChoicenessModel.m; path = "ShouGongKe/Class/Home(首页)/Choiceness（精选）/View/JMChoicenessModel.m"; sourceTree = SOURCE_ROOT; };
+		7682F9821D9C01B2005A9EA4 /* JMSlideModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMSlideModel.h; path = "ShouGongKe/Class/Home(首页)/Choiceness（精选）/View/JMSlideModel.h"; sourceTree = SOURCE_ROOT; };
+		7682F9831D9C01B2005A9EA4 /* JMSlideModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMSlideModel.m; path = "ShouGongKe/Class/Home(首页)/Choiceness（精选）/View/JMSlideModel.m"; sourceTree = SOURCE_ROOT; };
+		7682F9851D9C01D6005A9EA4 /* JMNavigationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMNavigationModel.h; path = "ShouGongKe/Class/Home(首页)/Choiceness（精选）/View/JMNavigationModel.h"; sourceTree = SOURCE_ROOT; };
+		7682F9861D9C01D6005A9EA4 /* JMNavigationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMNavigationModel.m; path = "ShouGongKe/Class/Home(首页)/Choiceness（精选）/View/JMNavigationModel.m"; sourceTree = SOURCE_ROOT; };
+		7682F9881D9C01F1005A9EA4 /* JMAdvanceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMAdvanceModel.h; path = "ShouGongKe/Class/Home(首页)/Choiceness（精选）/View/JMAdvanceModel.h"; sourceTree = SOURCE_ROOT; };
+		7682F9891D9C01F1005A9EA4 /* JMAdvanceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMAdvanceModel.m; path = "ShouGongKe/Class/Home(首页)/Choiceness（精选）/View/JMAdvanceModel.m"; sourceTree = SOURCE_ROOT; };
+		7682F98B1D9C025C005A9EA4 /* JMHotTopicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMHotTopicModel.h; path = "ShouGongKe/Class/Home(首页)/Choiceness（精选）/View/JMHotTopicModel.h"; sourceTree = SOURCE_ROOT; };
+		7682F98C1D9C025C005A9EA4 /* JMHotTopicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMHotTopicModel.m; path = "ShouGongKe/Class/Home(首页)/Choiceness（精选）/View/JMHotTopicModel.m"; sourceTree = SOURCE_ROOT; };
 		76AF2FA91D6F374600A93AE1 /* ShouGongKe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShouGongKe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AF2FC21D6F374800A93AE1 /* ShouGongKeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShouGongKeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AF2FC61D6F374800A93AE1 /* ShouGongKeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShouGongKeTests.m; sourceTree = "<group>"; };
@@ -301,6 +316,16 @@
 		2D275B9A1D9A67C1009CB401 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7682F97F1D9C00EB005A9EA4 /* JMChoicenessModel.h */,
+				7682F9801D9C00EB005A9EA4 /* JMChoicenessModel.m */,
+				7682F9821D9C01B2005A9EA4 /* JMSlideModel.h */,
+				7682F9831D9C01B2005A9EA4 /* JMSlideModel.m */,
+				7682F9851D9C01D6005A9EA4 /* JMNavigationModel.h */,
+				7682F9861D9C01D6005A9EA4 /* JMNavigationModel.m */,
+				7682F9881D9C01F1005A9EA4 /* JMAdvanceModel.h */,
+				7682F9891D9C01F1005A9EA4 /* JMAdvanceModel.m */,
+				7682F98B1D9C025C005A9EA4 /* JMHotTopicModel.h */,
+				7682F98C1D9C025C005A9EA4 /* JMHotTopicModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -982,6 +1007,7 @@
 			files = (
 				2D275BB41D9A683E009CB401 /* JMExpertController.m in Sources */,
 				2DB079931D9BB70700403E18 /* StatusModel.m in Sources */,
+				7682F9811D9C00EB005A9EA4 /* JMChoicenessModel.m in Sources */,
 				2D5EA3FE1D84070B00C35029 /* AFAppDotNetAPIClient.m in Sources */,
 				7615AACF1D82F5DF00A2634F /* UIViewExt.m in Sources */,
 				7615AAE41D82F8BB00A2634F /* WKWebView+SynchronousEvaluateJavaScript.m in Sources */,
@@ -997,9 +1023,11 @@
 				2D275BB11D9A6838009CB401 /* JMChoicenessController.m in Sources */,
 				2DE88B411D8FE6AD0027674D /* JMAdViewController.m in Sources */,
 				7615AAD51D82F75A00A2634F /* UIColor+Extension.m in Sources */,
+				7682F9871D9C01D6005A9EA4 /* JMNavigationModel.m in Sources */,
 				2D275BB71D9A68B6009CB401 /* JMChoicenessCLView.m in Sources */,
 				2D275BAE1D9A682F009CB401 /* JMAttentionVController.m in Sources */,
 				76151AD91D9033C00097C6DE /* JMHandViewController.m in Sources */,
+				7682F98A1D9C01F1005A9EA4 /* JMAdvanceModel.m in Sources */,
 				7615AADB1D82F83300A2634F /* UIView+BlockGesture.m in Sources */,
 				7615AAD81D82F7CB00A2634F /* UIImage+ImageWithColor.m in Sources */,
 				7615AACC1D82F59300A2634F /* NSString+String.m in Sources */,
@@ -1007,6 +1035,7 @@
 				2DE88B3E1D8FE24E0027674D /* AppDelegate+AppService.m in Sources */,
 				2DE88B3B1D8FE2380027674D /* AppDelegate+AppLifeCircle.m in Sources */,
 				2DE88B381D8FE2150027674D /* AppDelegate+RootController.m in Sources */,
+				7682F98D1D9C025C005A9EA4 /* JMHotTopicModel.m in Sources */,
 				2D5EA4011D84072000C35029 /* NSDictionary+RequestEncoding.m in Sources */,
 				7615AAE81D82FAF400A2634F /* BaseManager.m in Sources */,
 				761C69BD1D92DB92009DD827 /* YZFlowLayout.m in Sources */,
@@ -1016,6 +1045,7 @@
 				2DB0798D1D9BA70100403E18 /* SGKManager.m in Sources */,
 				7615AAE11D82F89200A2634F /* UIViewController+Dealloc.m in Sources */,
 				761C69BC1D92DB92009DD827 /* YZDisplayViewController.m in Sources */,
+				7682F9841D9C01B2005A9EA4 /* JMSlideModel.m in Sources */,
 				7615AADE1D82F86300A2634F /* UIView+ViewController.m in Sources */,
 				76151ADF1D9033F60097C6DE /* JMFairViewController.m in Sources */,
 				76151AD01D90319B0097C6DE /* JMTabBarController.m in Sources */,

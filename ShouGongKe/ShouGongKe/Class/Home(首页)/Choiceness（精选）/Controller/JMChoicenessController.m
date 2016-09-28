@@ -7,7 +7,11 @@
 //
 
 #import "JMChoicenessController.h"
+
 #import "JMChoicenessCLView.h"
+
+#import "JMChoicenessModel.h"
+#import "JMNavigationModel.h"
 @interface JMChoicenessController ()
 @property (nonatomic,strong)JMChoicenessCLView *clView;
 
@@ -27,14 +31,35 @@
     [self.view addSubview:self.clView];
 }
 
-
+- (JMNavigationModel *)addNavigationModel{
+    JMNavigationModel *QianDaoModel = [[JMNavigationModel alloc]init];
+    QianDaoModel.pic = @"http://image.shougongke.com/app/index/navigation/appIndexNav12.png";
+    QianDaoModel.name = @"签到";
+    return QianDaoModel;
+}
 - (void)loadHomeData{
+    NSMutableDictionary *params = [NSMutableDictionary dictionary];
+    params[@"c"] = @"index";
+    params[@"a"] = @"indexNewest";
+    params[@"vid"] = @"18";
     
-    
-    [[SGKManager sharedSGKHttpManager]getHomeChoicenessDataWithGET:nil block:^(NSDictionary *json_dic, NSError *error) {
-        if([[json_dic objectForKey:kNetworkStatus] isEqual:kNetworkStatusSuccess]){
-            NSArray *dataArr = [json_dic objectForKey:kNetworkData];
-            DLog(@"%@",dataArr);
+    kSelfWeak;
+    [[SGKManager sharedSGKHttpManager]getHomeChoicenessDataWithGET:params block:^(NSDictionary *json_dic, NSError *error) {
+        kSelfStrong;
+        NSNumber *status = [json_dic objectForKey:kNetworkStatus];
+        if([status integerValue] == 1){
+            NSArray *dataDic = [json_dic objectForKey:kNetworkData];
+
+            JMChoicenessModel *choicenessModel = [JMChoicenessModel mj_objectWithKeyValues:dataDic];
+            
+            //添加 签到
+            NSMutableArray *navArr = [NSMutableArray arrayWithArray:choicenessModel.navigation];
+            [navArr addObject:[self addNavigationModel]];
+            choicenessModel.navigation = navArr;
+            
+            strongSelf.clView.choiceModel = choicenessModel;
+            [strongSelf.clView reloadData];
+            
             
         }else{
 

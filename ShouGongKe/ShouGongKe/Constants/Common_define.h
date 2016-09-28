@@ -9,7 +9,8 @@
 #import "UIColor+Extension.h"
 #import "SGKManager.h"
 #import "MJExtension.h"
-
+#import "UIImageView+WebCache.h"
+#import "UIViewExt.h"
 
 #ifndef Common_define_h
 #define Common_define_h
@@ -26,10 +27,11 @@
 
 #define kHomeContentHeight (SCREEN_HEIGHT - kNavBarHeight - kTabBarHeight - kTopTitleHeight)
 
+#define kSpace 10
+
 
 /*  网络返回字段  */
 #define kNetworkStatus @"status"
-#define kNetworkStatusSuccess @"1"
 #define kNetworkInfo @"info"
 #define kNetworkData @"data"
 

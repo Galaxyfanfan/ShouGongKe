@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "JMAdvanceModel.h"
 @interface JMChoicenessRecommendCell : UICollectionViewCell
-
+@property (nonatomic,strong)JMAdvanceModel *advanceModel;
 @end

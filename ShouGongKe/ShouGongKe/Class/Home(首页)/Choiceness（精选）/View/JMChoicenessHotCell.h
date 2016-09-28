@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "JMHotTopicModel.h"
 @interface JMChoicenessHotCell : UICollectionViewCell
-
+@property (nonatomic,strong)JMHotTopicModel *hotModel;
 @end

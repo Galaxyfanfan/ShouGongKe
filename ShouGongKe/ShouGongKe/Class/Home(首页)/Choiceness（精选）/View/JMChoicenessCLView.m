@@ -31,11 +31,11 @@
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
     if (section == 1) {
-        return 4;
+        return self.choiceModel.navigation.count;
     }else if(section == 2){
-        return 2;
+        return self.choiceModel.advance.count;
     }else if(section == 3){
-        return 10;
+        return self.choiceModel.hotTopic.count;
     }
     return 1;
 }
@@ -50,20 +50,26 @@
     }else if(indexPath.section == 1){
         JMChoicenessSelectCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"JMChoicenessSelectCell" forIndexPath:indexPath];
         
-        cell.backgroundColor = [UIColor randomColor];
+        NSArray *navArr = self.choiceModel.navigation;
+        cell.navModel = navArr[indexPath.row];
+//        cell.backgroundColor = [UIColor randomColor];
         
         return cell;
     }else if(indexPath.section == 2){
         JMChoicenessRecommendCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"JMChoicenessRecommendCell" forIndexPath:indexPath];
         
-        cell.backgroundColor = [UIColor randomColor];
+//        cell.backgroundColor = [UIColor randomColor];
+        NSArray *advanceArr = self.choiceModel.advance;
+        cell.advanceModel = advanceArr[indexPath.row];
         
         return cell;
     }
     
     JMChoicenessHotCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"JMChoicenessHotCell" forIndexPath:indexPath];
     
-    cell.backgroundColor = [UIColor randomColor];
+//    cell.backgroundColor = [UIColor randomColor];
+    NSArray *hotArr = self.choiceModel.hotTopic;
+    cell.hotModel = hotArr[indexPath.row];
 
     return cell;
 }
@@ -107,7 +113,7 @@
     self.backgroundColor = kColorWhite;
     [self registerClass:[JMChoicenessScrollViewCell class] forCellWithReuseIdentifier:@"JMChoicenessScrollViewCell"];
     [self registerClass:[JMChoicenessSelectCell class] forCellWithReuseIdentifier:@"JMChoicenessSelectCell"];
-    [self registerClass:[JMChoicenessScrollViewCell class] forCellWithReuseIdentifier:@"JMChoicenessRecommendCell"];
+    [self registerClass:[JMChoicenessRecommendCell class] forCellWithReuseIdentifier:@"JMChoicenessRecommendCell"];
     [self registerClass:[JMChoicenessHotCell class] forCellWithReuseIdentifier:@"JMChoicenessHotCell"];
 
 }

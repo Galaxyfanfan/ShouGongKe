@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "JMNavigationModel.h"
 @interface JMChoicenessSelectCell : UICollectionViewCell
-
+@property (nonatomic,strong)JMNavigationModel *navModel;
 @end

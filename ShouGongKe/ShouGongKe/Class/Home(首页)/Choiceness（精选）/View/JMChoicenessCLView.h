@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "JMChoicenessModel.h"
 @interface JMChoicenessCLView : UICollectionView
 
-
+@property (nonatomic,strong)JMChoicenessModel *choiceModel;
 
 
 @end
