@@ -10,5 +10,5 @@ pod 'Masonry', '~> 1.0.1'
 pod 'RegexKitLite', '~> 4.0'
 pod 'MJExtension', '~> 3.0.12'
 pod 'SDCycleScrollView', '~> 1.65'
-#pod 'WSProgressHUD', '~> 1.1.1'
+pod 'WSProgressHUD', '~> 1.1.1'
 end

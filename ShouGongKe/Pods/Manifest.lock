@@ -29,6 +29,9 @@ PODS:
   - SDWebImage (3.8.1):
     - SDWebImage/Core (= 3.8.1)
   - SDWebImage/Core (3.8.1)
+  - Shimmer (1.0.2)
+  - WSProgressHUD (1.1.1):
+    - Shimmer
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
@@ -39,6 +42,7 @@ DEPENDENCIES:
   - RegexKitLite (~> 4.0)
   - SDCycleScrollView (~> 1.65)
   - SDWebImage (~> 3.8.1)
+  - WSProgressHUD (~> 1.1.1)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
@@ -51,7 +55,9 @@ SPEC CHECKSUMS:
   RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
   SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+  WSProgressHUD: 0ebb8dd846f7fb4715d42c87584456480cb7fbf0
 
-PODFILE CHECKSUM: 58c231074fa3cbe480737b492987fb558790a9a6
+PODFILE CHECKSUM: 955b94d2f8c1682dfd6979aa8d80c4e61cd4b6c9
 
 COCOAPODS: 1.0.1

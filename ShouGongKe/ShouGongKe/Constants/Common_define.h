@@ -11,6 +11,9 @@
 #import "MJExtension.h"
 #import "UIImageView+WebCache.h"
 #import "UIViewExt.h"
+#import "WSProgressHUD.h"
+#import "JMRefreshHeader.h"
+#import "JMRefreshFooter.h"
 
 #ifndef Common_define_h
 #define Common_define_h
@@ -35,13 +38,21 @@
 #define kNetworkInfo @"info"
 #define kNetworkData @"data"
 
+
+/* 网络提示 */
+#define kReturnMsgFailure @"服务器开小差去啦"
+
+
 /*  block self  */
 #define kSelfWeak __weak typeof(self) weakSelf = self
 #define kSelfStrong __strong __typeof__(weakSelf) strongSelf = weakSelf
 
 /*  Dlog  */
 #ifdef DEBUG
-#   define DLog(fmt, ...) {NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);}
+//#   define DLog(fmt, ...) {NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);}
+//iOS10.0以上真机调试时NSLog打印不出日志 改用printf
+#define DLog(fmt, ...) printf("< Line:(%d) > method: %s \n%s\n", __LINE__, __PRETTY_FUNCTION__, [[NSString stringWithFormat:(fmt), ##__VA_ARGS__] UTF8String] )
+
 #   define ELog(err) {if(err) DLog(@"%@", err)}
 #else
 #   define DLog(...)

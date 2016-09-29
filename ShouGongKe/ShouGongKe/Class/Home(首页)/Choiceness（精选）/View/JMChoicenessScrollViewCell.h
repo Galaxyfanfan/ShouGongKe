@@ -10,4 +10,6 @@
 
 @interface JMChoicenessScrollViewCell : UICollectionViewCell
 
+@property (nonatomic,strong)NSArray *slideArr;
+
 @end

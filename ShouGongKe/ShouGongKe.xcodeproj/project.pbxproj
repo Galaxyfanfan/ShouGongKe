@@ -13,6 +13,9 @@
 		2D275BB41D9A683E009CB401 /* JMExpertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D275BB31D9A683E009CB401 /* JMExpertController.m */; };
 		2D275BB71D9A68B6009CB401 /* JMChoicenessCLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D275BB61D9A68B6009CB401 /* JMChoicenessCLView.m */; };
 		2D275BBA1D9A6C32009CB401 /* JMChoicenessScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D275BB91D9A6C32009CB401 /* JMChoicenessScrollViewCell.m */; };
+		2D31D8DC1D9D00B500D74885 /* JMRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D31D8DB1D9D00B500D74885 /* JMRefreshHeader.m */; };
+		2D31D8DF1D9D012700D74885 /* JMRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D31D8DE1D9D012700D74885 /* JMRefreshFooter.m */; };
+		2D31D8E21D9D06C900D74885 /* JMChoicenessHotHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D31D8E11D9D06C900D74885 /* JMChoicenessHotHeaderView.m */; };
 		2D5EA3FE1D84070B00C35029 /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EA3FD1D84070B00C35029 /* AFAppDotNetAPIClient.m */; };
 		2D5EA4011D84072000C35029 /* NSDictionary+RequestEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EA4001D84072000C35029 /* NSDictionary+RequestEncoding.m */; };
 		2DB0798D1D9BA70100403E18 /* SGKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB0798C1D9BA70100403E18 /* SGKManager.m */; };
@@ -95,6 +98,12 @@
 		2D275BB61D9A68B6009CB401 /* JMChoicenessCLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMChoicenessCLView.m; sourceTree = "<group>"; };
 		2D275BB81D9A6C32009CB401 /* JMChoicenessScrollViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMChoicenessScrollViewCell.h; sourceTree = "<group>"; };
 		2D275BB91D9A6C32009CB401 /* JMChoicenessScrollViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMChoicenessScrollViewCell.m; sourceTree = "<group>"; };
+		2D31D8DA1D9D00B500D74885 /* JMRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRefreshHeader.h; sourceTree = "<group>"; };
+		2D31D8DB1D9D00B500D74885 /* JMRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRefreshHeader.m; sourceTree = "<group>"; };
+		2D31D8DD1D9D012700D74885 /* JMRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRefreshFooter.h; sourceTree = "<group>"; };
+		2D31D8DE1D9D012700D74885 /* JMRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRefreshFooter.m; sourceTree = "<group>"; };
+		2D31D8E01D9D06C900D74885 /* JMChoicenessHotHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMChoicenessHotHeaderView.h; sourceTree = "<group>"; };
+		2D31D8E11D9D06C900D74885 /* JMChoicenessHotHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMChoicenessHotHeaderView.m; sourceTree = "<group>"; };
 		2D5EA3FC1D84070B00C35029 /* AFAppDotNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAppDotNetAPIClient.h; sourceTree = "<group>"; };
 		2D5EA3FD1D84070B00C35029 /* AFAppDotNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAppDotNetAPIClient.m; sourceTree = "<group>"; };
 		2D5EA3FF1D84072000C35029 /* NSDictionary+RequestEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+RequestEncoding.h"; sourceTree = "<group>"; };
@@ -343,6 +352,8 @@
 				7678F2851D9ABCF2004F8B21 /* JMChoicenessRecommendCell.m */,
 				7678F2871D9ABD08004F8B21 /* JMChoicenessHotCell.h */,
 				7678F2881D9ABD08004F8B21 /* JMChoicenessHotCell.m */,
+				2D31D8E01D9D06C900D74885 /* JMChoicenessHotHeaderView.h */,
+				2D31D8E11D9D06C900D74885 /* JMChoicenessHotHeaderView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -437,6 +448,10 @@
 				2DB079921D9BB70700403E18 /* StatusModel.m */,
 				2DB079941D9BB73400403E18 /* StatusRecordListModel.h */,
 				2DB079951D9BB73400403E18 /* StatusRecordListModel.m */,
+				2D31D8DA1D9D00B500D74885 /* JMRefreshHeader.h */,
+				2D31D8DB1D9D00B500D74885 /* JMRefreshHeader.m */,
+				2D31D8DD1D9D012700D74885 /* JMRefreshFooter.h */,
+				2D31D8DE1D9D012700D74885 /* JMRefreshFooter.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -894,6 +909,7 @@
 				TargetAttributes = {
 					76AF2FA81D6F374600A93AE1 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = W5BT74AQ2S;
 					};
 					76AF2FC11D6F374800A93AE1 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -1006,6 +1022,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D275BB41D9A683E009CB401 /* JMExpertController.m in Sources */,
+				2D31D8DF1D9D012700D74885 /* JMRefreshFooter.m in Sources */,
 				2DB079931D9BB70700403E18 /* StatusModel.m in Sources */,
 				7682F9811D9C00EB005A9EA4 /* JMChoicenessModel.m in Sources */,
 				2D5EA3FE1D84070B00C35029 /* AFAppDotNetAPIClient.m in Sources */,
@@ -1018,6 +1035,7 @@
 				7615AAA81D82E8C500A2634F /* BaseViewController.m in Sources */,
 				76151AD61D9033B10097C6DE /* JMTutoriaViewController.m in Sources */,
 				7678F2831D9ABC64004F8B21 /* JMChoicenessSelectCell.m in Sources */,
+				2D31D8DC1D9D00B500D74885 /* JMRefreshHeader.m in Sources */,
 				7678F2861D9ABCF2004F8B21 /* JMChoicenessRecommendCell.m in Sources */,
 				76151AD31D9033950097C6DE /* JMHomeViewController.m in Sources */,
 				2D275BB11D9A6838009CB401 /* JMChoicenessController.m in Sources */,
@@ -1029,6 +1047,7 @@
 				76151AD91D9033C00097C6DE /* JMHandViewController.m in Sources */,
 				7682F98A1D9C01F1005A9EA4 /* JMAdvanceModel.m in Sources */,
 				7615AADB1D82F83300A2634F /* UIView+BlockGesture.m in Sources */,
+				2D31D8E21D9D06C900D74885 /* JMChoicenessHotHeaderView.m in Sources */,
 				7615AAD81D82F7CB00A2634F /* UIImage+ImageWithColor.m in Sources */,
 				7615AACC1D82F59300A2634F /* NSString+String.m in Sources */,
 				2D275BBA1D9A6C32009CB401 /* JMChoicenessScrollViewCell.m in Sources */,
@@ -1187,6 +1206,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = W5BT74AQ2S;
 				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ShouGongKe/Main(主要)/Tools/ShouGongKe-Prefix.pch";
@@ -1204,6 +1224,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = W5BT74AQ2S;
 				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ShouGongKe/Main(主要)/Tools/ShouGongKe-Prefix.pch";

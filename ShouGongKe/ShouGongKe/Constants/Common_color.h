@@ -36,7 +36,7 @@
 
 #define kColorDarkGray [UIColor darkGrayColor]
 
-
+#define kColorLightGray [UIColor lightGrayColor]
 
 
 //

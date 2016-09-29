@@ -8,9 +8,16 @@
 
 #import <UIKit/UIKit.h>
 #import "JMChoicenessModel.h"
+@protocol JMChoicenessCLViewDelegate<NSObject>
+
+- (void)JMChoicenessDidSelectItemAtIndexPath:(NSIndexPath *)indexPath;
+
+@end
+
 @interface JMChoicenessCLView : UICollectionView
 
 @property (nonatomic,strong)JMChoicenessModel *choiceModel;
 
+@property (nonatomic,weak)id<JMChoicenessCLViewDelegate> clDelegate;
 
 @end

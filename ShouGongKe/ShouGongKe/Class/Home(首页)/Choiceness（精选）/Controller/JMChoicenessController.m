@@ -12,7 +12,9 @@
 
 #import "JMChoicenessModel.h"
 #import "JMNavigationModel.h"
-@interface JMChoicenessController ()
+#import "JMAdvanceModel.h"
+#import "JMHotTopicModel.h"
+@interface JMChoicenessController ()<JMChoicenessCLViewDelegate>
 @property (nonatomic,strong)JMChoicenessCLView *clView;
 
 
@@ -37,6 +39,7 @@
     QianDaoModel.name = @"签到";
     return QianDaoModel;
 }
+#pragma mark - 数据加载
 - (void)loadHomeData{
     NSMutableDictionary *params = [NSMutableDictionary dictionary];
     params[@"c"] = @"index";
@@ -46,6 +49,7 @@
     kSelfWeak;
     [[SGKManager sharedSGKHttpManager]getHomeChoicenessDataWithGET:params block:^(NSDictionary *json_dic, NSError *error) {
         kSelfStrong;
+        [strongSelf.clView.mj_header endRefreshing];
         NSNumber *status = [json_dic objectForKey:kNetworkStatus];
         if([status integerValue] == 1){
             NSArray *dataDic = [json_dic objectForKey:kNetworkData];
@@ -62,14 +66,28 @@
             
             
         }else{
-
+            [WSProgressHUD showImage:nil status:kReturnMsgFailure];
         }
     }];
     
 }
 
-
-
+#pragma mark - JMChoicenessCLViewDelegate
+- (void)JMChoicenessDidSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    if (indexPath.section == 1) {
+        NSArray *navArr = self.clView.choiceModel.navigation;
+        JMNavigationModel *navModel = navArr[indexPath.row];
+        
+    }else if(indexPath.section == 2){
+        NSArray *advanceArr = self.clView.choiceModel.advance;
+        JMAdvanceModel *advanceModel = advanceArr[indexPath.row];
+        
+    }else if (indexPath.section == 3){
+        NSArray *hotArr = self.clView.choiceModel.hotTopic;
+        JMHotTopicModel *hotModel = hotArr[indexPath.row];
+        
+    }
+}
 
 #pragma mark - 懒加载
 - (JMChoicenessCLView *)clView{
@@ -77,7 +95,12 @@
         UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc]init];
 
         _clView = [[JMChoicenessCLView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, kHomeContentHeight) collectionViewLayout:layout];
-        
+        _clView.clDelegate = self;
+        kSelfWeak;
+        _clView.mj_header = [JMRefreshHeader headerWithRefreshingBlock:^{
+            kSelfStrong;
+            [strongSelf loadHomeData];
+        }];
         
     }
     return _clView;

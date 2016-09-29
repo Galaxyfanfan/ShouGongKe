@@ -64,9 +64,29 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Shimmer.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>WSProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>2E53E98ABFA4B0680F4C707E693C2796</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3DF99A3837BC78D45DC4D07BC8DFBEE5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>53480ED0BE09FF49E34B1702D485CAAB</key>
 		<dict>
 			<key>primary</key>
@@ -77,17 +97,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>65BB15588A95E97BCD3EDA8A204767EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>70BC44266C6FFE30D2C57129458E070B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>928353533005A4198EBDA5B700D37B64</key>
+		<key>851144A92B223354D509AFDD07A4F110</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>92ABF61384E66282EE07476FFE5632A4</key>
+		<key>928353533005A4198EBDA5B700D37B64</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -102,11 +127,6 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AB55CE106A5F175DD4663BB17359626F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>DE3B07ED7FF04F506B0C5E00F4973589</key>
 		<dict>
 			<key>primary</key>
@@ -117,7 +137,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F1FBADC0E0CC6E64920981CBEEFAE1C6</key>
+		<key>F9C7E5BEF41A0943E3A41EFE05A07FBF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
