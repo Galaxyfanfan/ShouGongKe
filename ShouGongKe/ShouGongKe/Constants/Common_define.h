@@ -14,6 +14,7 @@
 #import "WSProgressHUD.h"
 #import "JMRefreshHeader.h"
 #import "JMRefreshFooter.h"
+#import "Masonry.h"
 
 #ifndef Common_define_h
 #define Common_define_h
