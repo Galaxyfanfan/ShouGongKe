@@ -63,6 +63,9 @@
 		7682F98A1D9C01F1005A9EA4 /* JMAdvanceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7682F9891D9C01F1005A9EA4 /* JMAdvanceModel.m */; };
 		7682F98D1D9C025C005A9EA4 /* JMHotTopicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7682F98C1D9C025C005A9EA4 /* JMHotTopicModel.m */; };
 		768C55E21DA6179B00D14E24 /* JMActivityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 768C55E11DA6179B00D14E24 /* JMActivityModel.m */; };
+		768C55E51DA78C4D00D14E24 /* JMExpertPicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 768C55E41DA78C4D00D14E24 /* JMExpertPicModel.m */; };
+		768C55E81DA78FBD00D14E24 /* JMExpertPicCLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 768C55E71DA78FBD00D14E24 /* JMExpertPicCLView.m */; };
+		768C55EB1DA790C400D14E24 /* JMExpertPicCLCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 768C55EA1DA790C400D14E24 /* JMExpertPicCLCell.m */; };
 		76AF2FC71D6F374800A93AE1 /* ShouGongKeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF2FC61D6F374800A93AE1 /* ShouGongKeTests.m */; };
 		76AF2FD21D6F374800A93AE1 /* ShouGongKeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF2FD11D6F374800A93AE1 /* ShouGongKeUITests.m */; };
 		76C17A021D9D4E12007C9590 /* JMExpertTBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C17A011D9D4E12007C9590 /* JMExpertTBView.m */; };
@@ -208,6 +211,12 @@
 		7682F98C1D9C025C005A9EA4 /* JMHotTopicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMHotTopicModel.m; path = "ShouGongKe/Class/Home(首页)/Choiceness（精选）/View/JMHotTopicModel.m"; sourceTree = SOURCE_ROOT; };
 		768C55E01DA6179B00D14E24 /* JMActivityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMActivityModel.h; path = "ShouGongKe/Class/Home(首页)/Choiceness（精选）/View/JMActivityModel.h"; sourceTree = SOURCE_ROOT; };
 		768C55E11DA6179B00D14E24 /* JMActivityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMActivityModel.m; path = "ShouGongKe/Class/Home(首页)/Choiceness（精选）/View/JMActivityModel.m"; sourceTree = SOURCE_ROOT; };
+		768C55E31DA78C4D00D14E24 /* JMExpertPicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMExpertPicModel.h; path = "ShouGongKe/Class/Home(首页)/Choiceness（精选）/View/JMExpertPicModel.h"; sourceTree = SOURCE_ROOT; };
+		768C55E41DA78C4D00D14E24 /* JMExpertPicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMExpertPicModel.m; path = "ShouGongKe/Class/Home(首页)/Choiceness（精选）/View/JMExpertPicModel.m"; sourceTree = SOURCE_ROOT; };
+		768C55E61DA78FBD00D14E24 /* JMExpertPicCLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMExpertPicCLView.h; path = "ShouGongKe/Class/Home(首页)/Choiceness（精选）/View/JMExpertPicCLView.h"; sourceTree = SOURCE_ROOT; };
+		768C55E71DA78FBD00D14E24 /* JMExpertPicCLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMExpertPicCLView.m; path = "ShouGongKe/Class/Home(首页)/Choiceness（精选）/View/JMExpertPicCLView.m"; sourceTree = SOURCE_ROOT; };
+		768C55E91DA790C400D14E24 /* JMExpertPicCLCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMExpertPicCLCell.h; path = "ShouGongKe/Class/Home(首页)/Choiceness（精选）/View/JMExpertPicCLCell.h"; sourceTree = SOURCE_ROOT; };
+		768C55EA1DA790C400D14E24 /* JMExpertPicCLCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMExpertPicCLCell.m; path = "ShouGongKe/Class/Home(首页)/Choiceness（精选）/View/JMExpertPicCLCell.m"; sourceTree = SOURCE_ROOT; };
 		76AF2FA91D6F374600A93AE1 /* ShouGongKe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShouGongKe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AF2FC21D6F374800A93AE1 /* ShouGongKeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShouGongKeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AF2FC61D6F374800A93AE1 /* ShouGongKeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShouGongKeTests.m; sourceTree = "<group>"; };
@@ -406,6 +415,8 @@
 			children = (
 				76C17A061D9D6ACF007C9590 /* JMExpertModel.h */,
 				76C17A071D9D6ACF007C9590 /* JMExpertModel.m */,
+				768C55E31DA78C4D00D14E24 /* JMExpertPicModel.h */,
+				768C55E41DA78C4D00D14E24 /* JMExpertPicModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -417,6 +428,10 @@
 				76C17A011D9D4E12007C9590 /* JMExpertTBView.m */,
 				76C17A031D9D4FF6007C9590 /* JMExpertTBCell.h */,
 				76C17A041D9D4FF6007C9590 /* JMExpertTBCell.m */,
+				768C55E61DA78FBD00D14E24 /* JMExpertPicCLView.h */,
+				768C55E71DA78FBD00D14E24 /* JMExpertPicCLView.m */,
+				768C55E91DA790C400D14E24 /* JMExpertPicCLCell.h */,
+				768C55EA1DA790C400D14E24 /* JMExpertPicCLCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1054,6 +1069,8 @@
 				76C17A081D9D6ACF007C9590 /* JMExpertModel.m in Sources */,
 				2D275BB41D9A683E009CB401 /* JMExpertController.m in Sources */,
 				2D31D8DF1D9D012700D74885 /* JMRefreshFooter.m in Sources */,
+				768C55E51DA78C4D00D14E24 /* JMExpertPicModel.m in Sources */,
+				768C55EB1DA790C400D14E24 /* JMExpertPicCLCell.m in Sources */,
 				2DB079931D9BB70700403E18 /* StatusModel.m in Sources */,
 				7682F9811D9C00EB005A9EA4 /* JMChoicenessModel.m in Sources */,
 				2D5EA3FE1D84070B00C35029 /* AFAppDotNetAPIClient.m in Sources */,
@@ -1074,6 +1091,7 @@
 				2D275BB11D9A6838009CB401 /* JMChoicenessController.m in Sources */,
 				2DE88B411D8FE6AD0027674D /* JMAdViewController.m in Sources */,
 				7615AAD51D82F75A00A2634F /* UIColor+Extension.m in Sources */,
+				768C55E81DA78FBD00D14E24 /* JMExpertPicCLView.m in Sources */,
 				7682F9871D9C01D6005A9EA4 /* JMNavigationModel.m in Sources */,
 				2D275BB71D9A68B6009CB401 /* JMChoicenessCLView.m in Sources */,
 				2D275BAE1D9A682F009CB401 /* JMAttentionVController.m in Sources */,

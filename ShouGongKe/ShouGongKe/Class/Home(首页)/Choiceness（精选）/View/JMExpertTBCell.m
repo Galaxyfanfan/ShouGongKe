@@ -7,11 +7,13 @@
 //
 
 #import "JMExpertTBCell.h"
+#import "JMExpertPicCLView.h"
 @interface JMExpertTBCell()
 @property(nonatomic,strong)UIImageView *headImgView;
 @property(nonatomic,strong)UILabel *nameLab;
 @property(nonatomic,strong)UILabel *contentLab;
 @property(nonatomic,strong)UIButton *attentionBtn;
+@property(nonatomic,strong)JMExpertPicCLView *expCLView;
 @end
 @implementation JMExpertTBCell
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
@@ -27,6 +29,9 @@
     [self.headImgView sd_setImageWithURL:[NSURL URLWithString:_expModel.avatar]];
     self.nameLab.text = _expModel.nick_name;
     self.contentLab.text = [NSString stringWithFormat:@"%@图文教程|%@视频教程|%@手工圈",_expModel.course_count,_expModel.video_count,_expModel.opus_count];
+    
+    self.expCLView.picArr = _expModel.list;
+    [self.expCLView reloadData];
 }
 
 - (void)initView{
@@ -35,6 +40,7 @@
     [self.contentView addSubview:self.nameLab];
     [self.contentView addSubview:self.contentLab];
     [self.contentView addSubview:self.attentionBtn];
+    [self.contentView addSubview:self.expCLView];
     
     
     [self.headImgView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -62,16 +68,16 @@
         make.right.equalTo(self.attentionBtn.mas_left).with.offset(-10.0f);
         make.height.equalTo(@20);
     }];
+    [self.expCLView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(self.headImgView.mas_bottom).with.offset(10.0f);
+        make.left.equalTo(self.contentView).with.offset(0);
+        make.right.equalTo(self.contentView).with.offset(0);
+        make.height.equalTo(@(SCREEN_WIDTH/3));
+    }];
     
     
     
 }
-
-
-
-
-
-
 
 #pragma mark - 懒加载
 - (UIImageView *)headImgView{
@@ -79,6 +85,7 @@
         _headImgView = [[UIImageView alloc]init];
 //        _headImgView.backgroundColor = kBaseRedColor;
         _headImgView.layer.cornerRadius = 20;
+        _headImgView.layer.masksToBounds = YES;
     }
     return _headImgView;
 }
@@ -119,6 +126,12 @@
     }
     return _attentionBtn;
 }
-
+- (JMExpertPicCLView *)expCLView{
+    if (!_expCLView) {
+        UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc]init];
+        _expCLView = [[JMExpertPicCLView alloc]initWithFrame:CGRectZero collectionViewLayout:layout];
+    }
+    return _expCLView;
+}
 
 @end

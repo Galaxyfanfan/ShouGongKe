@@ -7,7 +7,10 @@
 //
 
 #import "JMExpertModel.h"
-
+#import "JMExpertPicModel.h"
 @implementation JMExpertModel
-
++ (NSDictionary *)mj_objectClassInArray
+{
+    return @{@"list" : [JMExpertPicModel class]};
+}
 @end
