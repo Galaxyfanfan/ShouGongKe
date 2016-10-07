@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface JMActivityTBView : UITableView
-
+@property (nonatomic,strong)NSArray *actArr;
 @end

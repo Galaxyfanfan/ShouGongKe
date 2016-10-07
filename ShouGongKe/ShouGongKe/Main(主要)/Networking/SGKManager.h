@@ -12,5 +12,7 @@
 + (instancetype)sharedSGKHttpManager;
 
 
--(void)getHomeChoicenessDataWithGET:(NSDictionary*)parameter block:(void(^)(NSDictionary *json_dic,NSError *error))block;
+-(void)getHomeDataWithGET:(NSDictionary*)parameter block:(void(^)(NSDictionary *json_dic,NSError *error))block;
+
+-(void)getHomeDataWithPOST:(NSDictionary*)parameter block:(void(^)(NSDictionary *json_dic,NSError *error))block;
 @end

@@ -20,8 +20,13 @@ static NSString *const getHomeChoicenessData = @"index.php";
     return _sharedSGKHttpManager;
 }
 
--(void)getHomeChoicenessDataWithGET:(NSDictionary*)parameter block:(void(^)(NSDictionary *json_dic,NSError *error))block{
+-(void)getHomeDataWithGET:(NSDictionary*)parameter block:(void(^)(NSDictionary *json_dic,NSError *error))block{
     [super requestDataWithGet:getHomeChoicenessData parameter:parameter block:^(NSDictionary *json_dic,NSError *error) {
+        block(json_dic,error);
+    }];
+}
+-(void)getHomeDataWithPOST:(NSDictionary*)parameter block:(void(^)(NSDictionary *json_dic,NSError *error))block{
+    [super requestDataWithPost:getHomeChoicenessData parameter:parameter block:^(NSDictionary *json_dic,NSError *error) {
         block(json_dic,error);
     }];
 }

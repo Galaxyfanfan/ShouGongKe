@@ -21,6 +21,14 @@
     }
     return self;
 }
+- (void)setExpModel:(JMExpertModel *)expModel{
+    _expModel = expModel;
+
+    [self.headImgView sd_setImageWithURL:[NSURL URLWithString:_expModel.avatar]];
+    self.nameLab.text = _expModel.nick_name;
+    self.contentLab.text = [NSString stringWithFormat:@"%@图文教程|%@视频教程|%@手工圈",_expModel.course_count,_expModel.video_count,_expModel.opus_count];
+}
+
 - (void)initView{
     self.selectionStyle = UITableViewCellSelectionStyleNone;
     [self.contentView addSubview:self.headImgView];
@@ -69,7 +77,7 @@
 - (UIImageView *)headImgView{
     if (!_headImgView) {
         _headImgView = [[UIImageView alloc]init];
-        _headImgView.backgroundColor = kBaseRedColor;
+//        _headImgView.backgroundColor = kBaseRedColor;
         _headImgView.layer.cornerRadius = 20;
     }
     return _headImgView;
@@ -80,7 +88,7 @@
         _nameLab = [[UILabel alloc]init];
         _nameLab.font = kFontSize13;
         _nameLab.textColor = kColorBlack;
-        _nameLab.backgroundColor = kBaseRedColor;
+//        _nameLab.backgroundColor = kBaseRedColor;
     }
     return _nameLab;
 }
@@ -90,7 +98,7 @@
         _contentLab = [[UILabel alloc]init];
         _contentLab.font = kFontSize11;
         _contentLab.textColor = kColorDarkGray;
-        _contentLab.backgroundColor = kColorDarkGray;
+//        _contentLab.backgroundColor = kColorDarkGray;
     }
     return _contentLab;
 }

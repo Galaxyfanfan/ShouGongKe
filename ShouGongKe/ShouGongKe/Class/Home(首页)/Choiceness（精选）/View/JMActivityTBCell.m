@@ -22,6 +22,22 @@
     }
     return self;
 }
+- (void)setActModel:(JMActivityModel *)actModel{
+    _actModel = actModel;
+    
+    [self.imgView sd_setImageWithURL:[NSURL URLWithString:_actModel.m_logo]];
+    self.titleLab.text = _actModel.c_name;
+    self.timeLab.text = [NSString stringWithFormat:@"征集作品时间:%@",_actModel.c_time];
+    
+    if([_actModel.c_status isEqualToString:@"0"]){
+        self.typeLab.text = @"即将开始";
+    }else if([_actModel.c_status isEqualToString:@"1"]){
+        self.typeLab.text = @"进行中";
+    }else if([_actModel.c_status isEqualToString:@"2"]){
+        self.typeLab.text = @"已结束";
+    }
+}
+
 - (void)initView{
     self.selectionStyle = UITableViewCellSelectionStyleNone;
     [self.contentView addSubview:self.imgView];
@@ -38,21 +54,21 @@
     }];
 
     [self.titleLab mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(self.imgView.mas_bottom).with.offset(5.0f);
+        make.top.equalTo(self.imgView.mas_bottom).with.offset(10.0f);
         make.left.equalTo(self.contentView).with.offset(10.0f);
         make.right.equalTo(self.contentView).with.offset(-10.0f);
         make.height.equalTo(@20);
     }];
     
     [self.typeLab mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.bottom.equalTo(self.contentView).with.offset(-10.0f);
+        make.top.equalTo(self.titleLab.mas_bottom).with.offset(0);
         make.right.equalTo(self.contentView).with.offset(-10.0f);
         make.height.equalTo(@20);
         make.width.equalTo(@60);
     }];
     
     [self.timeLab mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(self.titleLab.mas_bottom).with.offset(5.0f);
+        make.top.equalTo(self.titleLab.mas_bottom).with.offset(0);
         make.left.equalTo(self.contentView).with.offset(10.0f);
         make.right.equalTo(self.typeLab.mas_left).with.offset(-10.0f);
         make.height.equalTo(@20);
@@ -66,13 +82,11 @@
 
 
 
-
-
 #pragma mark - 懒加载
 - (UIImageView *)imgView{
     if (!_imgView) {
         _imgView = [[UIImageView alloc]init];
-        _imgView.backgroundColor = kBaseRedColor;
+//        _imgView.backgroundColor = kBaseRedColor;
     }
     return _imgView;
 }
@@ -81,8 +95,8 @@
     if (!_titleLab) {
         _titleLab = [[UILabel alloc]init];
         _titleLab.font = kFontSize13;
-        _titleLab.textColor = kColorBlack;
-        _titleLab.backgroundColor = [UIColor yellowColor];
+        _titleLab.textColor = kColorDarkGray;
+//        _titleLab.backgroundColor = [UIColor yellowColor];
     }
     return _titleLab;
 }
@@ -91,16 +105,17 @@
         _typeLab = [[UILabel alloc]init];
         _typeLab.font = kFontSize13;
         _typeLab.textColor = kColorBlack;
-        _typeLab.backgroundColor = kBaseRedColor;
+        _typeLab.textAlignment = NSTextAlignmentRight;
+//        _typeLab.backgroundColor = kBaseRedColor;
     }
     return _typeLab;
 }
 - (UILabel *)timeLab{
     if (!_timeLab) {
         _timeLab = [[UILabel alloc]init];
-        _timeLab.font = kFontSize11;
+        _timeLab.font = kFontSize13;
         _timeLab.textColor = kColorDarkGray;
-        _timeLab.backgroundColor = kColorDarkGray;
+//        _timeLab.backgroundColor = kColorDarkGray;
     }
     return _timeLab;
 }

@@ -27,6 +27,7 @@
 /* 基础红色  */
 #define kBaseRedColor UIColorRGB(243,83,81)
 
+#define kBackgroundColor UIColorRGB(239,239,239)
 
 #define kColorWhite [UIColor whiteColor]
 

@@ -62,6 +62,7 @@
 		7682F9871D9C01D6005A9EA4 /* JMNavigationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7682F9861D9C01D6005A9EA4 /* JMNavigationModel.m */; };
 		7682F98A1D9C01F1005A9EA4 /* JMAdvanceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7682F9891D9C01F1005A9EA4 /* JMAdvanceModel.m */; };
 		7682F98D1D9C025C005A9EA4 /* JMHotTopicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7682F98C1D9C025C005A9EA4 /* JMHotTopicModel.m */; };
+		768C55E21DA6179B00D14E24 /* JMActivityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 768C55E11DA6179B00D14E24 /* JMActivityModel.m */; };
 		76AF2FC71D6F374800A93AE1 /* ShouGongKeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF2FC61D6F374800A93AE1 /* ShouGongKeTests.m */; };
 		76AF2FD21D6F374800A93AE1 /* ShouGongKeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AF2FD11D6F374800A93AE1 /* ShouGongKeUITests.m */; };
 		76C17A021D9D4E12007C9590 /* JMExpertTBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C17A011D9D4E12007C9590 /* JMExpertTBView.m */; };
@@ -205,6 +206,8 @@
 		7682F9891D9C01F1005A9EA4 /* JMAdvanceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMAdvanceModel.m; path = "ShouGongKe/Class/Home(首页)/Choiceness（精选）/View/JMAdvanceModel.m"; sourceTree = SOURCE_ROOT; };
 		7682F98B1D9C025C005A9EA4 /* JMHotTopicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMHotTopicModel.h; path = "ShouGongKe/Class/Home(首页)/Choiceness（精选）/View/JMHotTopicModel.h"; sourceTree = SOURCE_ROOT; };
 		7682F98C1D9C025C005A9EA4 /* JMHotTopicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMHotTopicModel.m; path = "ShouGongKe/Class/Home(首页)/Choiceness（精选）/View/JMHotTopicModel.m"; sourceTree = SOURCE_ROOT; };
+		768C55E01DA6179B00D14E24 /* JMActivityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMActivityModel.h; path = "ShouGongKe/Class/Home(首页)/Choiceness（精选）/View/JMActivityModel.h"; sourceTree = SOURCE_ROOT; };
+		768C55E11DA6179B00D14E24 /* JMActivityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMActivityModel.m; path = "ShouGongKe/Class/Home(首页)/Choiceness（精选）/View/JMActivityModel.m"; sourceTree = SOURCE_ROOT; };
 		76AF2FA91D6F374600A93AE1 /* ShouGongKe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShouGongKe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AF2FC21D6F374800A93AE1 /* ShouGongKeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShouGongKeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AF2FC61D6F374800A93AE1 /* ShouGongKeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShouGongKeTests.m; sourceTree = "<group>"; };
@@ -274,6 +277,8 @@
 		2D275B921D9A67C1009CB401 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				768C55E01DA6179B00D14E24 /* JMActivityModel.h */,
+				768C55E11DA6179B00D14E24 /* JMActivityModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1100,6 +1105,7 @@
 				76151AD01D90319B0097C6DE /* JMTabBarController.m in Sources */,
 				7615AAC61D82F57F00A2634F /* UIButton+Block.m in Sources */,
 				2DB079961D9BB73400403E18 /* StatusRecordListModel.m in Sources */,
+				768C55E21DA6179B00D14E24 /* JMActivityModel.m in Sources */,
 				7678F2891D9ABD08004F8B21 /* JMChoicenessHotCell.m in Sources */,
 				761C69BB1D92DB92009DD827 /* YZDisplayTitleLabel.m in Sources */,
 			);

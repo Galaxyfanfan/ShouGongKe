@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "JMExpertModel.h"
 @interface JMExpertTBCell : UITableViewCell
-
+@property (nonatomic,strong)JMExpertModel *expModel;
 @end

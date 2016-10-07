@@ -30,5 +30,6 @@
     self.stateLabel.textColor = kColorDarkGray;
     self.stateLabel.font = kFontSize13;
     
+    self.lastUpdatedTimeLabel.hidden = YES;
 }
 @end

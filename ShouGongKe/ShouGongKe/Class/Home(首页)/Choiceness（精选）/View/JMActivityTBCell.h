@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "JMActivityModel.h"
 @interface JMActivityTBCell : UITableViewCell
-
+@property (nonatomic,strong)JMActivityModel *actModel;
 @end

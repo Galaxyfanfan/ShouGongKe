@@ -30,14 +30,22 @@
     [self registerClass:[JMActivityTBCell class] forCellReuseIdentifier:@"JMActivityTBCell"];
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+    return kSpace;
+}
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    return self.actArr.count;
+}
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 10;
+    return 1;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     JMActivityTBCell *cell = [tableView dequeueReusableCellWithIdentifier:@"JMActivityTBCell" forIndexPath:indexPath];
     
-    
+    if (self.actArr.count > indexPath.section) {
+        cell.actModel = self.actArr[indexPath.section];
+    }
     
     return cell;
 }

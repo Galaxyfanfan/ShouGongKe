@@ -25,21 +25,29 @@
     self.dataSource = self;
     self.backgroundColor = kColorWhite;
     CGFloat imgWidth = SCREEN_WIDTH/3.0;
+    self.contentInset = UIEdgeInsetsMake(-10, 0, 0, 0);
     self.rowHeight = imgWidth + 60;
     
     [self registerClass:[JMExpertTBCell class] forCellReuseIdentifier:@"JMExpertTBCell"];
 }
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView;{
+    return self.expArr.count;
+}
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 10;
+    return 1;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     JMExpertTBCell *cell = [tableView dequeueReusableCellWithIdentifier:@"JMExpertTBCell" forIndexPath:indexPath];
     
-    
+    if(self.expArr.count > indexPath.section){
+        cell.expModel = self.expArr[indexPath.section];
+    }
     
     return cell;
 }
-
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+    return kSpace;
+}
 @end

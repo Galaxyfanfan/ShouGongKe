@@ -47,7 +47,7 @@
     params[@"vid"] = @"18";
     
     kSelfWeak;
-    [[SGKManager sharedSGKHttpManager]getHomeChoicenessDataWithGET:params block:^(NSDictionary *json_dic, NSError *error) {
+    [[SGKManager sharedSGKHttpManager]getHomeDataWithGET:params block:^(NSDictionary *json_dic, NSError *error) {
         kSelfStrong;
         [strongSelf.clView.mj_header endRefreshing];
         NSNumber *status = [json_dic objectForKey:kNetworkStatus];

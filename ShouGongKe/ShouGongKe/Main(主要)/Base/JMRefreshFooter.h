@@ -8,6 +8,6 @@
 
 #import <MJRefresh/MJRefresh.h>
 
-@interface JMRefreshFooter : MJRefreshAutoGifFooter
+@interface JMRefreshFooter : MJRefreshAutoFooter
 
 @end

@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface JMExpertTBView : UITableView
-
+@property (nonatomic,strong)NSArray *expArr;
 @end
