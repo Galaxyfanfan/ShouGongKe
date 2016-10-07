@@ -7,15 +7,39 @@
 //
 
 #import "JMAttentionVController.h"
+#import "JMLoginViewController.H"
 
-@interface JMAttentionVController ()
-
+#import "JMAttentionNoLoginView.h"
+@interface JMAttentionVController ()<JMAttentionNoLoginViewDelegate>
+@property (nonatomic,strong)JMAttentionNoLoginView *noLoginView;
 @end
 
 @implementation JMAttentionVController
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor blueColor];
+    [self addNoLoginView];
+
 }
+#pragma mark - 初始化
+- (void)addNoLoginView{
+    [self.view addSubview:self.noLoginView];
+    
+    self.noLoginView.frame = self.view.bounds;
+}
+
+#pragma mark - 代理方法
+- (void)JMAttentionNoLoginViewGotoLogin{
+    JMLoginViewController *vc = [[JMLoginViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+#pragma mark - 懒加载
+- (JMAttentionNoLoginView *)noLoginView{
+    if (!_noLoginView) {
+        _noLoginView = [[JMAttentionNoLoginView alloc]init];
+        _noLoginView.delegate = self;
+    }
+    return _noLoginView;
+}
+
 @end

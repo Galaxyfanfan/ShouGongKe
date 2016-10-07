@@ -44,6 +44,7 @@ static CGFloat const sizeButton = 40.0;
     [self.navigationController.navigationBar setBarTintColor:kBaseRedColor];
     
     self.view.backgroundColor = [UIColor whiteColor];
+    self.navigationItem.hidesBackButton = YES;
 }
 
 //隐藏navigationBar底部黑线
