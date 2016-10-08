@@ -76,6 +76,7 @@
 		76C17A081D9D6ACF007C9590 /* JMExpertModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C17A071D9D6ACF007C9590 /* JMExpertModel.m */; };
 		76C17A0B1D9D6BE7007C9590 /* JMActivityTBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C17A0A1D9D6BE7007C9590 /* JMActivityTBView.m */; };
 		76C17A0E1D9D6BFF007C9590 /* JMActivityTBCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C17A0D1D9D6BFF007C9590 /* JMActivityTBCell.m */; };
+		76D02A161DA9281400655A66 /* JMLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D02A151DA9281400655A66 /* JMLoginView.m */; };
 		A4CA1C376C9BE37BFA13EF4D /* libPods-ShouGongKe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 404D115402F88798CEC5BEEF /* libPods-ShouGongKe.a */; };
 /* End PBXBuildFile section */
 
@@ -243,6 +244,8 @@
 		76C17A0A1D9D6BE7007C9590 /* JMActivityTBView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMActivityTBView.m; path = "ShouGongKe/Class/Home(首页)/Choiceness（精选）/View/JMActivityTBView.m"; sourceTree = SOURCE_ROOT; };
 		76C17A0C1D9D6BFF007C9590 /* JMActivityTBCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMActivityTBCell.h; path = "ShouGongKe/Class/Home(首页)/Choiceness（精选）/View/JMActivityTBCell.h"; sourceTree = SOURCE_ROOT; };
 		76C17A0D1D9D6BFF007C9590 /* JMActivityTBCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMActivityTBCell.m; path = "ShouGongKe/Class/Home(首页)/Choiceness（精选）/View/JMActivityTBCell.m"; sourceTree = SOURCE_ROOT; };
+		76D02A141DA9281400655A66 /* JMLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMLoginView.h; sourceTree = "<group>"; };
+		76D02A151DA9281400655A66 /* JMLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMLoginView.m; sourceTree = "<group>"; };
 		DDA3FB1483BC707228395B2C /* Pods-ShouGongKe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShouGongKe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShouGongKe/Pods-ShouGongKe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -639,6 +642,8 @@
 		768C55F41DA7A07900D14E24 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				76D02A141DA9281400655A66 /* JMLoginView.h */,
+				76D02A151DA9281400655A66 /* JMLoginView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1132,6 +1137,7 @@
 				76151AE21D9034080097C6DE /* JMMyViewController.m in Sources */,
 				7615AAA81D82E8C500A2634F /* BaseViewController.m in Sources */,
 				76151AD61D9033B10097C6DE /* JMTutoriaViewController.m in Sources */,
+				76D02A161DA9281400655A66 /* JMLoginView.m in Sources */,
 				7678F2831D9ABC64004F8B21 /* JMChoicenessSelectCell.m in Sources */,
 				76C17A051D9D4FF6007C9590 /* JMExpertTBCell.m in Sources */,
 				2D31D8DC1D9D00B500D74885 /* JMRefreshHeader.m in Sources */,

@@ -39,10 +39,11 @@
 
 #define kColorLightGray [UIColor lightGrayColor]
 
+#define kColorRandom [UIColor randomColor]
 
 //
 
-
+#define kColorClear [UIColor clearColor]
 
 
 

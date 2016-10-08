@@ -33,11 +33,11 @@
 #define kBodyHeight         ([UIScreen mainScreen].applicationFrame.size.height - 44.0)
 #define SCREEN_BOUNDS [UIScreen mainScreen].bounds
 
-#define kTopTitleHeight 40
+#define kHeight40 40
 #define kNavBarHeight 64
 #define kTabBarHeight 49
 
-#define kHomeContentHeight (SCREEN_HEIGHT - kNavBarHeight - kTabBarHeight - kTopTitleHeight)
+#define kHomeContentHeight (SCREEN_HEIGHT - kNavBarHeight - kTabBarHeight - kHeight40)
 
 #define kSpace 10
 

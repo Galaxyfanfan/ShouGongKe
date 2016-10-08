@@ -8,8 +8,9 @@
 
 #import "JMLoginViewController.h"
 #import "JMBaseBackView.h"
+#import "JMLoginView.h"
 @interface JMLoginViewController()
-
+@property (nonatomic,strong)JMLoginView *loginView;
 @end
 
 @implementation JMLoginViewController
@@ -28,7 +29,10 @@
     bgImgView.image = [UIImage imageNamed:@"loginBackground@2x.jpg"];
     [self.view addSubview:bgImgView];
     
-    JMBaseBackView *backView = [[JMBaseBackView alloc]initWithFrame:CGRectMake(0, SCREEN_HEIGHT - 40, SCREEN_WIDTH, 40)];
+    [self.view addSubview:self.loginView];
+    self.loginView.center = self.view.center;
+    
+    JMBaseBackView *backView = [[JMBaseBackView alloc]initWithFrame:CGRectMake(0, SCREEN_HEIGHT - kHeight40, SCREEN_WIDTH, kHeight40)];
     [backView backButtonWithTarget:self action:@selector(goToBack)];
     [self.view addSubview:backView];
     
@@ -36,4 +40,19 @@
 - (void)goToBack{
     [self.navigationController popViewControllerAnimated:YES];
 }
+
+#pragma mark - 懒加载
+- (JMLoginView *)loginView{
+    if (!_loginView) {
+        _loginView = [[JMLoginView alloc]init];
+    }
+    return _loginView;
+}
+
+
+
+
+
+
+
 @end

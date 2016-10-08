@@ -36,7 +36,7 @@
         *norColor = kColorDarkGray;
         *selColor = kBaseRedColor;
         *titleFont = kFontSize14;
-        *titleHeight = kTopTitleHeight;
+        *titleHeight = kHeight40;
     }];
     
     [self setUpUnderLineEffect:^(BOOL *isUnderLineDelayScroll, CGFloat *underLineH, UIColor *__autoreleasing *underLineColor, BOOL *isUnderLineEqualTitleWidth) {
