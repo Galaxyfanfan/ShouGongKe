@@ -26,7 +26,7 @@
 
 - (void)initView{
     self.backgroundColor = kColorClear;
-    self.size = CGSizeMake(SCREEN_WIDTH, 320);
+    self.size = CGSizeMake(SCREEN_WIDTH - 2 * kItemSpace, 320);
     
 
     [self addSubview:self.userField];
@@ -34,34 +34,39 @@
     [self addSubview:self.loginBtn];
     [self addSubview:self.forgetPwdBtn];
     
-    self.userField.frame = CGRectMake(kItemSpace, 0, self.width - 2 * kItemSpace, kItemSpace);
-    self.pwdField.frame = CGRectMake(kItemSpace, self.userField.bottom + kSpace, self.width - 2 * kItemSpace, kItemSpace);
-    self.loginBtn.frame = CGRectMake(kItemSpace, self.pwdField.bottom + kSpace, self.width - 2 * kItemSpace, kItemSpace);
-    self.forgetPwdBtn.frame = CGRectMake(kItemSpace, self.loginBtn.bottom + kSpace, 60, 20);
+    self.userField.frame = CGRectMake(0, 0, self.width, kItemSpace);
+    self.pwdField.frame = CGRectMake(0, self.userField.bottom + kSpace, self.width , kItemSpace);
+    self.loginBtn.frame = CGRectMake(0, self.pwdField.bottom + kSpace, self.width, kItemSpace);
+    self.forgetPwdBtn.frame = CGRectMake(0, self.loginBtn.bottom + kSpace, 60, 20);
     
     
     //三方登录 和 注册
-    UILabel *otherLab = [[UILabel alloc]initWithFrame:CGRectMake(0, self.loginBtn.bottom + kHeight40, SCREEN_WIDTH, 20)];
+    UILabel *otherLab = [[UILabel alloc]initWithFrame:CGRectMake(0, self.loginBtn.bottom + kHeight40, self.width, 20)];
     otherLab.text = @"使用其他方式登录";
     otherLab.font = kFontSize13;
     otherLab.textColor = kColorWhite;
     otherLab.textAlignment = NSTextAlignmentCenter;
     [self addSubview:otherLab];
     
-    CGFloat itemWidth = 45;
-    CGFloat itemSpace = 50;
-    CGFloat space = (SCREEN_WIDTH - 3 * itemWidth - 2 * itemSpace)/2;
+    NSArray *icons = @[@"login_icon_qq", @"login_icon_wechat", @"login_icon_weibo"];
+    NSArray *titles = @[@"QQ登录", @"微信登录", @"微博登录"];
     
-    for (int i = 0; i < 3; i++) {
+    UIImage *image = [UIImage imageNamed:[icons firstObject]];
+    CGFloat itemWidth = image.size.width;
+    CGFloat itemSpace = 50;
+    CGFloat space = (SCREEN_WIDTH - 3 * itemWidth - 2 * itemSpace - 2 * kItemSpace)/2;
+    
+    for (int i = 0; i < icons.count; i++) {
         UIButton *itemBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        itemBtn.backgroundColor = kColorRed;
-        itemBtn.frame = CGRectMake(i * (itemSpace + itemWidth) + space, otherLab.bottom + kSpace, itemWidth, itemWidth);
+        itemBtn.frame = CGRectMake(i * (itemSpace + itemWidth) + space, otherLab.bottom + kSpace, itemWidth, itemWidth + 30);
         itemBtn.tag = 100 + i;
+        [itemBtn setTitle:titles[i] forState:UIControlStateNormal];
+        [itemBtn setImage:[UIImage imageNamed:icons[i]] forState:UIControlStateNormal];
         [self addSubview:itemBtn];
     }
     
     UIButton *registerBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    registerBtn.frame = CGRectMake((self.width - 70)/2, otherLab.bottom + itemWidth + 3 * kSpace, 70, 25);
+    registerBtn.frame = CGRectMake((self.width - 70)/2, otherLab.bottom + itemWidth + 4 * kSpace, 70, 25);
     registerBtn.backgroundColor = RGB(255, 255, 255, 0.7);
     [registerBtn setTitle:@"注册" forState:UIControlStateNormal];
     registerBtn.layer.cornerRadius = registerBtn.height / 2;

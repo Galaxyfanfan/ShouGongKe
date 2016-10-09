@@ -191,5 +191,10 @@ static CGFloat const sizeButton = 40.0;
     NSLog(@"搜索");
 }
 
+- (void)resignCurrentFirstResponder
+{
+    UIWindow *keyWindow = [[UIApplication sharedApplication] keyWindow];
+    [keyWindow endEditing:YES];
+}
 
 @end

@@ -1006,7 +1006,7 @@
 				TargetAttributes = {
 					76AF2FA81D6F374600A93AE1 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = W5BT74AQ2S;
+						DevelopmentTeam = 5TX53842WP;
 					};
 					76AF2FC11D6F374800A93AE1 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -1316,7 +1316,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = W5BT74AQ2S;
+				DEVELOPMENT_TEAM = 5TX53842WP;
 				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ShouGongKe/Main(主要)/Tools/ShouGongKe-Prefix.pch";
@@ -1334,7 +1334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = W5BT74AQ2S;
+				DEVELOPMENT_TEAM = 5TX53842WP;
 				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ShouGongKe/Main(主要)/Tools/ShouGongKe-Prefix.pch";

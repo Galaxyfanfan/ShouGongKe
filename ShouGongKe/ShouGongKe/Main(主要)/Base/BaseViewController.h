@@ -24,4 +24,6 @@
 
 - (UIBarButtonItem *)leftBarButtonWithAdd;
 - (UIBarButtonItem *)rightBarButtonWithSearch;
+
+- (void)resignCurrentFirstResponder;
 @end

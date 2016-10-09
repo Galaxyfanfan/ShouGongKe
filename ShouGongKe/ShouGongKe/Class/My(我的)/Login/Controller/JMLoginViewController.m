@@ -27,6 +27,12 @@
     UIImageView *bgImgView = [[UIImageView alloc]initWithFrame:self.view.bounds];
     bgImgView.backgroundColor = [UIColor orangeColor];
     bgImgView.image = [UIImage imageNamed:@"loginBackground@2x.jpg"];
+    bgImgView.userInteractionEnabled = YES;
+    kSelfWeak;
+    [bgImgView zzh_addTapGestureWithBlock:^(UIGestureRecognizer *gestureRecoginzer) {
+        kSelfStrong;
+        [strongSelf resignCurrentFirstResponder];
+    }];
     [self.view addSubview:bgImgView];
     
     [self.view addSubview:self.loginView];
