@@ -72,6 +72,13 @@
     registerBtn.layer.cornerRadius = registerBtn.height / 2;
     registerBtn.titleLabel.font = kFontSize13;
     [registerBtn setTitleColor:kColorBlack forState:UIControlStateNormal];
+    kSelfWeak;
+    [registerBtn zzh_clickActionBlock:^(UIButton *button) {
+        kSelfStrong;
+        if (strongSelf.delegate && [strongSelf.delegate respondsToSelector:@selector(pushToRegisterContriller)]) {
+            [strongSelf.delegate pushToRegisterContriller];
+        }
+    }];
     [self addSubview:registerBtn];
 }
 
@@ -86,6 +93,7 @@
         _userField.layer.borderWidth = 0.5;
         _userField.layer.cornerRadius = 5;
         _userField.font = kFontSize13;
+        _userField.keyboardType = UIKeyboardTypeNumberPad;
         _userField.leftView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 15, 10)];
         _userField.leftViewMode = UITextFieldViewModeAlways;
     }
@@ -101,6 +109,7 @@
         _pwdField.layer.borderWidth = 0.5;
         _pwdField.layer.cornerRadius = 5;
         _pwdField.font = kFontSize13;
+        _pwdField.secureTextEntry = YES;
         _pwdField.leftView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 15, 10)];
         _pwdField.leftViewMode = UITextFieldViewModeAlways;
     }
@@ -123,7 +132,6 @@
     if (!_forgetPwdBtn) {
         _forgetPwdBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         [_forgetPwdBtn setTitle:@"忘记密码" forState:UIControlStateNormal];
-        _forgetPwdBtn.layer.cornerRadius = 5;
         _forgetPwdBtn.titleLabel.font = kFontSize13;
         
     }

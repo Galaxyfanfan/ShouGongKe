@@ -54,6 +54,9 @@
 		761C69BB1D92DB92009DD827 /* YZDisplayTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 761C69B41D92DB92009DD827 /* YZDisplayTitleLabel.m */; };
 		761C69BC1D92DB92009DD827 /* YZDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 761C69B61D92DB92009DD827 /* YZDisplayViewController.m */; };
 		761C69BD1D92DB92009DD827 /* YZFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 761C69B91D92DB92009DD827 /* YZFlowLayout.m */; };
+		76315E331DABB44800E15C15 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76315E321DABB44800E15C15 /* UserModel.m */; };
+		76315E361DABBE9B00E15C15 /* JMRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76315E351DABBE9B00E15C15 /* JMRegisterViewController.m */; };
+		76315E391DABC07200E15C15 /* JMRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76315E381DABC07200E15C15 /* JMRegisterView.m */; };
 		7678F2831D9ABC64004F8B21 /* JMChoicenessSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7678F2821D9ABC64004F8B21 /* JMChoicenessSelectCell.m */; };
 		7678F2861D9ABCF2004F8B21 /* JMChoicenessRecommendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7678F2851D9ABCF2004F8B21 /* JMChoicenessRecommendCell.m */; };
 		7678F2891D9ABD08004F8B21 /* JMChoicenessHotCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7678F2881D9ABD08004F8B21 /* JMChoicenessHotCell.m */; };
@@ -197,6 +200,12 @@
 		761C69B71D92DB92009DD827 /* YZDisplayViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZDisplayViewHeader.h; sourceTree = "<group>"; };
 		761C69B81D92DB92009DD827 /* YZFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZFlowLayout.h; sourceTree = "<group>"; };
 		761C69B91D92DB92009DD827 /* YZFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZFlowLayout.m; sourceTree = "<group>"; };
+		76315E311DABB44800E15C15 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		76315E321DABB44800E15C15 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		76315E341DABBE9B00E15C15 /* JMRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRegisterViewController.h; sourceTree = "<group>"; };
+		76315E351DABBE9B00E15C15 /* JMRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRegisterViewController.m; sourceTree = "<group>"; };
+		76315E371DABC07200E15C15 /* JMRegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRegisterView.h; sourceTree = "<group>"; };
+		76315E381DABC07200E15C15 /* JMRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRegisterView.m; sourceTree = "<group>"; };
 		7678F2811D9ABC64004F8B21 /* JMChoicenessSelectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMChoicenessSelectCell.h; sourceTree = "<group>"; };
 		7678F2821D9ABC64004F8B21 /* JMChoicenessSelectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMChoicenessSelectCell.m; sourceTree = "<group>"; };
 		7678F2841D9ABCF2004F8B21 /* JMChoicenessRecommendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMChoicenessRecommendCell.h; sourceTree = "<group>"; };
@@ -635,6 +644,8 @@
 		768C55F31DA7A07900D14E24 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				76315E311DABB44800E15C15 /* UserModel.h */,
+				76315E321DABB44800E15C15 /* UserModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -644,6 +655,8 @@
 			children = (
 				76D02A141DA9281400655A66 /* JMLoginView.h */,
 				76D02A151DA9281400655A66 /* JMLoginView.m */,
+				76315E371DABC07200E15C15 /* JMRegisterView.h */,
+				76315E381DABC07200E15C15 /* JMRegisterView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -653,6 +666,8 @@
 			children = (
 				768C55FC1DA7A11D00D14E24 /* JMLoginViewController.h */,
 				768C55FD1DA7A11D00D14E24 /* JMLoginViewController.m */,
+				76315E341DABBE9B00E15C15 /* JMRegisterViewController.h */,
+				76315E351DABBE9B00E15C15 /* JMRegisterViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1138,7 +1153,9 @@
 				7615AAA81D82E8C500A2634F /* BaseViewController.m in Sources */,
 				76151AD61D9033B10097C6DE /* JMTutoriaViewController.m in Sources */,
 				76D02A161DA9281400655A66 /* JMLoginView.m in Sources */,
+				76315E361DABBE9B00E15C15 /* JMRegisterViewController.m in Sources */,
 				7678F2831D9ABC64004F8B21 /* JMChoicenessSelectCell.m in Sources */,
+				76315E331DABB44800E15C15 /* UserModel.m in Sources */,
 				76C17A051D9D4FF6007C9590 /* JMExpertTBCell.m in Sources */,
 				2D31D8DC1D9D00B500D74885 /* JMRefreshHeader.m in Sources */,
 				7678F2861D9ABCF2004F8B21 /* JMChoicenessRecommendCell.m in Sources */,
@@ -1148,6 +1165,7 @@
 				7615AAD51D82F75A00A2634F /* UIColor+Extension.m in Sources */,
 				768C55E81DA78FBD00D14E24 /* JMExpertPicCLView.m in Sources */,
 				7682F9871D9C01D6005A9EA4 /* JMNavigationModel.m in Sources */,
+				76315E391DABC07200E15C15 /* JMRegisterView.m in Sources */,
 				2D275BB71D9A68B6009CB401 /* JMChoicenessCLView.m in Sources */,
 				2D275BAE1D9A682F009CB401 /* JMAttentionVController.m in Sources */,
 				76151AD91D9033C00097C6DE /* JMHandViewController.m in Sources */,
