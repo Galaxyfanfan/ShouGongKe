@@ -40,6 +40,7 @@
     if (self.lastId) {
         params[@"last_id"] = self.lastId;
     }
+    params[@"u"] = @"17460367";
 
     kSelfWeak;
     [[SGKManager sharedSGKHttpManager]getHomeDataWithPOST:params block:^(NSDictionary *json_dic, NSError *error) {

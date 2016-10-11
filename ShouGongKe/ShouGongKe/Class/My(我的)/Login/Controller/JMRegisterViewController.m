@@ -54,6 +54,21 @@
 }
 
 - (void)getCodeWithPhone:(NSString *)phoneNum{
+    NSMutableDictionary *params = [NSMutableDictionary dictionary];
+    params[@"c"] = @"Login";
+    params[@"a"] = @"getVerify";
+//    params[@"phone"] = phoneNum;
+    //由于不知道需要传的手机号字段是什么，所以无法获取验证码
+    kSelfWeak;
+    [[SGKManager sharedSGKHttpManager]getHomeDataWithGET:params block:^(NSDictionary *json_dic, NSError *error) {
+        kSelfStrong;
+        NSNumber *status = [json_dic objectForKey:kNetworkStatus];
+        if([status integerValue] == 1){
+        
+        }else{
+            [WSProgressHUD showImage:nil status:kReturnMsgFailure];
+        }
+    }];
 
 }
 

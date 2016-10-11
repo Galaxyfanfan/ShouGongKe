@@ -42,6 +42,8 @@
 #define kSpace 10
 
 
+#define kPhoneNumLength 11 //手机号长度
+
 /*  网络返回字段  */
 #define kNetworkStatus @"status"
 #define kNetworkInfo @"info"

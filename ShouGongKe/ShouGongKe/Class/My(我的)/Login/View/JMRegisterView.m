@@ -47,7 +47,14 @@
 }
 #pragma mark - action
 - (void)clickRegistAction{
-
+    
+    if(_userField.text.length == kPhoneNumLength){
+        if (self.delegate && [self.delegate respondsToSelector:@selector(getCodeWithPhone:)]) {
+            [self.delegate getCodeWithPhone:_userField.text];
+        }
+    }else{
+        [WSProgressHUD showImage:nil status:@"请输入正确的手机号码"];
+    }
     
 }
 
@@ -92,6 +99,7 @@
         [_codeBtn setTitle:@"获取验证码" forState:UIControlStateNormal];
         _codeBtn.titleLabel.font = kFontSize12;
         [_codeBtn setTitleColor:kBaseRedColor forState:UIControlStateNormal];
+        [_codeBtn addTarget:self action:@selector(clickRegistAction) forControlEvents:UIControlEventTouchUpInside];
     }
     return _codeBtn;
 }
