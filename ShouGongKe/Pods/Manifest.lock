@@ -32,6 +32,9 @@ PODS:
   - Shimmer (1.0.2)
   - WSProgressHUD (1.1.1):
     - Shimmer
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
@@ -43,6 +46,7 @@ DEPENDENCIES:
   - SDCycleScrollView (~> 1.65)
   - SDWebImage (~> 3.8.1)
   - WSProgressHUD (~> 1.1.1)
+  - YYKit (~> 1.0.9)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
@@ -57,7 +61,8 @@ SPEC CHECKSUMS:
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
   Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
   WSProgressHUD: 0ebb8dd846f7fb4715d42c87584456480cb7fbf0
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 955b94d2f8c1682dfd6979aa8d80c4e61cd4b6c9
+PODFILE CHECKSUM: 7527cc1ff6c5a82ecfcedaeffcd94add032c620d
 
 COCOAPODS: 1.0.1

@@ -14,18 +14,22 @@
 #import "JMFairViewController.h"
 #import "JMMyViewController.h"
 
+#import "YYFPSLabel.h"
+
 #define kClassKey   @"rootVCClassString"
 #define kTitleKey   @"title"
 #define kImgKey     @"imageName"
 #define kSelImgKey  @"selectedImageName"
 @interface JMTabBarController()
 @property (nonatomic,strong)UIViewController *vc;
+@property (nonatomic, strong) YYFPSLabel *fpsLabel;
 @end
 
 @implementation JMTabBarController
 
 - (void)viewDidLoad{
     [self addChildController];
+    [self addFPS];
 }
 - (void)addChildController{
     NSArray *childItemsArray = @[
@@ -81,7 +85,14 @@
 }
 
 
-
+- (void)addFPS{
+    _fpsLabel = [YYFPSLabel new];
+    [_fpsLabel sizeToFit];
+    _fpsLabel.bottom = self.view.height - kSpace - 44;
+    _fpsLabel.left = kSpace;
+    _fpsLabel.alpha = 1;
+    [self.view addSubview:_fpsLabel];
+}
 
 
 

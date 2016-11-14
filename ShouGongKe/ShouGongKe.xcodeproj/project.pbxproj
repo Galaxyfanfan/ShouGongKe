@@ -28,6 +28,7 @@
 		2DE88B3B1D8FE2380027674D /* AppDelegate+AppLifeCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE88B3A1D8FE2380027674D /* AppDelegate+AppLifeCircle.m */; };
 		2DE88B3E1D8FE24E0027674D /* AppDelegate+AppService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE88B3D1D8FE24E0027674D /* AppDelegate+AppService.m */; };
 		2DE88B411D8FE6AD0027674D /* JMAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE88B401D8FE6AD0027674D /* JMAdViewController.m */; };
+		2DF462FA1DD9830900A1B672 /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF462F91DD9830900A1B672 /* YYFPSLabel.m */; };
 		76151AD01D90319B0097C6DE /* JMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76151ACF1D90319B0097C6DE /* JMTabBarController.m */; };
 		76151AD31D9033950097C6DE /* JMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76151AD21D9033950097C6DE /* JMHomeViewController.m */; };
 		76151AD61D9033B10097C6DE /* JMTutoriaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76151AD51D9033B10097C6DE /* JMTutoriaViewController.m */; };
@@ -144,6 +145,8 @@
 		2DE88B3D1D8FE24E0027674D /* AppDelegate+AppService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+AppService.m"; sourceTree = "<group>"; };
 		2DE88B3F1D8FE6AD0027674D /* JMAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMAdViewController.h; path = ShouGongKe/AppDelegate/JMAdViewController.h; sourceTree = SOURCE_ROOT; };
 		2DE88B401D8FE6AD0027674D /* JMAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMAdViewController.m; path = ShouGongKe/AppDelegate/JMAdViewController.m; sourceTree = SOURCE_ROOT; };
+		2DF462F81DD9830900A1B672 /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		2DF462F91DD9830900A1B672 /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
 		404D115402F88798CEC5BEEF /* libPods-ShouGongKe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShouGongKe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76151ACE1D90319B0097C6DE /* JMTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMTabBarController.h; sourceTree = "<group>"; };
 		76151ACF1D90319B0097C6DE /* JMTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMTabBarController.m; sourceTree = "<group>"; };
@@ -477,6 +480,15 @@
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
+		2DF462F71DD982FE00A1B672 /* YYFPSLabel */ = {
+			isa = PBXGroup;
+			children = (
+				2DF462F81DD9830900A1B672 /* YYFPSLabel.h */,
+				2DF462F91DD9830900A1B672 /* YYFPSLabel.m */,
+			);
+			path = YYFPSLabel;
+			sourceTree = "<group>";
+		};
 		55FCDC4B63B1EFF3A7B021BA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -561,6 +573,7 @@
 		7615AAA51D82E8C500A2634F /* Lib(第三方) */ = {
 			isa = PBXGroup;
 			children = (
+				2DF462F71DD982FE00A1B672 /* YYFPSLabel */,
 				761C69B01D92DB92009DD827 /* YZDisplayViewController */,
 			);
 			path = "Lib(第三方)";
@@ -1195,6 +1208,7 @@
 				2DB079901D9BB6FD00403E18 /* BaseModel.m in Sources */,
 				761C69BA1D92DB92009DD827 /* UIView+Frame.m in Sources */,
 				2DB0798D1D9BA70100403E18 /* SGKManager.m in Sources */,
+				2DF462FA1DD9830900A1B672 /* YYFPSLabel.m in Sources */,
 				7615AAE11D82F89200A2634F /* UIViewController+Dealloc.m in Sources */,
 				761C69BC1D92DB92009DD827 /* YZDisplayViewController.m in Sources */,
 				7682F9841D9C01B2005A9EA4 /* JMSlideModel.m in Sources */,

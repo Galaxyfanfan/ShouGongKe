@@ -12,6 +12,8 @@
 #import "JMRefreshFooter.h"
 
 /* pod */
+#import <YYKit/YYKit.h>
+#import "YYKit.h"
 #import "MJExtension.h"
 #import "UIViewExt.h"
 #import "WSProgressHUD.h"

@@ -40,6 +40,7 @@
 - (UIImageView *)imgView{
     if (!_imgView) {
         _imgView = [[UIImageView alloc]init];
+        _imgView.backgroundColor = kColorLightGray;
  
     }
     return _imgView;

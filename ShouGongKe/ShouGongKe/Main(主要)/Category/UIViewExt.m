@@ -8,13 +8,13 @@
 #import "UIViewExt.h"
 
 #pragma mark 获取Rect的中点坐标
-CGPoint CGRectGetCenter(CGRect rect)
-{
-    CGPoint pt;
-    pt.x = CGRectGetMidX(rect);
-    pt.y = CGRectGetMidY(rect);
-    return pt;
-}
+//CGPoint CGRectGetCenter(CGRect rect)
+//{
+//    CGPoint pt;
+//    pt.x = CGRectGetMidX(rect);
+//    pt.y = CGRectGetMidY(rect);
+//    return pt;
+//}
 #pragma mark
 CGRect CGRectMoveToCenter(CGRect rect, CGPoint center)
 {
