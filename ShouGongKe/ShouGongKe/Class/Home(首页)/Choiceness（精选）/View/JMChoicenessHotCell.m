@@ -9,7 +9,7 @@
 #import "JMChoicenessHotCell.h"
 @interface JMChoicenessHotCell()
 @property (nonatomic,strong)UIImageView *imgView;
-@property (nonatomic,strong)UILabel *titleLab;
+@property (nonatomic,strong)YYLabel *titleLab;
 @end
 @implementation JMChoicenessHotCell
 - (instancetype)initWithFrame:(CGRect)frame{
@@ -22,7 +22,8 @@
 
 - (void)setHotModel:(JMHotTopicModel *)hotModel{
     _hotModel = hotModel;
-    [self.imgView sd_setImageWithURL:[NSURL URLWithString:hotModel.pic]];
+    [self.imgView  setImageURL:[NSURL URLWithString:hotModel.pic]];
+//    [self.imgView sd_setImageWithURL:[NSURL URLWithString:hotModel.pic]];
     self.titleLab.text = hotModel.subject;
 }
 
@@ -39,15 +40,15 @@
 #pragma mark - 懒加载
 - (UIImageView *)imgView{
     if (!_imgView) {
-        _imgView = [[UIImageView alloc]init];
+        _imgView = [UIImageView new];
         _imgView.backgroundColor = kColorLightGray;
  
     }
     return _imgView;
 }
-- (UILabel *)titleLab{
+- (YYLabel *)titleLab{
     if (!_titleLab) {
-        _titleLab = [[UILabel alloc]init];
+        _titleLab = [YYLabel new];
         _titleLab.textColor = kColorWhite;
         _titleLab.font = kFontSize13;
     }

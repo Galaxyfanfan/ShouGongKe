@@ -10,8 +10,8 @@
 #import "JMExpertPicCLView.h"
 @interface JMExpertTBCell()
 @property(nonatomic,strong)UIImageView *headImgView;
-@property(nonatomic,strong)UILabel *nameLab;
-@property(nonatomic,strong)UILabel *contentLab;
+@property(nonatomic,strong)YYLabel *nameLab;
+@property(nonatomic,strong)YYLabel *contentLab;
 @property(nonatomic,strong)UIButton *attentionBtn;
 @property(nonatomic,strong)JMExpertPicCLView *expCLView;
 @end
@@ -26,7 +26,7 @@
 - (void)setExpModel:(JMExpertModel *)expModel{
     _expModel = expModel;
 
-    [self.headImgView sd_setImageWithURL:[NSURL URLWithString:_expModel.avatar]];
+    [self.headImgView setImageURL:[NSURL URLWithString:_expModel.avatar]];
     self.nameLab.text = _expModel.nick_name;
     self.contentLab.text = [NSString stringWithFormat:@"%@图文教程|%@视频教程|%@手工圈",_expModel.course_count,_expModel.video_count,_expModel.opus_count];
     
@@ -90,9 +90,9 @@
     return _headImgView;
 }
 
-- (UILabel *)nameLab{
+- (YYLabel *)nameLab{
     if (!_nameLab) {
-        _nameLab = [[UILabel alloc]init];
+        _nameLab = [[YYLabel alloc]init];
         _nameLab.font = kFontSize13;
         _nameLab.textColor = kColorBlack;
 //        _nameLab.backgroundColor = kBaseRedColor;
@@ -100,9 +100,9 @@
     return _nameLab;
 }
 
-- (UILabel *)contentLab{
+- (YYLabel *)contentLab{
     if (!_contentLab) {
-        _contentLab = [[UILabel alloc]init];
+        _contentLab = [[YYLabel alloc]init];
         _contentLab.font = kFontSize11;
         _contentLab.textColor = kColorDarkGray;
 //        _contentLab.backgroundColor = kColorDarkGray;

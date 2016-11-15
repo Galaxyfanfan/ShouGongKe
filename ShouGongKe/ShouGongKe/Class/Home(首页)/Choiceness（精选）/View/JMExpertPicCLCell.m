@@ -22,7 +22,7 @@
 - (void)setPicModel:(JMExpertPicModel *)picModel{
     _picModel = picModel;
     
-    [_imgView sd_setImageWithURL:[NSURL URLWithString:_picModel.host_pic]];
+    [_imgView setImageURL:[NSURL URLWithString:_picModel.host_pic]];
 }
 
 

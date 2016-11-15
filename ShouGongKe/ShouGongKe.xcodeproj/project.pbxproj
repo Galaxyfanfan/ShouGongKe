@@ -82,6 +82,13 @@
 		76C17A0E1D9D6BFF007C9590 /* JMActivityTBCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C17A0D1D9D6BFF007C9590 /* JMActivityTBCell.m */; };
 		76C35DB71DAD2193008F36A4 /* JMHandNoLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C35DB61DAD2193008F36A4 /* JMHandNoLoginView.m */; };
 		76D02A161DA9281400655A66 /* JMLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D02A151DA9281400655A66 /* JMLoginView.m */; };
+		76F1F7A61DDB3C2500E19D0A /* PhotoAndTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F1F7A51DDB3C2500E19D0A /* PhotoAndTextViewController.m */; };
+		76F1F7AD1DDB3C5F00E19D0A /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F1F7AC1DDB3C5F00E19D0A /* VideoViewController.m */; };
+		76F1F7B41DDB3C9500E19D0A /* SpecialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F1F7B31DDB3C9500E19D0A /* SpecialViewController.m */; };
+		76F1F7BA1DDB4D7100E19D0A /* GPContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F1F7B71DDB4D7100E19D0A /* GPContainerView.m */; };
+		76F1F7BB1DDB4D7100E19D0A /* GPNavTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F1F7B91DDB4D7100E19D0A /* GPNavTitleView.m */; };
+		76F1F7C11DDB53A200E19D0A /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F1F7BE1DDB53A200E19D0A /* UITableView+SDAutoTableViewCellHeight.m */; };
+		76F1F7C21DDB53A200E19D0A /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F1F7C01DDB53A200E19D0A /* UIView+SDAutoLayout.m */; };
 		A4CA1C376C9BE37BFA13EF4D /* libPods-ShouGongKe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 404D115402F88798CEC5BEEF /* libPods-ShouGongKe.a */; };
 /* End PBXBuildFile section */
 
@@ -261,6 +268,20 @@
 		76C35DB61DAD2193008F36A4 /* JMHandNoLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMHandNoLoginView.m; sourceTree = "<group>"; };
 		76D02A141DA9281400655A66 /* JMLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMLoginView.h; sourceTree = "<group>"; };
 		76D02A151DA9281400655A66 /* JMLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMLoginView.m; sourceTree = "<group>"; };
+		76F1F7A41DDB3C2500E19D0A /* PhotoAndTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoAndTextViewController.h; sourceTree = "<group>"; };
+		76F1F7A51DDB3C2500E19D0A /* PhotoAndTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoAndTextViewController.m; sourceTree = "<group>"; };
+		76F1F7AB1DDB3C5F00E19D0A /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		76F1F7AC1DDB3C5F00E19D0A /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		76F1F7B21DDB3C9500E19D0A /* SpecialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialViewController.h; sourceTree = "<group>"; };
+		76F1F7B31DDB3C9500E19D0A /* SpecialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialViewController.m; sourceTree = "<group>"; };
+		76F1F7B61DDB4D7100E19D0A /* GPContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPContainerView.h; sourceTree = "<group>"; };
+		76F1F7B71DDB4D7100E19D0A /* GPContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPContainerView.m; sourceTree = "<group>"; };
+		76F1F7B81DDB4D7100E19D0A /* GPNavTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPNavTitleView.h; sourceTree = "<group>"; };
+		76F1F7B91DDB4D7100E19D0A /* GPNavTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPNavTitleView.m; sourceTree = "<group>"; };
+		76F1F7BD1DDB53A200E19D0A /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		76F1F7BE1DDB53A200E19D0A /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		76F1F7BF1DDB53A200E19D0A /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		76F1F7C01DDB53A200E19D0A /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
 		DDA3FB1483BC707228395B2C /* Pods-ShouGongKe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShouGongKe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShouGongKe/Pods-ShouGongKe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -573,6 +594,8 @@
 		7615AAA51D82E8C500A2634F /* Lib(第三方) */ = {
 			isa = PBXGroup;
 			children = (
+				76F1F7BC1DDB53A200E19D0A /* SDAutoLayout */,
+				76F1F7B51DDB4D7100E19D0A /* GPContainerView */,
 				2DF462F71DD982FE00A1B672 /* YYFPSLabel */,
 				761C69B01D92DB92009DD827 /* YZDisplayViewController */,
 			);
@@ -939,6 +962,9 @@
 		76AF2FF41D6F3A6D00A93AE1 /* Tutoria(教程) */ = {
 			isa = PBXGroup;
 			children = (
+				76F1F7AE1DDB3C8900E19D0A /* Special(专题) */,
+				76F1F7A71DDB3C4900E19D0A /* Video(视频) */,
+				76F1F7A01DDB3BFF00E19D0A /* Photo&Text(图文) */,
 				76AF2FF51D6F3A6D00A93AE1 /* Controller */,
 				76AF2FF61D6F3A6D00A93AE1 /* Model */,
 				76AF2FF71D6F3A6D00A93AE1 /* View */,
@@ -967,6 +993,127 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		76F1F7A01DDB3BFF00E19D0A /* Photo&Text(图文) */ = {
+			isa = PBXGroup;
+			children = (
+				76F1F7A11DDB3BFF00E19D0A /* Controller */,
+				76F1F7A21DDB3BFF00E19D0A /* Model */,
+				76F1F7A31DDB3BFF00E19D0A /* View */,
+			);
+			path = "Photo&Text(图文)";
+			sourceTree = "<group>";
+		};
+		76F1F7A11DDB3BFF00E19D0A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				76F1F7A41DDB3C2500E19D0A /* PhotoAndTextViewController.h */,
+				76F1F7A51DDB3C2500E19D0A /* PhotoAndTextViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		76F1F7A21DDB3BFF00E19D0A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		76F1F7A31DDB3BFF00E19D0A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		76F1F7A71DDB3C4900E19D0A /* Video(视频) */ = {
+			isa = PBXGroup;
+			children = (
+				76F1F7A81DDB3C4900E19D0A /* Controller */,
+				76F1F7A91DDB3C4900E19D0A /* Model */,
+				76F1F7AA1DDB3C4900E19D0A /* View */,
+			);
+			path = "Video(视频)";
+			sourceTree = "<group>";
+		};
+		76F1F7A81DDB3C4900E19D0A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				76F1F7AB1DDB3C5F00E19D0A /* VideoViewController.h */,
+				76F1F7AC1DDB3C5F00E19D0A /* VideoViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		76F1F7A91DDB3C4900E19D0A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		76F1F7AA1DDB3C4900E19D0A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		76F1F7AE1DDB3C8900E19D0A /* Special(专题) */ = {
+			isa = PBXGroup;
+			children = (
+				76F1F7AF1DDB3C8900E19D0A /* Controller */,
+				76F1F7B01DDB3C8900E19D0A /* Model */,
+				76F1F7B11DDB3C8900E19D0A /* View */,
+			);
+			path = "Special(专题)";
+			sourceTree = "<group>";
+		};
+		76F1F7AF1DDB3C8900E19D0A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				76F1F7B21DDB3C9500E19D0A /* SpecialViewController.h */,
+				76F1F7B31DDB3C9500E19D0A /* SpecialViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		76F1F7B01DDB3C8900E19D0A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		76F1F7B11DDB3C8900E19D0A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		76F1F7B51DDB4D7100E19D0A /* GPContainerView */ = {
+			isa = PBXGroup;
+			children = (
+				76F1F7B61DDB4D7100E19D0A /* GPContainerView.h */,
+				76F1F7B71DDB4D7100E19D0A /* GPContainerView.m */,
+				76F1F7B81DDB4D7100E19D0A /* GPNavTitleView.h */,
+				76F1F7B91DDB4D7100E19D0A /* GPNavTitleView.m */,
+			);
+			path = GPContainerView;
+			sourceTree = "<group>";
+		};
+		76F1F7BC1DDB53A200E19D0A /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				76F1F7BD1DDB53A200E19D0A /* UITableView+SDAutoTableViewCellHeight.h */,
+				76F1F7BE1DDB53A200E19D0A /* UITableView+SDAutoTableViewCellHeight.m */,
+				76F1F7BF1DDB53A200E19D0A /* UIView+SDAutoLayout.h */,
+				76F1F7C01DDB53A200E19D0A /* UIView+SDAutoLayout.m */,
+			);
+			path = SDAutoLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1160,6 +1307,7 @@
 				7682F9811D9C00EB005A9EA4 /* JMChoicenessModel.m in Sources */,
 				768C56011DA7A13E00D14E24 /* JMAttentionNoLoginView.m in Sources */,
 				2D5EA3FE1D84070B00C35029 /* AFAppDotNetAPIClient.m in Sources */,
+				76F1F7BA1DDB4D7100E19D0A /* GPContainerView.m in Sources */,
 				7615AACF1D82F5DF00A2634F /* UIViewExt.m in Sources */,
 				7615AAE41D82F8BB00A2634F /* WKWebView+SynchronousEvaluateJavaScript.m in Sources */,
 				768C56041DA7B17B00D14E24 /* JMBaseBackView.m in Sources */,
@@ -1176,6 +1324,8 @@
 				76315E331DABB44800E15C15 /* UserModel.m in Sources */,
 				76C17A051D9D4FF6007C9590 /* JMExpertTBCell.m in Sources */,
 				2D31D8DC1D9D00B500D74885 /* JMRefreshHeader.m in Sources */,
+				76F1F7C21DDB53A200E19D0A /* UIView+SDAutoLayout.m in Sources */,
+				76F1F7BB1DDB4D7100E19D0A /* GPNavTitleView.m in Sources */,
 				7678F2861D9ABCF2004F8B21 /* JMChoicenessRecommendCell.m in Sources */,
 				76151AD31D9033950097C6DE /* JMHomeViewController.m in Sources */,
 				2D275BB11D9A6838009CB401 /* JMChoicenessController.m in Sources */,
@@ -1186,6 +1336,7 @@
 				76315E391DABC07200E15C15 /* JMRegisterView.m in Sources */,
 				76C35DB71DAD2193008F36A4 /* JMHandNoLoginView.m in Sources */,
 				2D275BB71D9A68B6009CB401 /* JMChoicenessCLView.m in Sources */,
+				76F1F7AD1DDB3C5F00E19D0A /* VideoViewController.m in Sources */,
 				2D275BAE1D9A682F009CB401 /* JMAttentionVController.m in Sources */,
 				76151AD91D9033C00097C6DE /* JMHandViewController.m in Sources */,
 				7682F98A1D9C01F1005A9EA4 /* JMAdvanceModel.m in Sources */,
@@ -1210,11 +1361,14 @@
 				2DB0798D1D9BA70100403E18 /* SGKManager.m in Sources */,
 				2DF462FA1DD9830900A1B672 /* YYFPSLabel.m in Sources */,
 				7615AAE11D82F89200A2634F /* UIViewController+Dealloc.m in Sources */,
+				76F1F7A61DDB3C2500E19D0A /* PhotoAndTextViewController.m in Sources */,
 				761C69BC1D92DB92009DD827 /* YZDisplayViewController.m in Sources */,
+				76F1F7C11DDB53A200E19D0A /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 				7682F9841D9C01B2005A9EA4 /* JMSlideModel.m in Sources */,
 				7615AADE1D82F86300A2634F /* UIView+ViewController.m in Sources */,
 				76151ADF1D9033F60097C6DE /* JMFairViewController.m in Sources */,
 				76151AD01D90319B0097C6DE /* JMTabBarController.m in Sources */,
+				76F1F7B41DDB3C9500E19D0A /* SpecialViewController.m in Sources */,
 				7615AAC61D82F57F00A2634F /* UIButton+Block.m in Sources */,
 				2DB079961D9BB73400403E18 /* StatusRecordListModel.m in Sources */,
 				768C55E21DA6179B00D14E24 /* JMActivityModel.m in Sources */,
