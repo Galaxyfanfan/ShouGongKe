@@ -10,6 +10,6 @@
 typedef void(^NavTitleClickBlock)(UIButton *button);
 @interface GPNavTitleView : UIView
 
-- (instancetype)initWithFrame:(CGRect)frame block:(NavTitleClickBlock)block;
+- (instancetype)initWithFrame:(CGRect)frame andTitleArr:(NSArray *)titleArr block:(NavTitleClickBlock)block;
 -(void)updateSelecterToolsIndex:(NSInteger )index;
 @end

@@ -28,7 +28,8 @@
 
 - (void)setNavTitleView{
     kSelfWeak;
-    self.titleView = [[GPNavTitleView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH * 0.6, 44) block:^(UIButton *button) {
+    NSArray *titleArr = @[@"图文",@"视频",@"专题"];
+    self.titleView = [[GPNavTitleView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH * 0.6, 44) andTitleArr:titleArr block:^(UIButton *button) {
         kSelfStrong;
         [strongSelf.containerView updateVCViewFromIndex:button.tag];
     }];

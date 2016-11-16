@@ -89,6 +89,8 @@
 		76F1F7BB1DDB4D7100E19D0A /* GPNavTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F1F7B91DDB4D7100E19D0A /* GPNavTitleView.m */; };
 		76F1F7C11DDB53A200E19D0A /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F1F7BE1DDB53A200E19D0A /* UITableView+SDAutoTableViewCellHeight.m */; };
 		76F1F7C21DDB53A200E19D0A /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F1F7C01DDB53A200E19D0A /* UIView+SDAutoLayout.m */; };
+		76F4AEB01DDC8AC300ED439E /* PhotoAndTextCLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F4AEAF1DDC8AC300ED439E /* PhotoAndTextCLView.m */; };
+		76F4AEB31DDC8C6900ED439E /* PhotoAndTextCLCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F4AEB21DDC8C6900ED439E /* PhotoAndTextCLCell.m */; };
 		A4CA1C376C9BE37BFA13EF4D /* libPods-ShouGongKe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 404D115402F88798CEC5BEEF /* libPods-ShouGongKe.a */; };
 /* End PBXBuildFile section */
 
@@ -282,6 +284,10 @@
 		76F1F7BE1DDB53A200E19D0A /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
 		76F1F7BF1DDB53A200E19D0A /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
 		76F1F7C01DDB53A200E19D0A /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		76F4AEAE1DDC8AC300ED439E /* PhotoAndTextCLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoAndTextCLView.h; sourceTree = "<group>"; };
+		76F4AEAF1DDC8AC300ED439E /* PhotoAndTextCLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoAndTextCLView.m; sourceTree = "<group>"; };
+		76F4AEB11DDC8C6900ED439E /* PhotoAndTextCLCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoAndTextCLCell.h; sourceTree = "<group>"; };
+		76F4AEB21DDC8C6900ED439E /* PhotoAndTextCLCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoAndTextCLCell.m; sourceTree = "<group>"; };
 		DDA3FB1483BC707228395B2C /* Pods-ShouGongKe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShouGongKe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShouGongKe/Pods-ShouGongKe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -962,9 +968,9 @@
 		76AF2FF41D6F3A6D00A93AE1 /* Tutoria(教程) */ = {
 			isa = PBXGroup;
 			children = (
-				76F1F7AE1DDB3C8900E19D0A /* Special(专题) */,
-				76F1F7A71DDB3C4900E19D0A /* Video(视频) */,
 				76F1F7A01DDB3BFF00E19D0A /* Photo&Text(图文) */,
+				76F1F7A71DDB3C4900E19D0A /* Video(视频) */,
+				76F1F7AE1DDB3C8900E19D0A /* Special(专题) */,
 				76AF2FF51D6F3A6D00A93AE1 /* Controller */,
 				76AF2FF61D6F3A6D00A93AE1 /* Model */,
 				76AF2FF71D6F3A6D00A93AE1 /* View */,
@@ -1024,6 +1030,10 @@
 		76F1F7A31DDB3BFF00E19D0A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				76F4AEAE1DDC8AC300ED439E /* PhotoAndTextCLView.h */,
+				76F4AEAF1DDC8AC300ED439E /* PhotoAndTextCLView.m */,
+				76F4AEB11DDC8C6900ED439E /* PhotoAndTextCLCell.h */,
+				76F4AEB21DDC8C6900ED439E /* PhotoAndTextCLCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1317,8 +1327,10 @@
 				2DE88B321D8FE0E60027674D /* AppDelegate.m in Sources */,
 				76151AE21D9034080097C6DE /* JMMyViewController.m in Sources */,
 				7615AAA81D82E8C500A2634F /* BaseViewController.m in Sources */,
+				76F4AEB01DDC8AC300ED439E /* PhotoAndTextCLView.m in Sources */,
 				76151AD61D9033B10097C6DE /* JMTutoriaViewController.m in Sources */,
 				76D02A161DA9281400655A66 /* JMLoginView.m in Sources */,
+				76F4AEB31DDC8C6900ED439E /* PhotoAndTextCLCell.m in Sources */,
 				76315E361DABBE9B00E15C15 /* JMRegisterViewController.m in Sources */,
 				7678F2831D9ABC64004F8B21 /* JMChoicenessSelectCell.m in Sources */,
 				76315E331DABB44800E15C15 /* UserModel.m in Sources */,
