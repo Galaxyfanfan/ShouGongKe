@@ -26,6 +26,9 @@
 #import "UIButton+Block.h"
 #import "UIView+BlockGesture.h"
 
+/* 工具 */
+#import "HelpTool.h"
+
 #ifndef Common_define_h
 #define Common_define_h
 /*  宽高  */

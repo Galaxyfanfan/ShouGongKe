@@ -8,6 +8,7 @@
 
 #import "PhotoAndTextCLView.h"
 #import "PhotoAndTextCLCell.h"
+#import "PhotoAndTextModel.h"
 @interface PhotoAndTextCLView()<UICollectionViewDelegate,UICollectionViewDataSource>
 
 @end
@@ -29,13 +30,12 @@
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-//    return self.dataSources.count;
-    return 20;
+    return self.dataSources.count;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     PhotoAndTextCLCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"PhotoAndTextCLCell" forIndexPath:indexPath];
-    
+    cell.model = self.dataSources[indexPath.row];
     return cell;
 }
 

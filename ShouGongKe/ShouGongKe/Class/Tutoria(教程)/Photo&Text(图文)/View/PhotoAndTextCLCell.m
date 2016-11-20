@@ -24,6 +24,21 @@
     return self;
 }
 
+- (void)setModel:(PhotoAndTextModel *)model{
+    _model = model;
+    
+    [self.photoView setImageURL:[NSURL URLWithString:_model.host_pic]];
+    if(_model.bg_color){
+        NSString *color = [NSString stringWithFormat:@"0x%@",[_model.bg_color substringFromIndex:1]];
+        uint32_t bgColor = (uint32_t)color;
+        self.bottomView.backgroundColor = UIColorHex(bgColor);
+    }
+    
+    self.titleLab.text = _model.subject;
+    self.nameLab.text = [NSString stringWithFormat:@"by %@",_model.user_name];
+    self.contentLab.text = [NSString stringWithFormat:@"%ld人气 %ld收藏",_model.collect,_model.view];
+}
+
 - (void)initView{
     [self addSubview:self.photoView];
     [self addSubview:self.bottomView];
@@ -68,9 +83,7 @@
         make.top.equalTo(self.line.mas_bottom).offset(5);
     }];
     
-    self.titleLab.text = @"sdfeefwefw";
-    self.nameLab.text = @"sdfeefwefw";
-    self.contentLab.text = @"sdfeefwefw";
+
 }
 
 

@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "PhotoAndTextModel.h"
 @interface PhotoAndTextCLCell : UICollectionViewCell
-
+@property (nonatomic,strong)PhotoAndTextModel *model;
 @end
