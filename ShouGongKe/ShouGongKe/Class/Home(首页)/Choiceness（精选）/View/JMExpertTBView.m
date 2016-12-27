@@ -27,9 +27,12 @@
     CGFloat imgWidth = SCREEN_WIDTH/3.0;
     self.contentInset = UIEdgeInsetsMake(-10, 0, 0, 0);
     self.rowHeight = imgWidth + 60;
+    self.tableFooterView = [UIView new];
     
     [self registerClass:[JMExpertTBCell class] forCellReuseIdentifier:@"JMExpertTBCell"];
 }
+
+
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView;{
     return self.expArr.count;
 }

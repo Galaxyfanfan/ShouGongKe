@@ -68,12 +68,19 @@
 
 }
 
+
+
 #pragma mark - 懒加载
 - (JMExpertTBView *)tbView{
     if (!_tbView) {
         _tbView = [[JMExpertTBView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, kHomeContentHeight) style:UITableViewStylePlain];
-        
         kSelfWeak;
+        
+        _tbView.reloadBlock = ^(){
+            kSelfStrong;
+            [strongSelf getHomeExpertData:@"up"];
+            DLog(@"wwwwwwwww");
+        };
         _tbView.mj_header = [JMRefreshHeader headerWithRefreshingBlock:^{
             kSelfStrong;
             [strongSelf.expArr removeAllObjects];

@@ -6,7 +6,7 @@
 //  Copyright © 2016年 Galaxy. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseCollectionView.h"
 #import "JMChoicenessModel.h"
 @protocol JMChoicenessCLViewDelegate<NSObject>
 
@@ -14,7 +14,7 @@
 
 @end
 
-@interface JMChoicenessCLView : UICollectionView
+@interface JMChoicenessCLView : BaseCollectionView
 
 @property (nonatomic,strong)JMChoicenessModel *choiceModel;
 

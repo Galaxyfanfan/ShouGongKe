@@ -6,8 +6,8 @@
 //  Copyright © 2016年 Galaxy. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseTableView.h"
 
-@interface JMExpertTBView : UITableView
+@interface JMExpertTBView : BaseTableView
 @property (nonatomic,strong)NSArray *expArr;
 @end

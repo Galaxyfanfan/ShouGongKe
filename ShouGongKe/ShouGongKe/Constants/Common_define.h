@@ -18,6 +18,7 @@
 #import "UIViewExt.h"
 #import "WSProgressHUD.h"
 #import "Masonry.h"
+#import "UIScrollView+EmptyDataSet.h"
 
 /* 分类 */
 #import "UIImageView+AFNetworking.h"

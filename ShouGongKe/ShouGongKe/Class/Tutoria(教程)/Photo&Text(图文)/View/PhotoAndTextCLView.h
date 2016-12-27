@@ -5,9 +5,9 @@
 //  Created by Galaxy on 16/11/16.
 //  Copyright © 2016年 Galaxy. All rights reserved.
 //
+#import "BaseCollectionView.h"
 
-#import <UIKit/UIKit.h>
+@interface PhotoAndTextCLView : BaseCollectionView
 
-@interface PhotoAndTextCLView : UICollectionView
 @property (nonatomic,strong)NSArray *dataSources;
 @end

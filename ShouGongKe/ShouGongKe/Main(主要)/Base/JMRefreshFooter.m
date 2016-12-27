@@ -49,7 +49,7 @@
     
     switch (state) {
         case MJRefreshStateIdle:
-            self.label.text = @"客官,再加把劲";
+            self.label.text = nil;
             [self.loading stopAnimating];
             break;
         case MJRefreshStateRefreshing:
@@ -64,4 +64,5 @@
             break;
     }
 }
+
 @end

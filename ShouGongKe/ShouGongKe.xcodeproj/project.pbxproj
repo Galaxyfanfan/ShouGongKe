@@ -18,6 +18,8 @@
 		2D31D8E21D9D06C900D74885 /* JMChoicenessHotHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D31D8E11D9D06C900D74885 /* JMChoicenessHotHeaderView.m */; };
 		2D5EA3FE1D84070B00C35029 /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EA3FD1D84070B00C35029 /* AFAppDotNetAPIClient.m */; };
 		2D5EA4011D84072000C35029 /* NSDictionary+RequestEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EA4001D84072000C35029 /* NSDictionary+RequestEncoding.m */; };
+		2D7BEC9C1E1230D200FA9D54 /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7BEC9B1E1230D200FA9D54 /* BaseTableView.m */; };
+		2D7BEC9F1E12379A00FA9D54 /* BaseCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7BEC9E1E12379A00FA9D54 /* BaseCollectionView.m */; };
 		2DB0798D1D9BA70100403E18 /* SGKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB0798C1D9BA70100403E18 /* SGKManager.m */; };
 		2DB079901D9BB6FD00403E18 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB0798F1D9BB6FD00403E18 /* BaseModel.m */; };
 		2DB079931D9BB70700403E18 /* StatusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB079921D9BB70700403E18 /* StatusModel.m */; };
@@ -138,6 +140,10 @@
 		2D5EA3FD1D84070B00C35029 /* AFAppDotNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAppDotNetAPIClient.m; sourceTree = "<group>"; };
 		2D5EA3FF1D84072000C35029 /* NSDictionary+RequestEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+RequestEncoding.h"; sourceTree = "<group>"; };
 		2D5EA4001D84072000C35029 /* NSDictionary+RequestEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+RequestEncoding.m"; sourceTree = "<group>"; };
+		2D7BEC9A1E1230D200FA9D54 /* BaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
+		2D7BEC9B1E1230D200FA9D54 /* BaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
+		2D7BEC9D1E12379A00FA9D54 /* BaseCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionView.h; sourceTree = "<group>"; };
+		2D7BEC9E1E12379A00FA9D54 /* BaseCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionView.m; sourceTree = "<group>"; };
 		2DB0798B1D9BA70100403E18 /* SGKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGKManager.h; sourceTree = "<group>"; };
 		2DB0798C1D9BA70100403E18 /* SGKManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGKManager.m; sourceTree = "<group>"; };
 		2DB0798E1D9BB6FD00403E18 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
@@ -574,6 +580,10 @@
 				2D31D8DE1D9D012700D74885 /* JMRefreshFooter.m */,
 				768C56021DA7B17B00D14E24 /* JMBaseBackView.h */,
 				768C56031DA7B17B00D14E24 /* JMBaseBackView.m */,
+				2D7BEC9A1E1230D200FA9D54 /* BaseTableView.h */,
+				2D7BEC9B1E1230D200FA9D54 /* BaseTableView.m */,
+				2D7BEC9D1E12379A00FA9D54 /* BaseCollectionView.h */,
+				2D7BEC9E1E12379A00FA9D54 /* BaseCollectionView.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -1391,6 +1401,7 @@
 				7682F98D1D9C025C005A9EA4 /* JMHotTopicModel.m in Sources */,
 				2D5EA4011D84072000C35029 /* NSDictionary+RequestEncoding.m in Sources */,
 				76C17A0E1D9D6BFF007C9590 /* JMActivityTBCell.m in Sources */,
+				2D7BEC9C1E1230D200FA9D54 /* BaseTableView.m in Sources */,
 				7615AAE81D82FAF400A2634F /* BaseManager.m in Sources */,
 				761C69BD1D92DB92009DD827 /* YZFlowLayout.m in Sources */,
 				7615AAC31D82F06F00A2634F /* main.m in Sources */,
@@ -1403,6 +1414,7 @@
 				7615AAE11D82F89200A2634F /* UIViewController+Dealloc.m in Sources */,
 				76F1F7A61DDB3C2500E19D0A /* PhotoAndTextViewController.m in Sources */,
 				761C69BC1D92DB92009DD827 /* YZDisplayViewController.m in Sources */,
+				2D7BEC9F1E12379A00FA9D54 /* BaseCollectionView.m in Sources */,
 				76F1F7C11DDB53A200E19D0A /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 				7682F9841D9C01B2005A9EA4 /* JMSlideModel.m in Sources */,
 				7615AADE1D82F86300A2634F /* UIView+ViewController.m in Sources */,
